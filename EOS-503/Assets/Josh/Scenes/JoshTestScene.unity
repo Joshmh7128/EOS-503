@@ -1536,7 +1536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &299342033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1581,7 +1581,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7122642, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 24.1171
   m_SpotAngle: 30
@@ -1591,7 +1591,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.3
     m_Bias: 0
     m_NormalBias: 0
     m_NearPlane: 0.1
@@ -1639,7 +1639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299342032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 3.3, z: 4.53}
+  m_LocalPosition: {x: -0.25, y: 3.3, z: 7.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1963,7 +1963,7 @@ MonoBehaviour:
       saturateOutputValues: 0
   lightInjection:
     injectionParameters:
-      enable: 0
+      enable: 1
       strength: 1
       useNoiseMask: 1
       useNoiseMaskLevels: 1
@@ -1992,7 +1992,7 @@ MonoBehaviour:
         outputHiValue: 1
         contrast: 1
         saturateOutputValues: 0
-    color: {r: 1, g: 1, b: 1, a: 1}
+    color: {r: 0.999999, g: 0.999998, b: 0.999998, a: 1}
   tintInjection:
     injectionParameters:
       enable: 0
@@ -2116,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &522222832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2161,7 +2161,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7122642, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 24.1171
   m_SpotAngle: 30
@@ -2171,7 +2171,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.3
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -2219,7 +2219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522222831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 3.3, z: -4.86}
+  m_LocalPosition: {x: -0.25, y: 3.3, z: -10.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2836,7 +2836,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 51.4
+  field of view: 65
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2998,7 +2998,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124880473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.67, y: 0.42000008, z: -19.56}
+  m_LocalPosition: {x: 0.28, y: 0.42000008, z: -7.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1593490943}
