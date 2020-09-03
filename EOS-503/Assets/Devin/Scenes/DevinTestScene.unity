@@ -465,7 +465,7 @@ MonoBehaviour:
   enablePass: 1
   autoPass: 0
   secondsAutoPass: 3
-  lineToStart: 6
+  lineToStart: 1
   lineToBreak: 9
   wordWrap: 1
   maxCharInWidth: 50
