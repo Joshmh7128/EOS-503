@@ -20,6 +20,6 @@ public class ButtonScript : MonoBehaviour
 
     public void Contract()
     {
-
+        anim.Play("buttonCollapse");
     }
 }
