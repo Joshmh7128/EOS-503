@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     // control variables
     [SerializeField] private Rigidbody playerRigidbody;
     [SerializeField] private float playerSpeed = 5;
-    [SerializeField] private Transform playerCamTrans;
+    [SerializeField] private Transform playerCamTrans; // the transform of the actual camera
     public CameraLerpScript cameraLerpScript; // so we can access it and give it camera positions when needed
 
     // Fixed Update is called 60 times per second
@@ -31,6 +31,6 @@ public class PlayerController : MonoBehaviour
         float xMove = finalHoriMovement;
         float zMove = finalVertMovement;
         // set the velocity
-        playerRigidbody.velocity = new Vector3(xMove, playerRigidbody.velocity.y, zMove);
+        playerRigidbody.velocity = new Vector3(-xMove, playerRigidbody.velocity.y, -zMove);
     }
 }

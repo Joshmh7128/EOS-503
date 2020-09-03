@@ -62,10 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Josh\Scripts\CameraAutoSwitch.cs" />
     <Compile Include="Assets\Josh\Scripts\CameraLerpScript.cs" />
     <Compile Include="Assets\Josh\Scripts\PlayerCameraScript.cs" />
     <Compile Include="Assets\Josh\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Josh\Scripts\RotateToCam.cs" />
+    <Compile Include="Assets\Josh\Scripts\SceneDoor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
