@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerCameraScript : MonoBehaviour
 {
     [SerializeField] private Transform playerTransform;
+    public bool isRealCamera;
 
     // Update is called once per frame
     void Update()

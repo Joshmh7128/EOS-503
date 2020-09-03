@@ -20,7 +20,5 @@ public class RotateToCam : MonoBehaviour
         {
             transform.forward = Vector3.forward;
         }
-
-
     }
 }

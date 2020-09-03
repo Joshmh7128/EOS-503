@@ -9,10 +9,32 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float playerSpeed = 5;
     [SerializeField] private Transform playerCamTrans; // the transform of the actual camera
     public CameraLerpScript cameraLerpScript; // so we can access it and give it camera positions when needed
+    public bool isRealPlayer;
+
+    // the awake function is called before anything else
+    private void Awake()
+    {
+        // make sure we don't lose the player
+        DontDestroyOnLoad(this);
+    }
+
+    private void Start()
+    {
+    }
 
     // Fixed Update is called 60 times per second
     void FixedUpdate()
     {
+        if (isRealPlayer == true)
+        {
+            PlayerController otherPlayerController = GameObject.Find("Player Controller Package").GetComponent<PlayerController>();
+
+            if (otherPlayerController != this)
+            {
+                Destroy(otherPlayerController.gameObject);
+            }
+        }   
+
         // movement check
         PlayerMove();
     }
