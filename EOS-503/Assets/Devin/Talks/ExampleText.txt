@@ -1,6 +1,0 @@
-speakerName:Hey! I'm so excited to see a newcomer to our city!
-speakerName:No doubt you've heard about the art show. After all, how can we be our best selves without observance of art?
-speakerName:Please, take a look at my drawing. I've practiced each shape to perfection, each line until it's flawless!
-speakerName:<i>The artist traces one of their lines again; they reward themselves with a grape and smile.</i>
-speakerName:A few people who’ve shown interest in purchasing it, but I can't allow myself to sell my art!
-speakerName:It hurts my heart to think of saying goodbye to my masterpiece...

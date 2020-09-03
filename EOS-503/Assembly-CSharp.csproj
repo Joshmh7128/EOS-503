@@ -84,10 +84,11 @@
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSimpleAnimation.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSkipCutscene.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSmartPointer.cs" />
+    <Compile Include="Assets\Devin\Scripts\ButtonScript.cs" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
-    <None Include="Assets\Devin\Talks\ExampleText.txt" />
+    <None Include="Assets\Devin\Talks\TestEvent.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText_PT_BR.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoSnippets.txt" />

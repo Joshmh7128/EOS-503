@@ -1,0 +1,9 @@
+speakerName:Hey! I'm so excited to see a newcomer to our city!
+speakerName:No doubt you've heard about the art show. After all, how can we be our best selves without observance of art?
+speakerName:Please, take a look at my drawing. I've practiced each shape to perfection, each line until it's flawless!
+speakerName:<i>The artist traces one of their lines again; they reward themselves with a grape and smile.</i>
+speakerName:A few people who’ve shown interest in purchasing it, but I can't allow myself to sell my art!
+speakerName:[question=test1]It hurts my heart to think of saying goodbye to my masterpiece...
+[choice]Don't think of it as a loss! Think of it as things that can help other people become whole. They can physically hang your work in their home, becoming part of their daily life. Seeing it regularly would help them achieve their ideal decor and self.
+[choice]If you sell it, you'll be encouraging people to build a library of art! How else can they assemble knowledge of culture and design? If they own your work, they'll have something to inspire them—and use as reference!
+[choice]Rather than seeing it as a loss of your time and effort, think of the financial reward! That'll more than cover the cost of materials to keep doing your marvelous work!
