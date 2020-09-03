@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Demo\Scripts\DemoScript.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Helpers\RPGTalkCharacter.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Helpers\RPGTalkHelper.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSkipCutscene.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSmartPointer.cs" />
     <Compile Include="Assets\Devin\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Devin\Scripts\NPC.cs" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
