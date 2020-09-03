@@ -600,6 +600,15 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -612,32 +621,23 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

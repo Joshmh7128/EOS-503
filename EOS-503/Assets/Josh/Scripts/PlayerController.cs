@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody playerRigidbody;
     [SerializeField] private float playerSpeed = 5;
     [SerializeField] private Transform playerCamTrans;
+    public CameraLerpScript cameraLerpScript; // so we can access it and give it camera positions when needed
 
     // Fixed Update is called 60 times per second
     void FixedUpdate()
