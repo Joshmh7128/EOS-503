@@ -9308,6 +9308,7 @@ MonoBehaviour:
   destinationScene: JoshTestScene 1
   currentScene: JoshTestScene
   playerPackage: {fileID: 0}
+  cameraPackage: {fileID: 0}
   isLoading: 0
 --- !u!65 &1111306048
 BoxCollider:
@@ -10223,6 +10224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593490943}
   - component: {fileID: 1593490944}
+  - component: {fileID: 1593490945}
   m_Layer: 0
   m_Name: Camera Package
   m_TagString: Untagged
@@ -10258,6 +10260,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 703a7db9031aad54390a65baf087c50d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1593490945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593490942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21adc6250f22d34082223c2b5ca0f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRealCamera: 0
 --- !u!1 &1702389493
 GameObject:
   m_ObjectHideFlags: 0

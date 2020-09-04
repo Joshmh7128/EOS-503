@@ -25,13 +25,13 @@ public class PlayerController : MonoBehaviour
     // Fixed Update is called 60 times per second
     void FixedUpdate()
     {
-        if (isRealPlayer == true)
+        if (isRealPlayer == false)
         {
             PlayerController otherPlayerController = GameObject.Find("Player Controller Package").GetComponent<PlayerController>();
 
-            if (otherPlayerController != this)
+            if (otherPlayerController.isRealPlayer == true)
             {
-                Destroy(otherPlayerController.gameObject);
+                Destroy(gameObject);
             }
         }   
 

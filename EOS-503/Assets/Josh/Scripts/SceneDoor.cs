@@ -9,6 +9,7 @@ public class SceneDoor : MonoBehaviour
     [SerializeField] string destinationScene;
     [SerializeField] string currentScene;
     [SerializeField] GameObject playerPackage;
+    [SerializeField] GameObject cameraPackage;
     [SerializeField] bool isLoading;
 
     // start runs before the start of the first frame
@@ -16,6 +17,7 @@ public class SceneDoor : MonoBehaviour
     {
         // find the player object
         playerPackage = GameObject.Find("Player Controller Package");
+        cameraPackage = GameObject.Find("Camera Package");
     }
 
     IEnumerator LoadLocalScene()
@@ -27,6 +29,7 @@ public class SceneDoor : MonoBehaviour
         SceneManager.LoadScene(destinationScene, LoadSceneMode.Additive);
         // make the one true player
         playerPackage.GetComponent<PlayerController>().isRealPlayer = true;
+        cameraPackage.GetComponent<CameraTrackingScript>().isRealCamera = true;
         // wait
         yield return new WaitForSeconds(1f);
         // move the player
