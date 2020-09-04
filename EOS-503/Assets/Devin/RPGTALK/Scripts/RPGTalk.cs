@@ -1949,7 +1949,8 @@ public class RPGTalk : MonoBehaviour
                             //make sure we will not want to make it to a new talk
                             correctText = LookForNewTalk(correctText);
 
-                            newChoice.GetComponentInChildren<Text>().text = correctText;
+                            //newChoice.GetComponentInChildren<Text>().text = correctText;
+                            newChoice.transform.Find("Text").GetComponent<Text>().text = correctText;
                             int choiceNumber = i;
                             newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
                             if (i == 0)

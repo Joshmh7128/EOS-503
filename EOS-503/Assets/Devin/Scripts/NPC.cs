@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     public void StartConversation()
     {
         myTalk.speakerName = myName;
+        myTalk.txtToParse = myLines;
         myTalk.NewTalk("helloStart", "helloEnd");
     }
 }

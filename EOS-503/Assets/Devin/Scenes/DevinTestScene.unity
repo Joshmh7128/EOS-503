@@ -514,7 +514,7 @@ MonoBehaviour:
   billboard: 1
   mainCamera: 1
   otherCamera: {fileID: 0}
-  txtToParse: {fileID: 4900000, guid: 772f9e3caab177147949c007632a9012, type: 3}
+  txtToParse: {fileID: 0}
   enableQuickSkip: 1
   callback:
     m_PersistentCalls:

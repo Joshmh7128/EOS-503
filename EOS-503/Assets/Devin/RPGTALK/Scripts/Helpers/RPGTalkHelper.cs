@@ -273,7 +273,8 @@ namespace RPGTALK.Helper
 		public int lineWithQuestion = -1;
 		public bool alreadyHappen;
 		public List<string> choices = new List<string>();
-	}
+        public List<string> previews = new List<string>();
+    }
 
 	//A class to keep the targets that the canvas can follow
 	[System.Serializable]
