@@ -1150,12 +1150,17 @@ public class RPGTalk : MonoBehaviour
     public bool LookForChoices(string line)
     {
         //check if the user have some choice and the line asks for one
-        if (line.IndexOf("[choice]") != -1)
+        if (line.IndexOf("[choice=") != -1 && line.IndexOf("]", line.IndexOf("[choice=")) != -1)
         {
-            int initialBracket = line.IndexOf("[choice]");
+            int initialBracket = line.IndexOf("[choice=");
+            int finalBracket = line.IndexOf("]", initialBracket);
+
+            //Ok, new preview around! Let's get its preview
+            string choicePreview = line.Substring(initialBracket + 8, finalBracket - (initialBracket + 8));
 
             //Ok! Let's isolate its string
-            line = line.Substring(initialBracket + 8);
+            line = line.Substring(0, initialBracket) +
+                    line.Substring(finalBracket + 1);
 
             //replace variable names in choices (added by Devin Quinn)
             //cycle through choice variables and replace in line if found
@@ -1185,6 +1190,10 @@ public class RPGTalk : MonoBehaviour
             if (questions.Count > 0)
             {
                 questions[questions.Count - 1].choices.Add(line);
+                if(choicePreview != "none")
+                {
+                    questions[questions.Count - 1].previews.Add(choicePreview);
+                }
                 return true;
             }
             else
@@ -1945,12 +1954,21 @@ public class RPGTalk : MonoBehaviour
                         if (newChoiceBtn)
                         {
                             string thisText = q.choices[i];
+                            string thisPreview = null;
+                            if(q.previews[i] != null)
+                            {
+                                thisPreview = q.previews[i];
+                            }
                             string correctText = thisText;
                             //make sure we will not want to make it to a new talk
                             correctText = LookForNewTalk(correctText);
 
                             //newChoice.GetComponentInChildren<Text>().text = correctText;
                             newChoice.transform.Find("Text").GetComponent<Text>().text = correctText;
+                            if(thisPreview != null)
+                            {
+                                newChoice.transform.Find("Preview").GetComponent<Text>().text = thisPreview;
+                            }
                             int choiceNumber = i;
                             newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
                             if (i == 0)
