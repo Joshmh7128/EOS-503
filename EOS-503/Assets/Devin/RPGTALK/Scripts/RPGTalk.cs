@@ -749,6 +749,7 @@ public class RPGTalk : MonoBehaviour
         //check if after this line we should start another talk
         rpgtalkElements[0].dialogText = LookForNewTalk(rpgtalkElements[0].dialogText);
 
+        enableQuickSkip = true; //added by devin
         isPlaying = true;
         isAnimating = true;
     }

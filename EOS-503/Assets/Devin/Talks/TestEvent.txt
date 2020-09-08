@@ -19,6 +19,6 @@ speakerName:[question=success1][expression=annoyed]It just doesn't feel good. Th
 [title=Success_1_End]
 
 [title=Success_2_Start]
-speakerName:I suppose that's true… I hadn’t considered how other people's joy could make ME feel good. That does seem pretty rewarding!
-speakerName:Thanks for your help-- I can’t wait to find a buyer! My dear mother will be so proud!
+speakerName:I suppose that's true... I hadn't considered how other people's joy could make ME feel good. That does seem pretty rewarding!
+speakerName:Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
 [title=Success_2_End]
