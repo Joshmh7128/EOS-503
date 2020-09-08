@@ -18,8 +18,8 @@ public class CameraLerpScript : MonoBehaviour
     void FixedUpdate()
     {
         // lerp values
-        camPosition = Vector3.Lerp(transform.position, literalCamTransform.position, 0.05f);
-        camRotation = Quaternion.Lerp(transform.rotation, literalCamTransform.rotation, 0.05f);
+        camPosition = Vector3.Lerp(transform.position, literalCamTransform.position, 0.1f);
+        camRotation = Quaternion.Lerp(transform.rotation, literalCamTransform.rotation, 0.1f);
         // move to the values
         transform.position = camPosition;
         transform.rotation = camRotation;

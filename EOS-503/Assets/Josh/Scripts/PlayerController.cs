@@ -20,6 +20,20 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        // check to see if player is the real player, if not, destroy it
+        if (isRealPlayer == false)
+        {
+            PlayerController otherPlayerController = GameObject.Find("Player Controller Package").GetComponent<PlayerController>();
+
+            if (otherPlayerController.isRealPlayer == true)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+        // activate camera
+        playerCamTrans.gameObject.SetActive(true);
+
     }
 
     // Fixed Update is called 60 times per second

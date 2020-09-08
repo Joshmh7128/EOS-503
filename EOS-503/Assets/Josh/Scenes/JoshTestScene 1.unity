@@ -9121,6 +9121,10 @@ MonoBehaviour:
   playerPackage: {fileID: 0}
   cameraPackage: {fileID: 0}
   isLoading: 0
+  fadeCanvasGroup: {fileID: 0}
+  fadeState: 0
+  fadeTracker: {fileID: 0}
+  transitionSpeed: 0.025
 --- !u!65 &1111306048
 BoxCollider:
   m_ObjectHideFlags: 0
