@@ -8,7 +8,7 @@ public class NPC : MonoBehaviour
     public RPGTalk myTalk;
     public TextAsset myLines;
 
-    public void StartConversation()
+    public virtual void StartConversation()
     {
         myTalk.speakerName = myName;
         myTalk.txtToParse = myLines;
