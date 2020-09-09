@@ -1418,8 +1418,18 @@ public class RPGTalk : MonoBehaviour
 
     private string LookForExpression(string line, bool returnLine = false)
     {
-        //check if the user have some expression and the line asks for one
-        if (line.IndexOf("[expression=") != -1 && line.IndexOf("]") != -1)
+        /*
+        if (line.IndexOf("{jump=") != -1 && line.IndexOf("}") != -1)
+        {
+            int jumpStart = line.IndexOf("{jump=");
+            int jumpEnd = line.IndexOf("}", jumpStart);
+            string startKey = line.Substring(jumpStart + 6, jumpEnd - (jumpStart + 6)) + "Start";
+            string endKey = line.Substring(jumpStart + 6, jumpEnd - (jumpStart + 6)) + "End";
+            NewTalk(startKey, endKey);
+        }
+        */
+            //check if the user have some expression and the line asks for one
+            if (line.IndexOf("[expression=") != -1 && line.IndexOf("]") != -1)
         {
             //We do have one!
             int initialBracket = line.IndexOf("[expression=");

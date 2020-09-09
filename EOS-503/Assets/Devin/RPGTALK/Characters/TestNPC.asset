@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TestNPC
   m_EditorClassIdentifier: 
   dialoger: TestNPC
-  photo: {fileID: 21300000, guid: 151defc2f0d8fd94fa98dc8d06f0bbcf, type: 3}
+  photo: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
   expressions:
   - name: happy
     photo: {fileID: 21300000, guid: 151defc2f0d8fd94fa98dc8d06f0bbcf, type: 3}

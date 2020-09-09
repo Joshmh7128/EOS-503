@@ -564,7 +564,7 @@ MonoBehaviour:
   passAudio: {fileID: 0}
   passWithMouse: 1
   passWithInputButton: 
-  passWithKey: 0
+  passWithKey: 32
   enablePass: 1
   autoPass: 0
   secondsAutoPass: 3

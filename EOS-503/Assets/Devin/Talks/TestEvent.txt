@@ -22,3 +22,21 @@ speakerName:[question=success1][expression=annoyed]It just doesn't feel good. Th
 speakerName:I suppose that's true... I hadn't considered how other people's joy could make ME feel good. That does seem pretty rewarding!
 speakerName:[expression=happy]Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
 [title=Success_2_End]
+
+[title=Fail_1a_Start]
+speakerName:[expression=thinking]I don't understand... They don't need to have the painting at their house to think about.
+speakerName:[expression=annoyed]And why would I want my art grouped with a bunch of other art like it, anyway? It wouldn't stand out![newtalk start=Fail_1_Start break=Fail_1_End]
+[title=Fail_1a_End]
+
+[title=Fail_1b_Start]
+speakerName:[expression=blush]But I don't <i>want</i> people to make work like mine!
+speakerName:[expression=annoyed]Giving them my work as an example to reference will make me-- the ORIGINAL <i>ARTEEST</i>-- obsolete![newtalk start=Fail_1_Start break=Fail_1_End]
+[title=Fail_1b_End]
+
+[title=Fail_1_Start]
+speakerName:[expression=blush]See, just... just look at my drawing again! I've practiced each shape to perfection, each line to flawlessness!
+speakerName:[question=failed1][expression=annoyed]Selling my work would be a punishment!
+[choice=Art fans can learn from your work.]Think about how your work can help other people develop a holistic understanding of art. They can hang your masterpieces in their homes, incorporating them into their daily lives. Your work can broaden their knowledge of aesthetic.
+[choice=It would help others build understanding.]If you sell it, you'll be encouraging people to construct their very own library of art! How else can they assemble knowledge of culture and design? If they own your work, they-ll have something to inspire them-- and use as reference!
+[choice=Think of the rewards!]Rather than seeing it as a loss of your time and effort, think of the financial payout! That'll more than cover the cost of materials to keep doing your marvelous work!
+[title=Fail_1_Start]

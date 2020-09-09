@@ -23,11 +23,11 @@ public class TestNPC : NPC
             case "init":
                 if(num == 0)
                 {
-                    
+                    myTalk.NewTalk("Fail_1a_Start", "Fail_1a_End");
                 }
                 else if (num == 1)
                 {
-
+                    myTalk.NewTalk("Fail_1b_Start", "Fail_1b_End");
                 }
                 else if (num == 2)
                 {
