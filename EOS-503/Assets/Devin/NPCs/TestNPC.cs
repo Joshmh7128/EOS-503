@@ -23,21 +23,21 @@ public class TestNPC : NPC
             case "init":
                 if(num == 0)
                 {
-                    myTalk.NewTalk("0-1a_Start", "0-1a_End");
+                    myTalk.NewTalk("faila_Start", "faila_End");
                 }
                 else if (num == 1)
                 {
-                    myTalk.NewTalk("0-1b_Start", "0-1b_End");
+                    myTalk.NewTalk("failb_Start", "failb_End");
                 }
                 else if (num == 2)
                 {
-                    myTalk.NewTalk("1-0_Start", "1-0_End");
+                    myTalk.NewTalk("success_Start", "success_End");
                 }
                 break;
-            case "1-0":
+            case "success":
                 if (num == 0)
                 {
-                    myTalk.NewTalk("2-0_Start", "2-0_End");
+                    myTalk.NewTalk("success-success_Start", "success-success_End");
                 }
                 else if (num == 1)
                 {
@@ -45,21 +45,35 @@ public class TestNPC : NPC
                 }
                 else if (num == 2)
                 {
-                    myTalk.NewTalk("1-1f-b_Start", "1-1f-b_End");
+                    myTalk.NewTalk("success-failf-b_Start", "success-failf-b_End");
                 }
                 break;
-            case "0-1":
+            case "fail":
                 if (num == 0)
                 {
-                    
+                    myTalk.NewTalk("fail-success_Start", "fail-success_End");
                 }
                 else if (num == 1)
                 {
-                    myTalk.NewTalk("0-2_Start", "0-2_End");
+                    myTalk.NewTalk("fail-fail_Start", "fail-fail_End");
                 }
                 else if (num == 2)
                 {
-                    myTalk.NewTalk("0-2_Start", "0-2_End");
+                    myTalk.NewTalk("fail-fail_Start", "fail-fail_End");
+                }
+                break;
+            case "success-fail":
+                if (num == 0)
+                {
+                    myTalk.NewTalk("success-success_Start", "success-success_End");
+                }
+                else if (num == 1)
+                {
+                    myTalk.NewTalk("fail-fail_Start", "fail-fail_End");
+                }
+                else if (num == 2)
+                {
+                    myTalk.NewTalk("fail-fail_Start", "fail-fail_End");
                 }
                 break;
         }
