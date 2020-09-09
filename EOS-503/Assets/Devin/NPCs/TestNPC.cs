@@ -41,7 +41,7 @@ public class TestNPC : NPC
                 }
                 else if (num == 1)
                 {
-                    myTalk.NewTalk("1-1f-a_Start", "1-1f-a_End");
+                    myTalk.NewTalk("success-fail-a_Start", "success-fail-a_End");
                 }
                 else if (num == 2)
                 {

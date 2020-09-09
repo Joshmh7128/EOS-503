@@ -46,17 +46,19 @@ speakerName:[expression=annoyed]I've squandered too much of my afternoon on you-
 speakerName:[expression=annoyed]*Grumble* <i>Philistine...</i> *Grumble*
 [title=0-2_End]
 
-[title=1-1f-a_Start]
-speakerName:[expression=thinking]Look, there's only one way to become an ART<i>EEST: practice practice practice</i>. I still don't see what's in it for me outside of a few dollars.[newtalk start=1-1f_Start break=1-1f_End]
-[title=1-1f-a_End]
+[title=success-fail-a_Start]
+speakerName:Look, there's only one way to become an ART<i>EEST-- practice, practice, practice.</i>
+speakerName:I still don't see what's in it for me outside of a few dollars.[newtalk start=success-fail_Start break=success-fail_End]
+[title=success-fail-a_End]
 
 [title=1-1f-b_Start]
-speakerName:[expression=annoyed]What do you know of knowledge and emotional payoff? I've strained to practice each step of my craft, one by one-- no rest until achieving perfection![newtalk start=1-1f_Start break=1-1f_End]
+speakerName:[expression=annoyed]What do you know of knowledge and emotional payoff? 
+speakerName:I've strained to practice each step of my craft, one by one-- no rest until achieving perfection![newtalk start=success-fail_Start break=success-fail_End]
 [title=1-1f-b_End]
 
-[title=1-1f_Start]
+[title=success-fail_Start]
 speakerName:[question=1-1][expression=thinking]How can I feel that selling my art is worthwhile?
 [choice=Altruistic behavior is its own reward.]Look, I get why you're conflicted... But wouldn't it be nice to walk into someone's home and see something you worked on making them happy? That's a different-- and irreplaceable-- kind of reinforcement!
 [choice=It's an opportunity to connect with others.]Well, with this in their home, they'll be able to study the work you did. They'll want to discuss the craft and have you model your skills! It'll have you seeing AND making more art than ever!
-[choice=The earnings will lead to skill growth!]Don't worry about the emotional payoff! With the money you make, you'll be able to create more paintings and construct an even better understanding of the arts! More paintings means more knowledge which leads to greater understanding-- that’s the path to happiness!
-[title=1-1f_End]
+[choice=The earnings will lead to skill growth!]Don't worry about the emotional payoff! With the money you make, you'll be able to create more paintings and construct an even better understanding of the arts! More paintings means more knowledge which leads to greater understanding-- that's the path to happiness!
+[title=success-fail_End]
