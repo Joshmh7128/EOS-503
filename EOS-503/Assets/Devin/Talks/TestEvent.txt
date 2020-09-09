@@ -10,33 +10,53 @@ speakerName:[question=init][expression=annoyed]It hurts my heart to think of say
 [choice=Think of the cold, hard cash.]Rather than seeing it as a loss of your time and effort, think of the financial reward! That'll more than cover the cost of materials to keep doing your marvelous work!
 [title=helloEnd]
 
-[title=Success_1_Start]
+[title=1-0_Start]
 speakerName:So... I should look at the money as a reward for my work, eh? But even with the money, I don't feel like I have a good reason to sell it.
-speakerName:[question=success1][expression=annoyed]It just doesn't feel good. That matters to me too.
+speakerName:[question=1-0][expression=annoyed]It just doesn't feel good. That matters to me too.
 [choice=Altruistic behavior is its own reward.]Look, I get why you're conflicted... But wouldn't it be nice to walk into someone's home and see something you worked on making them happy? That's a different-- and irreplaceable-- kind of reinforcement!
-[choice=It's an opportunity to connect with and teach others.]Well, with this in their home, they'll be able to study the work you did. They'll want to discuss the craft and have you model your skills. It'll have you seeing AND making more art than ever!
+[choice=It's an opportunity to connect with others.]Well, with this in their home, they'll be able to study the work you did. They'll want to discuss the craft and have you model your skills. It'll have you seeing AND making more art than ever!
 [choice=The earnings will lead to skill growth.]Don't worry about the emotional payoff! With the money you make, you'll be able to create more paintings and construct an even better understanding of the arts! More paintings means more knowledge which leads to greater understanding-- that's the path to happiness!
-[title=Success_1_End]
+[title=1-0_End]
 
-[title=Success_2_Start]
+[title=2-0_Start]
 speakerName:I suppose that's true... I hadn't considered how other people's joy could make ME feel good. That does seem pretty rewarding!
 speakerName:[expression=happy]Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
-[title=Success_2_End]
+[title=2-0_End]
 
-[title=Fail_1a_Start]
+[title=0-1a_Start]
 speakerName:[expression=thinking]I don't understand... They don't need to have the painting at their house to think about.
-speakerName:[expression=annoyed]And why would I want my art grouped with a bunch of other art like it, anyway? It wouldn't stand out![newtalk start=Fail_1_Start break=Fail_1_End]
-[title=Fail_1a_End]
+speakerName:[expression=annoyed]And why would I want my art grouped with a bunch of other art like it, anyway? It wouldn't stand out![newtalk start=0-1_Start break=0-1_End]
+[title=0-1a_End]
 
-[title=Fail_1b_Start]
+[title=0-1b_Start]
 speakerName:[expression=blush]But I don't <i>want</i> people to make work like mine!
-speakerName:[expression=annoyed]Giving them my work as an example to reference will make me-- the ORIGINAL <i>ARTEEST</i>-- obsolete![newtalk start=Fail_1_Start break=Fail_1_End]
-[title=Fail_1b_End]
+speakerName:[expression=annoyed]Giving them my work as an example to reference will make me-- the ORIGINAL ART<i>EEST</i>-- obsolete![newtalk start=0-1_Start break=0-1_End]
+[title=0-1b_End]
 
-[title=Fail_1_Start]
+[title=0-1_Start]
 speakerName:[expression=blush]See, just... just look at my drawing again! I've practiced each shape to perfection, each line to flawlessness!
-speakerName:[question=failed1][expression=annoyed]Selling my work would be a punishment!
+speakerName:[question=0-1][expression=annoyed]Selling my work would be a punishment!
 [choice=Art fans can learn from your work.]Think about how your work can help other people develop a holistic understanding of art. They can hang your masterpieces in their homes, incorporating them into their daily lives. Your work can broaden their knowledge of aesthetic.
-[choice=It would help others build understanding.]If you sell it, you'll be encouraging people to construct their very own library of art! How else can they assemble knowledge of culture and design? If they own your work, they-ll have something to inspire them-- and use as reference!
+[choice=It would help others build understanding.]If you sell it, you'll be encouraging people to construct their very own library of art! How else can they assemble knowledge of culture and design? If they own your work, they'll have something to inspire them-- and use as reference!
 [choice=Think of the rewards!]Rather than seeing it as a loss of your time and effort, think of the financial payout! That'll more than cover the cost of materials to keep doing your marvelous work!
-[title=Fail_1_Start]
+[title=0-1_End]
+
+[title=0-2_Start]
+speakerName:[expression=annoyed]I've squandered too much of my afternoon on you-- I'm headed back to my studio. Alone.
+speakerName:[expression=annoyed]*Grumble* <i>Philistine...</i> *Grumble*
+[title=0-2_End]
+
+[title=1-1f-a_Start]
+speakerName:[expression=thinking]Look, there's only one way to become an ART<i>EEST: practice practice practice</i>. I still don't see what's in it for me outside of a few dollars.[newtalk start=1-1f_Start break=1-1f_End]
+[title=1-1f-a_End]
+
+[title=1-1f-b_Start]
+speakerName:[expression=annoyed]What do you know of knowledge and emotional payoff? I've strained to practice each step of my craft, one by one-- no rest until achieving perfection![newtalk start=1-1f_Start break=1-1f_End]
+[title=1-1f-b_End]
+
+[title=1-1f_Start]
+speakerName:[question=1-1][expression=thinking]How can I feel that selling my art is worthwhile?
+[choice=Altruistic behavior is its own reward.]Look, I get why you're conflicted... But wouldn't it be nice to walk into someone's home and see something you worked on making them happy? That's a different-- and irreplaceable-- kind of reinforcement!
+[choice=It's an opportunity to connect with others.]Well, with this in their home, they'll be able to study the work you did. They'll want to discuss the craft and have you model your skills! It'll have you seeing AND making more art than ever!
+[choice=The earnings will lead to skill growth!]Don't worry about the emotional payoff! With the money you make, you'll be able to create more paintings and construct an even better understanding of the arts! More paintings means more knowledge which leads to greater understanding-- that’s the path to happiness!
+[title=1-1f_End]
