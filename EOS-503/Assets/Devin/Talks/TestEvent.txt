@@ -23,15 +23,15 @@ speakerName:I suppose that's true... I hadn't considered how other people's joy 
 speakerName:[expression=happy]Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
 [title=success-success_End]
 
-[title=faila_Start]
+[title=fail-a_Start]
 speakerName:[expression=thinking]I don't understand... They don't need to have the painting at their house to think about.
 speakerName:[expression=annoyed]And why would I want my art grouped with a bunch of other art like it, anyway? It wouldn't stand out![newtalk start=fail_Start break=fail_End]
-[title=faila_End]
+[title=fail-a_End]
 
-[title=failb_Start]
+[title=fail-b_Start]
 speakerName:[expression=blush]But I don't <i>want</i> people to make work like mine!
 speakerName:[expression=annoyed]Giving them my work as an example to reference will make me-- the ORIGINAL ART<i>EEST</i>-- obsolete![newtalk start=fail_Start break=fail_End]
-[title=failb_End]
+[title=fail-b_End]
 
 [title=fail_Start]
 speakerName:[expression=blush]See, just... just look at my drawing again! I've practiced each shape to perfection, each line to flawlessness!
@@ -42,12 +42,13 @@ speakerName:[question=fail][expression=annoyed]Selling my work would be a punish
 [title=fail_End]
 
 [title=fail-fail_Start]
+speakerName:I just don't think you understand where I'm coming from.
 speakerName:[expression=annoyed]I've squandered too much of my afternoon on you-- I'm headed back to my studio. Alone.
 speakerName:[expression=annoyed]*Grumble* <i>Philistine...</i> *Grumble*
 [title=fail-fail_End]
 
 [title=success-fail-a_Start]
-speakerName:Look, there's only one way to become an ART<i>EEST-- practice, practice, practice.</i>
+speakerName:[expression=annoyed]Look, there's only one way to become an ART<i>EEST-- practice, practice, practice.</i>
 speakerName:I still don't see what's in it for me outside of a few dollars.[newtalk start=success-fail_Start break=success-fail_End]
 [title=success-fail-a_End]
 

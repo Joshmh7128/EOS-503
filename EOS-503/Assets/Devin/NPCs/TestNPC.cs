@@ -23,11 +23,11 @@ public class TestNPC : NPC
             case "init":
                 if(num == 0)
                 {
-                    myTalk.NewTalk("faila_Start", "faila_End");
+                    myTalk.NewTalk("fail-a_Start", "fail-a_End");
                 }
                 else if (num == 1)
                 {
-                    myTalk.NewTalk("failb_Start", "failb_End");
+                    myTalk.NewTalk("fail-b_Start", "fail-b_End");
                 }
                 else if (num == 2)
                 {
@@ -45,7 +45,7 @@ public class TestNPC : NPC
                 }
                 else if (num == 2)
                 {
-                    myTalk.NewTalk("success-failf-b_Start", "success-failf-b_End");
+                    myTalk.NewTalk("success-fail-b_Start", "success-fail-b_End");
                 }
                 break;
             case "fail":
