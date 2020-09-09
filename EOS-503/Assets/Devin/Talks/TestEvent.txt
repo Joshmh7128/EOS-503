@@ -1,9 +1,9 @@
 [title=helloStart]
-speakerName:Hey! I'm so excited to see a newcomer to our city!
-speakerName:[expression=thinking]No doubt you've heard about the art show. After all, how can we be our best selves without observance of art?
-speakerName:[expression=thinking]Please, take a look at my drawing. I've practiced each shape to perfection, each line until it's flawless!
-speakerName:<i>The artist traces one of their lines again; they reward themselves with a grape and smile.</i>
-speakerName:[expression=thinking]A few people who've shown interest in purchasing it, but I can't allow myself to sell my art!
+speakerName:[expression=happy]Hey! I'm so excited to see a newcomer to our city!
+speakerName:No doubt you've heard about the art show. After all, how can we be our best selves without observance of art?
+speakerName:Please, take a look at my drawing. I've practiced each shape to perfection, each line until it's flawless!
+speakerName:[expression=happy]<i>The artist traces one of their lines again; they reward themselves with a grape and smile.</i>
+speakerName:A few people who've shown interest in purchasing it, but I can't allow myself to sell my art!
 speakerName:[question=init][expression=annoyed]It hurts my heart to think of saying goodbye to my masterpiece...
 [choice=Think of how it can help others!]Don't think of it as a loss! Think of it as things that can help other people become whole. They can physically hang your work in their home, becoming part of their daily life. Seeing it regularly would help them achieve their ideal decor and self.
 [choice=It's about assembling knowledge.]If you sell it, you'll be encouraging people to build a library of art! How else can they assemble knowledge of culture and design? If they own your work, they'll have something to inspire them and use as reference!
@@ -11,7 +11,7 @@ speakerName:[question=init][expression=annoyed]It hurts my heart to think of say
 [title=helloEnd]
 
 [title=Success_1_Start]
-speakerName:[expression=thinking]So... I should look at the money as a reward for my work, eh? But even with the money, I don't feel like I have a good reason to sell it.
+speakerName:So... I should look at the money as a reward for my work, eh? But even with the money, I don't feel like I have a good reason to sell it.
 speakerName:[question=success1][expression=annoyed]It just doesn't feel good. That matters to me too.
 [choice=Altruistic behavior is its own reward.]Look, I get why you're conflicted... But wouldn't it be nice to walk into someone's home and see something you worked on making them happy? That's a different-- and irreplaceable-- kind of reinforcement!
 [choice=It's an opportunity to connect with and teach others.]Well, with this in their home, they'll be able to study the work you did. They'll want to discuss the craft and have you model your skills. It'll have you seeing AND making more art than ever!
@@ -19,6 +19,6 @@ speakerName:[question=success1][expression=annoyed]It just doesn't feel good. Th
 [title=Success_1_End]
 
 [title=Success_2_Start]
-speakerName:[expression=thinking]I suppose that's true... I hadn't considered how other people's joy could make ME feel good. That does seem pretty rewarding!
-speakerName:Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
+speakerName:I suppose that's true... I hadn't considered how other people's joy could make ME feel good. That does seem pretty rewarding!
+speakerName:[expression=happy]Thanks for your help-- I can't wait to find a buyer! My dear mother will be so proud!
 [title=Success_2_End]
