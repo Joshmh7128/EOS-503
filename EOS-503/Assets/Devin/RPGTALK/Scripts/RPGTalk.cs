@@ -160,7 +160,6 @@ public class RPGTalk : MonoBehaviour
     /// An UI element with the Image property that the photo should be applied to
     /// </summary>
     public Image UIPhoto;
-    public Image PlayerPhoto;
 
     /// <summary>
     /// The dialog and everything in showWithDialog should stay on screen even if the text has ended?
@@ -352,7 +351,6 @@ public class RPGTalk : MonoBehaviour
     {
         //set the initial values of variables
         ScrubVariables();
-        PlayerPhoto = showWithDialog[0].transform.Find("Canvas").transform.Find("PlayerImage").GetComponent<Image>();
 
         //Get the TMP_Translate Object
         textUI = new TMP_Translator(textUIObj);
@@ -2346,7 +2344,6 @@ public class RPGTalk : MonoBehaviour
                 actualAnimator.SetBool(expressing.boolInAnimator, false);
             }
         }
-        PlayerPhoto.sprite = sprites[0].sprite;
 
         //if there was any jitter here.. Let's remove it!
         if (jitterRoutine != null)
