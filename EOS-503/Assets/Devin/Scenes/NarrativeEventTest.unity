@@ -527,31 +527,8 @@ MonoBehaviour:
   textSpeed: 50
   currentChar: 0
   variables: []
-  speakerName: 
-  choice0: 
-  choice1: 
-  choice2: 
-  line20: 
-  line19: 
-  line18: 
-  line17: 
-  line16: 
-  line15: 
-  line14: 
-  line13: 
-  line12: 
-  line11: 
-  line10: 
-  line09: 
-  line08: 
-  line07: 
-  line06: 
-  line05: 
-  line04: 
-  line03: 
-  line02: 
-  line01: 
-  line00: 
+  speaker: 
+  buttonDisabled: 0
   shouldUsePhotos: 1
   characters:
   - character: {fileID: 11400000, guid: 56682779486aedf47b4e2807a018cab4, type: 2}
@@ -1144,6 +1121,7 @@ GameObject:
   - component: {fileID: 1987967918}
   - component: {fileID: 1987967920}
   - component: {fileID: 1987967919}
+  - component: {fileID: 1987967921}
   m_Layer: 5
   m_Name: SpeakerImage
   m_TagString: Untagged
@@ -1207,6 +1185,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987967917}
   m_CullTransparentMesh: 0
+--- !u!95 &1987967921
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987967917}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 100ef7417158ebb4da047f12738a1206, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1988668832
 GameObject:
   m_ObjectHideFlags: 0
