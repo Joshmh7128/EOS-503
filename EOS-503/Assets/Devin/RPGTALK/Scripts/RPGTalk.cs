@@ -2010,6 +2010,11 @@ public class RPGTalk : MonoBehaviour
                     }
                     if(buttonDisabled == -1) //scramble button order
                     {
+                        for(int j = 0; j < choicesParent.childCount; j++)
+                        {
+                            int k = Random.Range(0, choicesParent.childCount);
+                            choicesParent.GetChild(k).SetAsFirstSibling();
+                        }
 
                     }
                     break;
