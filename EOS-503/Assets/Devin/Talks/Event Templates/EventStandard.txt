@@ -1,0 +1,70 @@
+[title=xxx-start]
+speaker:Blah blah blah blah blah blah!
+speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
+[choice=Preview 00]Blah blah blah blah blah blah.
+[choice=Preview 01]Blah blah blah blah blah blah.
+[choice=Preview 02]Blah blah blah blah blah blah.
+[title=xxx-end]
+
+[title=0xx-a-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=0xx-a-end]
+
+[title=0xx-b-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=0xx-b-end]
+
+[title=0xx-start]
+speaker:Blah blah blah blah blah blah.
+speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
+[choice=Preview 00]Blah blah blah blah blah blah.
+[choice=Preview 01]Blah blah blah blah blah blah.
+[choice=Preview 02]Blah blah blah blah blah blah.
+[title=0xx-end]
+
+[title=lose-start]
+speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
+[title=lose-end]
+
+[title=01x-start]
+speaker:[expression=1]Blah blah blah blah! Blah blah blah.
+speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
+[choice=Preview 00]Blah blah blah blah blah blah.
+[choice=Preview 01]Blah blah blah blah blah blah.
+[choice=Preview 02]Blah blah blah blah blah blah.
+[title=01x-end]
+
+[title=010-a-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=010-a-end]
+
+[title=010-b-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=010-b-end]
+
+[title=1xx-start]
+speaker:[expression=1]Blah blah blah blah blah blah!
+speaker:[question=1xx][expression=2]Blah blah blah blah blah blah?
+[choice=Preview 00]Blah blah blah blah blah blah.
+[choice=Preview 01]Blah blah blah blah blah blah.
+[choice=Preview 02]Blah blah blah blah blah blah.
+[title=1xx-end]
+
+[title=10x-a-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=10x-a-end]
+
+[title=10x-b-start]
+speaker:[expression=3]Blah blah blah blah blah blah...
+[title=10x-b-end]
+
+[title=10x-start]
+speaker:[question=10x][expression=2]Blah blah blah blah blah blah?
+[choice=Preview 00]Blah blah blah blah blah blah.
+[choice=Preview 01]Blah blah blah blah blah blah.
+[choice=Preview 02]Blah blah blah blah blah blah.
+[title=10x-end]
+
+[title=win-start]
+speaker:[expression=1]Blah blah blah... blah blah blah!
+[title=win-start]
