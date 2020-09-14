@@ -142,7 +142,8 @@ public class RPGTalk : MonoBehaviour
     public RPGTalkVariable[] variables;
 
     public string speaker;
-    public int buttonDisabled;
+    private int buttonDisabled;
+    private int topButton;
     /*
     public string choice0, choice1, choice2;
     public string line20, line19, line18, line17, line16, line15, line14, line13, line12, line11, line10;
@@ -384,6 +385,8 @@ public class RPGTalk : MonoBehaviour
     {
         speaker = "speaker";
         buttonDisabled = -1;
+        topButton = -1;
+        //topButton = 0;
         /*
         choice0 = "choice0";
         choice1 = "choice1";
@@ -2014,6 +2017,15 @@ public class RPGTalk : MonoBehaviour
                         {
                             int k = Random.Range(0, choicesParent.childCount);
                             choicesParent.GetChild(k).SetAsFirstSibling();
+                            topButton = k;
+                        }
+
+                    }
+                    else
+                    {
+                        if(buttonDisabled >= topButton)
+                        {
+                            choicesParent.GetChild(1).SetAsFirstSibling();
                         }
 
                     }
@@ -2073,6 +2085,7 @@ public class RPGTalk : MonoBehaviour
         if(choiceNumber == 0)
         {
             buttonDisabled = -1;
+            topButton = -1;
         }
         else
         {
