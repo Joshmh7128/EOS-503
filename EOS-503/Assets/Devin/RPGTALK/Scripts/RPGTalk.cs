@@ -2008,6 +2008,10 @@ public class RPGTalk : MonoBehaviour
                         }
                         
                     }
+                    if(buttonDisabled == -1) //scramble button order
+                    {
+
+                    }
                     break;
                 }
             }
