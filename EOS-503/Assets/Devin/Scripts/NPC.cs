@@ -10,8 +10,18 @@ public class NPC : MonoBehaviour
 
     public virtual void StartConversation()
     {
-        myTalk.speakerName = myName;
+        myTalk.speaker = myName;
         myTalk.txtToParse = myLines;
-        myTalk.NewTalk("helloStart", "helloEnd");
+        myTalk.OnMadeChoice += OnMadeChoice; //!!!remember to clear this when ending a conversation!!
+    }
+
+    public virtual void EndConversation()
+    {
+        myTalk.OnMadeChoice -= OnMadeChoice;
+    }
+
+    public virtual void OnMadeChoice(string id, int num)
+    {
+        
     }
 }

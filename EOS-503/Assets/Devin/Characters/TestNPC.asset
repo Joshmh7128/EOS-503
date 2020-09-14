@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: TestNPC
   m_EditorClassIdentifier: 
   dialoger: TestNPC
-  photo: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
+  photo: {fileID: 21300000, guid: 0465c1c01535fb2458e079c8236cfa42, type: 3}
   expressions:
-  - name: happy
-    photo: {fileID: 21300000, guid: 151defc2f0d8fd94fa98dc8d06f0bbcf, type: 3}
+  - name: 1
+    photo: {fileID: 21300000, guid: f4196f71f4535a84a94590c62496a1f8, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
-  - name: thinking
-    photo: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
+  - name: 2
+    photo: {fileID: 21300000, guid: a42d5b3ab5c06d34cb2acbbc0f64cfd1, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
-  - name: annoyed
-    photo: {fileID: 21300000, guid: 40a70722531ad564ca0a64d069134eb7, type: 3}
+  - name: 3
+    photo: {fileID: 21300000, guid: d9b58f5ba76831144b20b891a9781f13, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
-  - name: blush
-    photo: {fileID: 21300000, guid: d8b50654cd776e74d9c50f64b0099ba5, type: 3}
+  - name: 4
+    photo: {fileID: 0}
     boolInAnimator: 
     audio: {fileID: 0}

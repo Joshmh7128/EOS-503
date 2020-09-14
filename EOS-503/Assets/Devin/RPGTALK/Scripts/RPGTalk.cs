@@ -141,10 +141,12 @@ public class RPGTalk : MonoBehaviour
     /// </summary>
     public RPGTalkVariable[] variables;
 
-    public string speakerName;
+    public string speaker;
+    /*
     public string choice0, choice1, choice2;
     public string line20, line19, line18, line17, line16, line15, line14, line13, line12, line11, line10;
     public string line09, line08, line07, line06, line05, line04, line03, line02, line01, line00;
+    */
 
     /// <summary>
     /// Should there be photos of the dialogers?
@@ -379,7 +381,8 @@ public class RPGTalk : MonoBehaviour
     //set / reset the text variables
     void ScrubVariables()
     {
-        speakerName = "speakerName";
+        speaker = "speaker";
+        /*
         choice0 = "choice0";
         choice1 = "choice1";
         choice2 = "choice2";
@@ -404,6 +407,7 @@ public class RPGTalk : MonoBehaviour
         line02 = "line02";
         line01 = "line01";
         line00 = "line00";
+        */
     }
     //Change txtToParse to be the correct for other language
     TextAsset CheckCurrentLanguage()
@@ -773,10 +777,11 @@ public class RPGTalk : MonoBehaviour
         }
         */
 
-        if (line.Contains("speakerName"))
+        if (line.Contains("speaker"))
         {
-            line = line.Replace("speakerName", speakerName);
+            line = line.Replace("speaker", speaker);
         }
+        /*
         if (line.Contains("line20"))
         {
             line = line.Replace("line20", line20);
@@ -861,6 +866,7 @@ public class RPGTalk : MonoBehaviour
         {
             line = line.Replace("line00", line00);
         }
+        */
 
         newElement.originalSpeakerName = line;
 
@@ -1165,6 +1171,7 @@ public class RPGTalk : MonoBehaviour
 
             //replace variable names in choices (added by Devin Quinn)
             //cycle through choice variables and replace in line if found
+            /*
             if (line.Contains("choice0"))
             {
                 line = line.Replace("choice0", choice0);
@@ -1177,15 +1184,18 @@ public class RPGTalk : MonoBehaviour
             {
                 line = line.Replace("choice2", choice2);
             }
+            */
 
             //in practice, this part will only replace npc names in choices
+            /*
             for (int i = 0; i < variables.Length; i++)
             {
                 if (line.Contains(variables[i].variableName))
                 {
                     line = line.Replace(variables[i].variableName, variables[i].variableValue);
                 }
-            }          
+            }
+            */
 
             //Add it to the last question found
             if (questions.Count > 0)

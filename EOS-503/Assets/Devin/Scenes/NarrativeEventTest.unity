@@ -568,8 +568,8 @@ MonoBehaviour:
   enablePass: 1
   autoPass: 0
   secondsAutoPass: 3
-  lineToStart: helloStart
-  lineToBreak: helloEnd
+  lineToStart: xxx-start
+  lineToBreak: xxx-end
   wordWrap: 1
   maxCharInWidth: 50
   maxCharInHeight: 4
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0465c1c01535fb2458e079c8236cfa42, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: TestNPC
   myTalk: {fileID: 304171842}
-  myLines: {fileID: 4900000, guid: 772f9e3caab177147949c007632a9012, type: 3}
+  myLines: {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
 --- !u!114 &1988668836
 MonoBehaviour:
   m_ObjectHideFlags: 0

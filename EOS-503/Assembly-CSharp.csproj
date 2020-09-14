@@ -93,6 +93,7 @@
     <None Include="Assets\Devin\Talks\TestEvent.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText_PT_BR.txt" />
+    <None Include="Assets\Devin\Talks\EventStandard.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoSnippets.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity_GameJam/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
