@@ -142,6 +142,7 @@ public class RPGTalk : MonoBehaviour
     public RPGTalkVariable[] variables;
 
     public string speaker;
+    public int buttonDisabled;
     /*
     public string choice0, choice1, choice2;
     public string line20, line19, line18, line17, line16, line15, line14, line13, line12, line11, line10;
@@ -382,6 +383,7 @@ public class RPGTalk : MonoBehaviour
     void ScrubVariables()
     {
         speaker = "speaker";
+        buttonDisabled = -1;
         /*
         choice0 = "choice0";
         choice1 = "choice1";
@@ -1970,37 +1972,41 @@ public class RPGTalk : MonoBehaviour
 
                     for (int i = 0; i < q.choices.Count; i++)
                     {
-                        GameObject newChoice = (GameObject)Instantiate(choicePrefab, choicesParent);
-                        Button newChoiceBtn = newChoice.GetComponent<Button>();
-                        if (newChoiceBtn)
+                        if(i != buttonDisabled)
                         {
-                            string thisText = q.choices[i];
-                            string thisPreview = null;
-                            if(q.previews[i] != null)
+                            GameObject newChoice = (GameObject)Instantiate(choicePrefab, choicesParent);
+                            Button newChoiceBtn = newChoice.GetComponent<Button>();
+                            if (newChoiceBtn)
                             {
-                                thisPreview = q.previews[i];
-                            }
-                            string correctText = thisText;
-                            //make sure we will not want to make it to a new talk
-                            correctText = LookForNewTalk(correctText);
+                                string thisText = q.choices[i];
+                                string thisPreview = null;
+                                if (q.previews[i] != null)
+                                {
+                                    thisPreview = q.previews[i];
+                                }
+                                string correctText = thisText;
+                                //make sure we will not want to make it to a new talk
+                                correctText = LookForNewTalk(correctText);
 
-                            //newChoice.GetComponentInChildren<Text>().text = correctText;
-                            newChoice.transform.Find("Text").GetComponent<Text>().text = correctText;
-                            if(thisPreview != null)
-                            {
-                                newChoice.transform.Find("Preview").GetComponent<Text>().text = thisPreview;
+                                //newChoice.GetComponentInChildren<Text>().text = correctText;
+                                newChoice.transform.Find("Text").GetComponent<Text>().text = correctText;
+                                if (thisPreview != null)
+                                {
+                                    newChoice.transform.Find("Preview").GetComponent<Text>().text = thisPreview;
+                                }
+                                int choiceNumber = i;
+                                newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
+                                if (i == 0)
+                                {
+                                    //StartCoroutine(SelectButton(newChoiceBtn));
+                                }
                             }
-                            int choiceNumber = i;
-                            newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
-                            if (i == 0)
+                            else
                             {
-                                //StartCoroutine(SelectButton(newChoiceBtn));
+                                Debug.LogWarning("RPGTalk can only put the choice's text correctly if choicePrefab is a button with a child of type Text.");
                             }
                         }
-                        else
-                        {
-                            Debug.LogWarning("RPGTalk can only put the choice's text correctly if choicePrefab is a button with a child of type Text.");
-                        }
+                        
                     }
                     break;
                 }
@@ -2054,6 +2060,16 @@ public class RPGTalk : MonoBehaviour
         {
             ChoiceEvents[choiceNumber].Invoke();
         }
+        
+        if(choiceNumber == 0)
+        {
+            buttonDisabled = -1;
+        }
+        else
+        {
+            buttonDisabled = choiceNumber;
+        }
+        
         if (OnMadeChoice != null)
         {
             OnMadeChoice(questionID, choiceNumber);
