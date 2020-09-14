@@ -7,11 +7,11 @@ speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
@@ -35,11 +35,11 @@ speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
@@ -51,11 +51,11 @@ speaker:[question=1xx][expression=2]Blah blah blah blah blah blah?
 [title=1xx-end]
 
 [title=10x-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...
+speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
