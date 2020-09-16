@@ -2029,6 +2029,10 @@ public class RPGTalk : MonoBehaviour
                         }
 
                     }
+                    for(int i = 0; i < choicesParent.childCount; i++)
+                    {
+                        choicesParent.GetChild(i).GetComponent<Button>().image.sprite = choicesParent.GetChild(i).GetComponent<ButtonScript>().buttonSprites[i];
+                    }
                     break;
                 }
             }

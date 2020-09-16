@@ -232,6 +232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ad124117f7d47347a1c0e61fbe9b8cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSprites:
+  - {fileID: 21300000, guid: 0852d14fd83f61145b48244ef0fa5477, type: 3}
+  - {fileID: 21300000, guid: af4557c98c6e67849b786801a71cb0a6, type: 3}
+  - {fileID: 21300000, guid: 4ae3c17cf5c752642ba8502732bc4dd8, type: 3}
 --- !u!114 &6387967221822418436
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class ButtonScript : MonoBehaviour
 {
 
     private Animator anim;
+    public Sprite[] buttonSprites;
 
     // Start is called before the first frame update
     void Start()
