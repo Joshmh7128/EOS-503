@@ -528,7 +528,6 @@ MonoBehaviour:
   currentChar: 0
   variables: []
   speaker: 
-  buttonDisabled: 0
   shouldUsePhotos: 1
   characters:
   - character: {fileID: 11400000, guid: 56682779486aedf47b4e2807a018cab4, type: 2}
@@ -611,7 +610,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 750, y: 195}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &442396622
 MonoBehaviour:
@@ -636,8 +635,8 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
-  m_ChildScaleWidth: 1
-  m_ChildScaleHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &765374088
 GameObject:
   m_ObjectHideFlags: 0
