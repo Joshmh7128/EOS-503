@@ -6,13 +6,12 @@ public class NPC : MonoBehaviour
 {
     public string myName;
     public RPGTalk myTalk;
-    public TextAsset myLines;
+    public TextAsset[] myLines;
 
     public virtual void StartConversation()
     {
         myTalk.speaker = myName;
-        myTalk.txtToParse = myLines;
-        myTalk.OnMadeChoice += OnMadeChoice; //!!!remember to clear this when ending a conversation!!
+        myTalk.OnMadeChoice += OnMadeChoice;
     }
 
     public virtual void EndConversation()

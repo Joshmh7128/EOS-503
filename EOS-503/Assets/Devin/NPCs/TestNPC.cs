@@ -7,12 +7,12 @@ public class TestNPC : NPC
     private void Start()
     {
         myName = "TestNPC";
-        myTalk.OnMadeChoice += OnMadeChoice;
     }
 
     public override void StartConversation()
     {
         base.StartConversation();
+        myTalk.txtToParse = myLines[0];
         myTalk.NewTalk("xxx-start", "xxx-end");
     }
 
@@ -38,6 +38,7 @@ public class TestNPC : NPC
                 if (num == 0)
                 {
                     myTalk.NewTalk("win-start", "win-end");
+                    EndConversation();
                 }
                 else if (num == 1)
                 {

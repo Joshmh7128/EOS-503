@@ -1297,7 +1297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: TestNPC
   myTalk: {fileID: 304171842}
-  myLines: {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
+  myLines:
+  - {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
 --- !u!114 &1988668836
 MonoBehaviour:
   m_ObjectHideFlags: 0
