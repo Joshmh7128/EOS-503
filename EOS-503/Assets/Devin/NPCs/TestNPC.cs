@@ -52,10 +52,12 @@ public class TestNPC : NPC
                 if (num == 0)
                 {
                     myTalk.NewTalk("win-start", "win-end");
+                    EndConversation();
                 }
                 else
                 {
                     myTalk.NewTalk("lose-start", "lose-end");
+                    EndConversation();
                 }
                 break;
             case "0xx":
@@ -66,16 +68,19 @@ public class TestNPC : NPC
                 else
                 {
                     myTalk.NewTalk("lose-start", "lose-end");
+                    EndConversation();
                 }
                 break;
             case "01x":
                 if (num == 0)
                 {
                     myTalk.NewTalk("win-start", "win-end");
+                    EndConversation();
                 }
                 else
                 {
                     myTalk.NewTalk("lose-start", "lose-end");
+                    EndConversation();
                 }
                 break;
         }
