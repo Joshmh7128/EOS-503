@@ -12,6 +12,7 @@ public class NPC : MonoBehaviour
     {
         myTalk.speaker = myName;
         myTalk.OnMadeChoice += OnMadeChoice;
+        myTalk.NewTalk("hello-start", "hello-end");
     }
 
     public virtual void EndConversation()

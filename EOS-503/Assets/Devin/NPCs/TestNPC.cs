@@ -11,9 +11,8 @@ public class TestNPC : NPC
 
     public override void StartConversation()
     {
-        base.StartConversation();
         myTalk.txtToParse = myLines[0];
-        myTalk.NewTalk("xxx-start", "xxx-end");
+        base.StartConversation();
     }
 
     public override void OnMadeChoice(string id, int num)

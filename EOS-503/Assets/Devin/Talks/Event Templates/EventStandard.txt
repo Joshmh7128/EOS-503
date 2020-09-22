@@ -1,5 +1,9 @@
+[title=hello-start]
+speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
+[title=hello-end]
+
+
 [title=xxx-start]
-speaker:Blah blah blah blah blah blah!
 speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
