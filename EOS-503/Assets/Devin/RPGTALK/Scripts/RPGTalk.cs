@@ -2506,6 +2506,8 @@ public class RPGTalk : MonoBehaviour
                 OnEndTalk();
             }
 
+            showPlayerPhoto = true;
+
 
             StartCoroutine(GoBackIsPlaying());
 
