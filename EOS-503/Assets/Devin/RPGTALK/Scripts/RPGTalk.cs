@@ -154,6 +154,7 @@ public class RPGTalk : MonoBehaviour
     /// Should there be photos of the dialogers?
     /// </summary>
     public bool shouldUsePhotos;
+    public bool showPlayerPhoto = true;
 
     /// <summary>
     /// A list of all Characters available in the talks with settings of stuff that should be on the scene
@@ -164,6 +165,7 @@ public class RPGTalk : MonoBehaviour
     /// An UI element with the Image property that the photo should be applied to
     /// </summary>
     public Image UIPhoto;
+    public Image PlayerPhoto;
 
     /// <summary>
     /// The dialog and everything in showWithDialog should stay on screen even if the text has ended?
@@ -386,33 +388,7 @@ public class RPGTalk : MonoBehaviour
         speaker = "speaker";
         buttonDisabled = -1;
         topButton = -1;
-        //topButton = 0;
-        /*
-        choice0 = "choice0";
-        choice1 = "choice1";
-        choice2 = "choice2";
-        line20 = "line20";
-        line19 = "line19";
-        line18 = "line18";
-        line17 = "line17";
-        line16 = "line16";
-        line15 = "line15";
-        line14 = "line14";
-        line13 = "line13";
-        line12 = "line12";
-        line11 = "line11";
-        line10 = "line10";
-        line09 = "line09";
-        line08 = "line08";
-        line07 = "line07";
-        line06 = "line06";
-        line05 = "line05";
-        line04 = "line04";
-        line03 = "line03";
-        line02 = "line02";
-        line01 = "line01";
-        line00 = "line00";
-        */
+        PlayerPhoto = showWithDialog[0].transform.Find("Canvas").Find("PlayerImage").GetComponent<Image>();
     }
     //Change txtToParse to be the correct for other language
     TextAsset CheckCurrentLanguage()
@@ -738,6 +714,15 @@ public class RPGTalk : MonoBehaviour
                         break;
                     }
                 }
+            }
+            //choose to display player photo here
+            if(showPlayerPhoto)
+            {
+                PlayerPhoto.enabled = true;
+            }
+            else
+            {
+                PlayerPhoto.enabled = false;
             }
         }
 
