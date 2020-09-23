@@ -144,6 +144,7 @@ public class RPGTalk : MonoBehaviour
     public string speaker;
     private int buttonDisabled;
     private int topButton;
+    public NPC currentNPC;
     /*
     public string choice0, choice1, choice2;
     public string line20, line19, line18, line17, line16, line15, line14, line13, line12, line11, line10;
@@ -467,6 +468,9 @@ public class RPGTalk : MonoBehaviour
         {
             OnNewTalk();
         }
+
+        //set character-specific choice events
+        OnMadeChoice = currentNPC.OnMadeChoice;
 
         //Check if we are using the right txtToParse based on the language
         TextAsset internalTxtToParse = CheckCurrentLanguage();
