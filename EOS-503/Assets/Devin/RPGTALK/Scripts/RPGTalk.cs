@@ -470,7 +470,10 @@ public class RPGTalk : MonoBehaviour
         }
 
         //set character-specific choice events
-        OnMadeChoice = currentNPC.OnMadeChoice;
+        if(currentNPC != null)
+        {
+            OnMadeChoice = currentNPC.OnMadeChoice;
+        }
 
         //Check if we are using the right txtToParse based on the language
         TextAsset internalTxtToParse = CheckCurrentLanguage();
