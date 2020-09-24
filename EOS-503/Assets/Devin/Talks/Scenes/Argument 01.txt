@@ -4,4 +4,7 @@ Athina Stamea:[expression=3]Step off, <i>Kamaki</i>. You aren't worth my time.
 Puran Chuan:<i>Naam-khaan!</i> Can't we just wait for the elevator in peace for once?
 [As soon as they notice that the elevator door is open, the three groups arguing all rush forward towards you, jostling and pushing each other out of the way, and into the wall panels.]
 [In this process, you hear the shattering and breaking of critical parts that make the elevator function as many of the screens start to go dark.]
+Athina Stamea:[expression=3]ARGH. This is all your fault, <i>Malaka!</i>
+Puran Chuan:[expression=3]What are you talking about? It was that <i>jao choo!</i>
+Noah Tran:[expression=3]Ay mate, the bloody elevator's rooted because of yous!
 [title=hello-end]
