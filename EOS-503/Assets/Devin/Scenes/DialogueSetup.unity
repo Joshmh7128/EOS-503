@@ -2389,14 +2389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dialogue text goes here. Dialogue text goes here. Dialogue text goes here.
-    Dialogue text goes here. Dialogue text goes here. Dialogue text goes here. Dialogue
-    text goes here. Dialogue text goes here. Dialogue text goes here. Dialogue text
-    goes here. Dialogue text goes here. Dialogue text goes here. Dialogue text goes
-    here. Dialogue text goes here. Dialogue text goes here. Dialogue text goes here.
-    Dialogue text goes here. Dialogue text goes here. Dialogue text goes here. Dialogue
-    text goes here. Dialogue text goes here. Dialogue text goes here. Dialogue text
-    goes here. Dialogue text goes here.
+  m_Text: 'Dialogue text goes here. '
 --- !u!222 &1527154069
 CanvasRenderer:
   m_ObjectHideFlags: 0
