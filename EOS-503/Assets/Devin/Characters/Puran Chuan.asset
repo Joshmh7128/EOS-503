@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
+  m_Name: Puran Chuan
+  m_EditorClassIdentifier: 
+  dialoger: Puran Chuan
+  photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+  expressions:
+  - name: 1
+    photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 2
+    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 3
+    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 4
+    photo: {fileID: 0}
+    boolInAnimator: 
+    audio: {fileID: 0}

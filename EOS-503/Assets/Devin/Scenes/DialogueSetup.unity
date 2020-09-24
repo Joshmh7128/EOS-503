@@ -621,6 +621,18 @@ MonoBehaviour:
     follow: {fileID: 0}
     followOffset: {x: 0, y: 0, z: 0}
     animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: de38d9162384bc84d991878dce2d8de3, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 93f6e6a7d6035f9479ffde6a457b9867, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f1c78e0b70791e49867905a920aa9d8, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
   UIPhoto: {fileID: 1987967919}
   PlayerPhoto: {fileID: 0}
   shouldStayOnScreen: 0
@@ -2598,8 +2610,8 @@ GameObject:
   - component: {fileID: 1988668838}
   - component: {fileID: 1988668837}
   - component: {fileID: 1988668836}
-  - component: {fileID: 1988668835}
   - component: {fileID: 1988668834}
+  - component: {fileID: 1988668835}
   m_Layer: 5
   m_Name: Argument01
   m_TagString: Untagged
@@ -2664,13 +2676,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1988668832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a6a6770fad70eb47a4f4c5ba89c0532, type: 3}
+  m_Script: {fileID: 11500000, guid: 95ba08ecdd0283e41ab8e8878ac1e32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myName: TestNPC
+  myName: 
   myTalk: {fileID: 304171842}
   myLines:
-  - {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
+  - {fileID: 4900000, guid: 1541ca018cfd7984fa138816ad194332, type: 3}
 --- !u!114 &1988668836
 MonoBehaviour:
   m_ObjectHideFlags: 0
