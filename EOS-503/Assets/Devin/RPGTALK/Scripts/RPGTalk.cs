@@ -692,6 +692,11 @@ public class RPGTalk : MonoBehaviour
             {
                 dialogerUI.ChangeTextTo(rpgtalkElements[0].speakerName);
             }
+            UIPhoto.gameObject.SetActive(true);
+            if (rpgtalkElements[0].speakerName == null)
+            {
+                UIPhoto.gameObject.SetActive(false);
+            }
             if (shouldUsePhotos)
             {
                 for (int i = 0; i < characters.Length; i++)
@@ -2427,6 +2432,11 @@ public class RPGTalk : MonoBehaviour
                     dialogerUI.Enabled(true);
 
                     dialogerUI.ChangeTextTo(currentRpgtalkElement.speakerName);
+                }
+                UIPhoto.gameObject.SetActive(true);
+                if (rpgtalkElements[cutscenePosition - 1].speakerName == null)
+                {
+                    UIPhoto.gameObject.SetActive(false);
                 }
                 if (shouldUsePhotos)
                 {
