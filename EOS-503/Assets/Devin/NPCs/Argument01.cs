@@ -18,7 +18,6 @@ public class Argument01 : NPC
 
     public void Jostle()
     {
-        Debug.Log("jostling");
         myTalk.callback = null;
         StartCoroutine(DoJostle());
     }
