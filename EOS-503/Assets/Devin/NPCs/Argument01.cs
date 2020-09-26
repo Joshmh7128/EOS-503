@@ -27,6 +27,7 @@ public class Argument01 : NPC
         jostleObj.SetActive(true);
         yield return new WaitForSeconds(3f);
         jostleObj.SetActive(false);
+        myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("blame-start", "blame-end");
     }
 }
