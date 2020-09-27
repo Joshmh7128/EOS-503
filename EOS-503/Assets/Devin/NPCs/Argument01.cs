@@ -5,8 +5,18 @@ using UnityEngine.Events;
 
 public class Argument01 : NPC
 {
-    public UnityEvent OnJostle;
+    private UnityEvent OnJostle;
+    private UnityEvent OnFactionsEnter;
     public GameObject jostleObj;
+    public GameObject factionsObj;
+
+    private void Start()
+    {
+        OnJostle = new UnityEvent();
+        OnFactionsEnter = new UnityEvent();
+        OnJostle.AddListener(Jostle);
+        OnFactionsEnter.AddListener(FactionsEnter);
+    }
 
     public override void StartConversation()
     {
@@ -18,8 +28,14 @@ public class Argument01 : NPC
 
     public void Jostle()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnFactionsEnter;
         StartCoroutine(DoJostle());
+    }
+
+    public void FactionsEnter()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoFactionsEnter());
     }
 
     IEnumerator DoJostle()
@@ -29,5 +45,14 @@ public class Argument01 : NPC
         jostleObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("blame-start", "blame-end");
+    }
+
+    IEnumerator DoFactionsEnter()
+    {
+        factionsObj.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        factionsObj.SetActive(false);
+        myTalk.showPlayerPhoto = false;
+        myTalk.NewTalk("gabriel-tch-start", "gabriel-tch-end");
     }
 }

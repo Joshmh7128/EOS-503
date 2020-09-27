@@ -11,3 +11,13 @@ Athina Stamea:[expression=3]ARGH. This is all your fault, Puran!
 Puran Chuan:[expression=3]What are you talking about? It was Noah!
 Noah Tran:[expression=3]Ay, Puran, the bloody elevator's rooted because of <i>you</i> two!
 [title=blame-end]
+
+[title=gabriel-tch-start]
+Gabriel Broderson:<i>Tch.</i> At least the DATA Agent made it here before this mess.[newtalk start=gabriel-intro-start break=gabriel-intro-end]
+[title=gabriel-tch-end]
+
+[title=gabriel-intro-start]
+Gabriel Broderson:Hello! You must be that DATA Agent the High Council informed us about! I'm Gabriel Broderson, the Workers' Representative to the High Council!
+Gabriel Broderson:Here, we believe work is an essential part of life, that one must learn to contribute to the workforce to keep society productive! 
+Gabriel Broderson:I am tasked with inviting you to 503-A, the Workers' Hold, to meet with Governor Rheegan. She is expecting you soon-- efficiency may as well be her middle name, so I wouldn't keep her waiting. See you soon!
+[title=gabriel-intro-end]

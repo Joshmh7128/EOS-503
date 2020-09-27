@@ -1547,6 +1547,7 @@ public class RPGTalk : MonoBehaviour
         if (line.IndexOf("[newtalk") != -1 && line.IndexOf("]") != -1)
         {
             //We do have one!
+            showPlayerPhoto = true;
             int initialBracket = line.IndexOf("[newtalk");
             int finalBracket = -1;
             if (initialBracket != -1)
@@ -1853,7 +1854,9 @@ public class RPGTalk : MonoBehaviour
 
                     //Let's call the endtalk methods
                     if (OnEndTalk != null)
+                    {
                         OnEndTalk.Invoke();
+                    }
 
                 }
 
