@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
+  m_Name: Han Min-su
+  m_EditorClassIdentifier: 
+  dialoger: Han Min-su
+  photo: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
+  expressions:
+  - name: 1
+    photo: {fileID: 21300000, guid: 151defc2f0d8fd94fa98dc8d06f0bbcf, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 2
+    photo: {fileID: 21300000, guid: b8ae1457e2862c44ab2a0a005435910b, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 3
+    photo: {fileID: 21300000, guid: 40a70722531ad564ca0a64d069134eb7, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 4
+    photo: {fileID: 21300000, guid: 9275a82b060267c448e39ebe1abd936f, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}

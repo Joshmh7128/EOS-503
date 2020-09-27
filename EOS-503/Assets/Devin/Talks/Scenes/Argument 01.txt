@@ -37,5 +37,13 @@ Solvey Ottadottir:I am excited you are also to be included on these matters! Gov
 [title=grumble-start]
 Puran Chuan:[expression=2]Hmph. No wonder Duncan can't talk to the other governors.
 Noah Tran:Oh well. Back to the ol' bludger, then... hope he doesn't chew me out.
-Athina Stamea:Great, now I can't get my supplies. Ugh, back to the studio! I must prepare my new work with <i>meraki</i> in time for the showcase!
+Athina Stamea:[expression=3]Great, now I can't get my supplies. Ugh, back to the studio! I must prepare my new work with <i>meraki</i> in time for the showcase!
 [title=grumble-end]
+
+[title=min-su-intro-start]
+Han Min-su:Hello and welcome to 503.
+Han Min-su:I am Han Min-su, leader of the <b>Neutral</b> faction here in The Hub. I am sorry your arrival was met with such an ugly sight.
+Han Min-su:[expression=4]I had hoped to welcome you better, but it appears that division between the factions runs far deeper than just the governors.
+Han Min-su:In any case, I am thankful you are here, and I hope that you can help solve our problems-- perhaps bring harmony to the governors and their people. I fear it is the only way to make Commune 503 prosperous again.
+Han Min-su:[expression=1]Let us move somewhere more comfortable to continue our conversation...
+[title=min-su-intro-end]

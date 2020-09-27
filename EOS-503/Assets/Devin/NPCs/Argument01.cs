@@ -10,11 +10,13 @@ public class Argument01 : NPC
     private UnityEvent OnGabrielExit;
     private UnityEvent OnAtefehExit;
     private UnityEvent OnSolveyExit;
+    private UnityEvent OnFactionsExit;
     public GameObject jostleObj;
-    public GameObject factionsObj;
+    public GameObject factionsEnterObj;
     public GameObject gabrielExitObj;
     public GameObject atefehExitObj;
     public GameObject solveyExitObj;
+    public GameObject factionsExitObj;
 
     private void Start()
     {
@@ -23,11 +25,13 @@ public class Argument01 : NPC
         OnGabrielExit = new UnityEvent();
         OnAtefehExit = new UnityEvent();
         OnSolveyExit = new UnityEvent();
+        OnFactionsExit = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
         OnAtefehExit.AddListener(AtefehExit);
         OnSolveyExit.AddListener(SolveyExit);
+        OnFactionsExit.AddListener(FactionsExit);
     }
 
     public override void StartConversation()
@@ -64,8 +68,14 @@ public class Argument01 : NPC
 
     public void SolveyExit()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnFactionsExit;
         StartCoroutine(DoSolveyExit());
+    }
+
+    public void FactionsExit()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoFactionsExit());
     }
 
     IEnumerator DoJostle()
@@ -79,9 +89,9 @@ public class Argument01 : NPC
 
     IEnumerator DoFactionsEnter()
     {
-        factionsObj.SetActive(true);
+        factionsEnterObj.SetActive(true);
         yield return new WaitForSeconds(1.5f);
-        factionsObj.SetActive(false);
+        factionsEnterObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("gabriel-tch-start", "gabriel-tch-end");
     }
@@ -109,5 +119,13 @@ public class Argument01 : NPC
         solveyExitObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("grumble-start", "grumble-end");
+    }
+
+    IEnumerator DoFactionsExit()
+    {
+        factionsExitObj.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        factionsExitObj.SetActive(false);
+        myTalk.NewTalk("min-su-intro-start", "min-su-intro-end");
     }
 }
