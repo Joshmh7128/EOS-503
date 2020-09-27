@@ -7,15 +7,19 @@ public class Argument01 : NPC
 {
     private UnityEvent OnJostle;
     private UnityEvent OnFactionsEnter;
+    private UnityEvent OnGabrielExit;
     public GameObject jostleObj;
     public GameObject factionsObj;
+    public GameObject gabrielObj;
 
     private void Start()
     {
         OnJostle = new UnityEvent();
         OnFactionsEnter = new UnityEvent();
+        OnGabrielExit = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
+        OnGabrielExit.AddListener(GabrielExit);
     }
 
     public override void StartConversation()
@@ -34,14 +38,20 @@ public class Argument01 : NPC
 
     public void FactionsEnter()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnGabrielExit;
         StartCoroutine(DoFactionsEnter());
+    }
+
+    public void GabrielExit()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoGabrielExit());
     }
 
     IEnumerator DoJostle()
     {
         jostleObj.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         jostleObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("blame-start", "blame-end");
@@ -50,9 +60,17 @@ public class Argument01 : NPC
     IEnumerator DoFactionsEnter()
     {
         factionsObj.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
         factionsObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("gabriel-tch-start", "gabriel-tch-end");
+    }
+
+    IEnumerator DoGabrielExit()
+    {
+        gabrielObj.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        gabrielObj.SetActive(false);
+        myTalk.NewTalk("atefeh-intro-start", "atefeh-intro-end");
     }
 }

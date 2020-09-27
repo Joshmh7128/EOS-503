@@ -21,3 +21,9 @@ Gabriel Broderson:[expression=1]Hello! You must be that DATA Agent the High Coun
 Gabriel Broderson:[expression=1]Here, we believe work is an essential part of life, that one must learn to contribute to the workforce to keep society productive! 
 Gabriel Broderson:I am tasked with inviting you to 503-A, the Workers' Hold, to meet with Governor Rheegan. She is expecting you soon-- efficiency may as well be her middle name, so I wouldn't keep her waiting. See you soon!
 [title=gabriel-intro-end]
+
+[title=atefeh-intro-start]
+Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not tired from your trip, Agent! I am Atefeh Riahi, the <color=lightblue><b>Seekers'</b></color> Representative to the High Council.
+Atefeh Riahi:While the Workers are all work and no play, <i>we</i> follow a path of self-actualization from which learning and doing bring out greatness in each of us. 
+Atefeh Riahi:[expression=1]And now, it is my great pleasure to invite you to meet with Governor Biff in 503-B, the City of Seekers! He has pressing business with you, Agent. Please make your way here at your earliest convenience!
+[title=atefeh-intro-end]
