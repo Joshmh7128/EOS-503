@@ -9,10 +9,12 @@ public class Argument01 : NPC
     private UnityEvent OnFactionsEnter;
     private UnityEvent OnGabrielExit;
     private UnityEvent OnAtefehExit;
+    private UnityEvent OnSolveyExit;
     public GameObject jostleObj;
     public GameObject factionsObj;
     public GameObject gabrielExitObj;
     public GameObject atefehExitObj;
+    public GameObject solveyExitObj;
 
     private void Start()
     {
@@ -20,10 +22,12 @@ public class Argument01 : NPC
         OnFactionsEnter = new UnityEvent();
         OnGabrielExit = new UnityEvent();
         OnAtefehExit = new UnityEvent();
+        OnSolveyExit = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
         OnAtefehExit.AddListener(AtefehExit);
+        OnSolveyExit.AddListener(SolveyExit);
     }
 
     public override void StartConversation()
@@ -54,8 +58,14 @@ public class Argument01 : NPC
 
     public void AtefehExit()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnSolveyExit;
         StartCoroutine(DoAtefehExit());
+    }
+
+    public void SolveyExit()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoSolveyExit());
     }
 
     IEnumerator DoJostle()
@@ -90,5 +100,14 @@ public class Argument01 : NPC
         yield return new WaitForSeconds(1.5f);
         atefehExitObj.SetActive(false);
         myTalk.NewTalk("solvey-intro-start", "solvey-intro-end");
+    }
+
+    IEnumerator DoSolveyExit()
+    {
+        solveyExitObj.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        solveyExitObj.SetActive(false);
+        myTalk.showPlayerPhoto = false;
+        myTalk.NewTalk("grumble-start", "grumble-end");
     }
 }
