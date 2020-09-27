@@ -23,9 +23,9 @@ Gabriel Broderson:I am tasked with inviting you to 503-A, the Workers' Hold, to 
 [title=gabriel-intro-end]
 
 [title=atefeh-intro-start]
-Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not too tired from your trip, Agent! I am Atefeh Riahi, the <color=blue><b>Seekers'</b></color> Representative to the High Council.
+Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not too tired from your trip, Agent! I am Atefeh Riahi, the <color=lightblue><b>Seekers'</b></color> Representative to the High Council.
 Atefeh Riahi:While the Workers are all work and no play, <i>we</i> follow a path of self-actualization from which learning and doing bring out greatness in each of us. 
-Atefeh Riahi:[expression=1]And now, it is my great pleasure to invite you to meet with Governor Biff in 503-B, the City of Seekers! He has pressing business with you, Agent. Please make your way here at your earliest convenience!
+Atefeh Riahi:[expression=1]And now, it is my great pleasure to invite you to meet with Governor Biff in 503-B, the City of Seekers! He has pressing business with you, Agent. Please make your way there at your earliest convenience!
 [title=atefeh-intro-end]
 
 [title=solvey-intro-start]
@@ -41,7 +41,7 @@ Athina Stamea:[expression=3]Great, now I can't get my supplies. Ugh, back to the
 [title=grumble-end]
 
 [title=min-su-intro-start]
-Han Min-su:Hello and welcome to 503.
+Han Min-su:[expression=1]Hello and welcome to 503!
 Han Min-su:I am Han Min-su, leader of the <b>Neutral</b> faction here in The Hub. I am sorry your arrival was met with such an ugly sight.
 Han Min-su:[expression=4]I had hoped to welcome you better, but it appears that division between the factions runs far deeper than just the governors.
 Han Min-su:In any case, I am thankful you are here, and I hope that you can help solve our problems-- perhaps bring harmony to the governors and their people. I fear it is the only way to make Commune 503 prosperous again.
