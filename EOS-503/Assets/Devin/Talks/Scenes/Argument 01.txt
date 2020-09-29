@@ -2,7 +2,7 @@
 Noah Tran:G'day, Athina-- sorry, but we were here first.
 Athina Stamea:[expression=3]Step off, Noah. You aren't worth my time.
 Puran Chuan:Noah, Athina, can't we just wait for the elevator in peace for once?
-[As soon as they notice that the elevator door is open, the three groups arguing all rush forward towards you, jostling and pushing each other out of the way, and into the wall panels.
+[As soon as they notice that the elevator door is open, the three groups arguing all rush forward towards you, jostling and pushing each other out of the way, and into the wall panels.]
 [title=hello-end]
 
 [title=blame-start]
