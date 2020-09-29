@@ -121,7 +121,8 @@ public class Argument01 : NPC
 
     IEnumerator DoFactionsExit()
     {
-        yield return new WaitForSeconds(2f);
+        cutsceneAnim.Play("factionsDepart");
+        yield return new WaitForSeconds(3f);
         myTalk.NewTalk("min-su-intro-start", "min-su-intro-end");
     }
 }

@@ -23,7 +23,7 @@ Gabriel Broderson:I am tasked with inviting you to 503-A, the Workers' Hold, to 
 [title=gabriel-intro-end]
 
 [title=atefeh-intro-start]
-Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not too tired from your trip, Agent! I am Atefeh Riahi, the <color=lightblue><b>Seekers'</b></color> Representative to the High Council.
+Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not too tired from your trip, Agent! I am Atefeh Riahi, the <color=blue><b>Seekers'</b></color> Representative to the High Council.
 Atefeh Riahi:While the Workers are all work and no play, <i>we</i> follow a path of self-actualization from which learning and doing bring out greatness in each of us. 
 Atefeh Riahi:[expression=1]And now, it is my great pleasure to invite you to meet with Governor Biff in 503-B, the City of Seekers! He has pressing business with you, Agent. Please make your way there at your earliest convenience!
 [title=atefeh-intro-end]
