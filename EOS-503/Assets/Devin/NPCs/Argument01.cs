@@ -32,6 +32,7 @@ public class Argument01 : NPC
         OnAtefehExit.AddListener(AtefehExit);
         OnSolveyExit.AddListener(SolveyExit);
         OnFactionsExit.AddListener(FactionsExit);
+        StartCoroutine(EnterScene());
     }
 
     public override void StartConversation()
@@ -76,6 +77,12 @@ public class Argument01 : NPC
     {
         myTalk.callback = null;
         StartCoroutine(DoFactionsExit());
+    }
+
+    IEnumerator EnterScene()
+    {
+        yield return new WaitForSeconds(2f);
+        StartConversation();
     }
 
     IEnumerator DoJostle()
