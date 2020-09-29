@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Animations;
 
 public class Argument01 : NPC
 {
@@ -11,12 +12,7 @@ public class Argument01 : NPC
     private UnityEvent OnAtefehExit;
     private UnityEvent OnSolveyExit;
     private UnityEvent OnFactionsExit;
-    public GameObject jostleObj;
-    public GameObject factionsEnterObj;
-    public GameObject gabrielExitObj;
-    public GameObject atefehExitObj;
-    public GameObject solveyExitObj;
-    public GameObject factionsExitObj;
+    public Animator cutsceneAnim;
 
     private void Start()
     {
@@ -87,52 +83,45 @@ public class Argument01 : NPC
 
     IEnumerator DoJostle()
     {
-        jostleObj.SetActive(true);
-        yield return new WaitForSeconds(2f);
-        jostleObj.SetActive(false);
+        cutsceneAnim.Play("elevatorBrawl");
+        yield return new WaitForSeconds(3f);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("blame-start", "blame-end");
     }
 
     IEnumerator DoFactionsEnter()
     {
-        factionsEnterObj.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
-        factionsEnterObj.SetActive(false);
+        cutsceneAnim.Play("factionsArrive");
+        yield return new WaitForSeconds(2f);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("gabriel-tch-start", "gabriel-tch-end");
     }
 
     IEnumerator DoGabrielExit()
     {
-        gabrielExitObj.SetActive(true);
+        cutsceneAnim.Play("gabrielExit");
         yield return new WaitForSeconds(1.5f);
-        gabrielExitObj.SetActive(false);
         myTalk.NewTalk("atefeh-intro-start", "atefeh-intro-end");
     }
 
     IEnumerator DoAtefehExit()
     {
-        atefehExitObj.SetActive(true);
+        cutsceneAnim.Play("atefehExit");
         yield return new WaitForSeconds(1.5f);
-        atefehExitObj.SetActive(false);
         myTalk.NewTalk("solvey-intro-start", "solvey-intro-end");
     }
 
     IEnumerator DoSolveyExit()
     {
-        solveyExitObj.SetActive(true);
+        cutsceneAnim.Play("solveyExit");
         yield return new WaitForSeconds(1.5f);
-        solveyExitObj.SetActive(false);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("grumble-start", "grumble-end");
     }
 
     IEnumerator DoFactionsExit()
     {
-        factionsExitObj.SetActive(true);
         yield return new WaitForSeconds(2f);
-        factionsExitObj.SetActive(false);
         myTalk.NewTalk("min-su-intro-start", "min-su-intro-end");
     }
 }
