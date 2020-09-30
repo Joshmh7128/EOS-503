@@ -16,12 +16,11 @@ speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start b
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]You think to win over new customers with silly games? Pfeh! At least you tell funny jokes, 'fixer'.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:Blah blah blah blah blah blah.
-speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
+speaker:[question=0xx][expression=2]My mind is like a steel trap, but even with all of my memories to rely on, I am still stuck. I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
