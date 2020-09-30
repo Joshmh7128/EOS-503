@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
-  m_Name: Gabriel Broderson
+  m_Name: Gabriel Brodersen
   m_EditorClassIdentifier: 
-  dialoger: Gabriel Broderson
+  dialoger: Gabriel Brodersen
   photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
   expressions:
   - name: 1
