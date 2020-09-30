@@ -12,6 +12,7 @@ public class Argument01 : NPC
     private UnityEvent OnAtefehExit;
     private UnityEvent OnSolveyExit;
     private UnityEvent OnFactionsExit;
+    private UnityEvent OnJanEnter;
     public Animator cutsceneAnim;
 
     private void Start()
@@ -22,12 +23,14 @@ public class Argument01 : NPC
         OnAtefehExit = new UnityEvent();
         OnSolveyExit = new UnityEvent();
         OnFactionsExit = new UnityEvent();
+        OnJanEnter = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
         OnAtefehExit.AddListener(AtefehExit);
         OnSolveyExit.AddListener(SolveyExit);
         OnFactionsExit.AddListener(FactionsExit);
+        OnJanEnter.AddListener(JanEnter);
         StartCoroutine(EnterScene());
     }
 
@@ -71,8 +74,14 @@ public class Argument01 : NPC
 
     public void FactionsExit()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnJanEnter;
         StartCoroutine(DoFactionsExit());
+    }
+
+    public void JanEnter()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoJanEnter());
     }
 
     IEnumerator EnterScene()
@@ -124,5 +133,12 @@ public class Argument01 : NPC
         cutsceneAnim.Play("factionsDepart");
         yield return new WaitForSeconds(3f);
         myTalk.NewTalk("min-su-intro-start", "min-su-intro-end");
+    }
+
+    IEnumerator DoJanEnter()
+    {
+        cutsceneAnim.Play("janEnter");
+        yield return new WaitForSeconds(1.5f);
+        myTalk.NewTalk("jan-enter-start", "jan-enter-end");
     }
 }

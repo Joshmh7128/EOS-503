@@ -47,3 +47,9 @@ Han Min-su:[expression=4]I had hoped to welcome you better, but it appears that 
 Han Min-su:In any case, I am thankful you are here, and I hope that you can help solve our problems-- perhaps bring harmony to the governors and their people. I fear it is the only way to make Commune 503 prosperous again.
 Han Min-su:[expression=1]Let us move somewhere more comfortable to continue our conversation...
 [title=min-su-intro-end]
+
+[title=jan-enter-start]
+Jan Hurwicz:[expression=2]Hold on, not yet. How can you be so sure this 'fixer' is up to the job?
+Jan Hurwicz:I am Jan Hurwicz-- I manage the trade market between the factions. I need these idiots to stop feuding so my market can reopen, but I still have no trust in the High Council, nor their 'fixer' sent to settle things for us.
+Jan Hurwicz:[expression=3]Truly, Han Min-su, you trust this person? What if they make things worse? Pfeh.
+[title=jan-enter-end]
