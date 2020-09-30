@@ -6679,7 +6679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988668832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95ba08ecdd0283e41ab8e8878ac1e32d, type: 3}
   m_Name: 
@@ -6780,6 +6780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034062928}
   - component: {fileID: 2034062929}
+  - component: {fileID: 2034062930}
   m_Layer: 0
   m_Name: JanSprite
   m_TagString: Untagged
@@ -6851,6 +6852,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2034062930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034062927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c264b5c3fd36c04497ae4160c62c96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myName: 
+  myTalk: {fileID: 304171842}
+  myLines:
+  - {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
 --- !u!1 &2061792733
 GameObject:
   m_ObjectHideFlags: 0

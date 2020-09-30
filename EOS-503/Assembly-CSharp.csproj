@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Devin\NPCs\Argument01.cs" />
+    <Compile Include="Assets\Devin\NPCs\Jan_Tutorial.cs" />
     <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Demo\Scripts\DemoScript.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Helpers\RPGTalkCharacter.cs" />
@@ -105,6 +106,7 @@
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
+    <None Include="Assets\Devin\Talks\Scenes\Tutorial_NE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText_PT_BR.txt" />
     <None Include="Assets\Devin\Talks\Event Templates\EventStandard.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoSnippets.txt" />

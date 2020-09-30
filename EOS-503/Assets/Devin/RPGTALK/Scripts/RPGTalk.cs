@@ -144,6 +144,7 @@ public class RPGTalk : MonoBehaviour
     public string speaker;
     private int buttonDisabled;
     private int topButton;
+    public bool scrambleButtons = true;
     public NPC currentNPC;
     /*
     public string choice0, choice1, choice2;
@@ -2011,7 +2012,7 @@ public class RPGTalk : MonoBehaviour
                         }
                         
                     }
-                    if(buttonDisabled == -1) //scramble button order
+                    if(buttonDisabled == -1 && scrambleButtons) //scramble button order
                     {
                         for(int j = 0; j < choicesParent.childCount; j++)
                         {
