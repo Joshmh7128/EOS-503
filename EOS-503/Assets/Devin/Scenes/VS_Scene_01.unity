@@ -787,7 +787,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: continue
+  m_Text: close
 --- !u!222 &328013995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ GameObject:
   - component: {fileID: 506916469}
   - component: {fileID: 506916468}
   m_Layer: 5
-  m_Name: Continue
+  m_Name: Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,8 +1052,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -10, y: 10}
-  m_SizeDelta: {x: 75, y: 20}
+  m_AnchoredPosition: {x: -12, y: 12}
+  m_SizeDelta: {x: 70, y: 25}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &506916468
 MonoBehaviour:
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
