@@ -1976,8 +1976,6 @@ public class RPGTalk : MonoBehaviour
 
                     for (int i = 0; i < q.choices.Count; i++)
                     {
-                        if(i != buttonDisabled)
-                        {
                             GameObject newChoice = (GameObject)Instantiate(choicePrefab, choicesParent);
                             Button newChoiceBtn = newChoice.GetComponent<Button>();
                             if (newChoiceBtn)
@@ -2004,12 +2002,15 @@ public class RPGTalk : MonoBehaviour
                                 {
                                     //StartCoroutine(SelectButton(newChoiceBtn));
                                 }
+                                if(i == buttonDisabled)
+                            {
+                                newChoiceBtn.interactable = false;
+                            }
                             }
                             else
                             {
                                 Debug.LogWarning("RPGTalk can only put the choice's text correctly if choicePrefab is a button with a child of type Text.");
                             }
-                        }
                         
                     }
                     if(buttonDisabled == -1 && scrambleButtons) //scramble button order

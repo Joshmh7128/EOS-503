@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &161408643
 Transform:
   m_ObjectHideFlags: 0
@@ -876,6 +876,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 161408643}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &368017761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 368017763}
+  - component: {fileID: 368017762}
+  m_Layer: 0
+  m_Name: Jan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &368017762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368017761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c264b5c3fd36c04497ae4160c62c96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myName: 
+  myTalk: {fileID: 304171842}
+  myLines:
+  - {fileID: 4900000, guid: ea671f384868a704c9e8c5215d4f4437, type: 3}
+--- !u!4 &368017763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368017761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 587.5, y: 277, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &372170923
 GameObject:
@@ -7313,7 +7360,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2034062928}
   - component: {fileID: 2034062929}
-  - component: {fileID: 2034062930}
   m_Layer: 0
   m_Name: JanSprite
   m_TagString: Untagged
@@ -7385,22 +7431,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2034062930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034062927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c264b5c3fd36c04497ae4160c62c96a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myName: 
-  myTalk: {fileID: 304171842}
-  myLines:
-  - {fileID: 4900000, guid: ea671f384868a704c9e8c5215d4f4437, type: 3}
 --- !u!1 &2061792733
 GameObject:
   m_ObjectHideFlags: 0

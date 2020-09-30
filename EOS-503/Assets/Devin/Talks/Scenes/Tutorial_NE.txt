@@ -1,6 +1,6 @@
 [title=hello-start]
 speaker:Perhaps no one thought to tell you, 'fixer', but about a year ago, trade between the cities turned sour. Being a clever businessman, I staved off the worst outcomes for myself, but I need new patrons to keep products moving or my business will fail.
-speaker:My mind is like a steel trap. *Jan points a wrinkled finger to his temple* I have many trading partners locked in here. New information, new customers, or new partners, though? They are much harder for me to find than old memories.[newtalk start=xxx-start break=xxx-end]
+speaker:My mind is like a steel trap. I have many trading partners locked in here. New information, new customers, or new partners, though? They are much harder for me to find than old memories.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
@@ -21,29 +21,30 @@ speaker:[expression=3]You think to win over new customers with silly games? Pfeh
 
 [title=0xx-start]
 speaker:[question=0xx][expression=2]My mind is like a steel trap, but even with all of my memories to rely on, I am still stuck. I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+[choice=Turn Memories into Leads]Relax, we're on the same side! Let me prove it. I bet I can turn those long-term memories of yours into new leads for your business. But if my idea works, you have to help me, too.
+[choice=Build a Better Economy]I'm sure you agree that building a better Commune 503 economy starts with building consensus, piece-by-piece, person-by-person. I bet we can find other residents willing to help jumpstart your business if we work together.
+[choice=Create Customer Reward Systems]Trust me, I'm not here to antagonize or reinforce any negative stereotypes about the High Council. Why don't we work together? I bet we can come up with some great business ideas-- maybe a returning customer rewards system? What do you think?
 [title=0xx-end]
 
 [title=lose-start]
-speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
+speaker:[expression=3]Hmph, this is all you can think of to help me?
+speaker:[expression=3]You're no help to me-- I can only hope you are to the others. Know that you are our last hope in these dark times, 'fixer'.
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]Blah blah blah blah! Blah blah blah.
-speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[expression=1]Oh ho, a bold assertion! 
+speaker:[question=01x]Before I agree to anything, tell me how this would work, then I can see if it matches any of my memories.
+[choice=Jog Contacts' Memories for Leads]You say you remember a bunch of folks you've done business with? You start with tracking them down, then see if you can jog their memories to dig up new business leads. You prime 'em with talk of the good old days, and then swoop in with the questioning. What do you say?
+[choice=Reward Contacts for New Customers]Start with tracking them down, and then offer them rewards for bringing you new clients. You can create patterns and routines that would allow you to keep bringing in new clients! How does that sound to you?
+[choice=Rebuild the Market with Contacts]First you need to find these partners, then work with them to rebuild the market, determine what led to them decreasing trade, and construct a new system that works for everyone. With each contact you can create a new market that is better than the one before! Does this plan work for you?
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]Ha, rewards. That may work once, but then they will just bleed me dry. That is impractical.[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I don’t need a 'new' market-- this one works just fine. Trying to build a whole new system will run me out of business.[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
@@ -70,5 +71,6 @@ speaker:[question=10x][expression=2]Blah blah blah blah blah blah?
 [title=10x-end]
 
 [title=win-start]
-speaker:[expression=1]Blah blah blah... blah blah blah!
+speaker:[expression=2]This... is not a terrible idea, and fits with my memories. Maybe I am being too harsh in my judgment...? Hmmmm. 
+speaker:[expression=1]Well, go on then, 'fixer'! Prove me wrong!
 [title=win-end]
