@@ -29,6 +29,7 @@ speaker:[question=0xx][expression=2]My mind is like a steel trap, but even with 
 [title=lose-start]
 speaker:[expression=3]Hmph, this is all you can think of to help me?
 speaker:[expression=3]You're no help to me-- I can only hope you are to the others. Know that you are our last hope in these dark times, 'fixer'.
+[Let's run through that one more time...][newtalk start=hello-start break=hello-end]
 [title=lose-end]
 
 [title=01x-start]

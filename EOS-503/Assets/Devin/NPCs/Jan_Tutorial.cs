@@ -45,6 +45,10 @@ public class Jan_Tutorial : NPC
         {
             //lose state tutorial popup
         }
+        else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "[Let's run through that one more time...]")
+        {
+            myTalk.buttonDisabled = -1;
+        }
     }
 
     public override void OnMadeChoice(string id, int num)

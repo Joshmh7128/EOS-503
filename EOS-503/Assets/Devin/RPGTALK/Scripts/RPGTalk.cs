@@ -142,7 +142,7 @@ public class RPGTalk : MonoBehaviour
     public RPGTalkVariable[] variables;
 
     public string speaker;
-    private int buttonDisabled;
+    public int buttonDisabled;
     private int topButton;
     public bool scrambleButtons = true;
     public NPC currentNPC;
