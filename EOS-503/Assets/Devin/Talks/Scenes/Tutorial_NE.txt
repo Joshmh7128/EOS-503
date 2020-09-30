@@ -1,13 +1,14 @@
 [title=hello-start]
-speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
+speaker:Perhaps no one thought to tell you, 'fixer', but about a year ago, trade between the cities turned sour. Being a clever businessman, I staved off the worst outcomes for myself, but I need new patrons to keep products moving or my business will fail.
+speaker:My mind is like a steel trap. *Jan points a wrinkled finger to his temple* I have many trading partners locked in here. New information, new customers, or new partners, though? They are much harder for me to find than old memories.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=xxx][expression=2]And now you, from the High Council, you have come down to help? I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?
+[choice=Turn Memories into Leads]Relax, we're on the same side! Let me prove it. I bet I can turn those long-term memories of yours into new leads for your business. But if my idea works, you have to help me, too.
+[choice=Build a Better Economy]I'm sure you agree that building a better Commune 503 economy starts with building consensus, piece-by-piece, person-by-person. I bet we can find other residents willing to help jumpstart your business if we work together.
+[choice=Create Customer Reward Systems]Trust me, I'm not here to antagonize or reinforce any negative stereotypes about the High Council. Why don't we work together? I bet we can come up with some great business ideas-- maybe a returning customer rewards system? What do you think?
 [title=xxx-end]
 
 [title=0xx-a-start]

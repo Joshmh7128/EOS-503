@@ -7400,7 +7400,7 @@ MonoBehaviour:
   myName: 
   myTalk: {fileID: 304171842}
   myLines:
-  - {fileID: 4900000, guid: 7c746cc750907074d8decf6e17035f31, type: 3}
+  - {fileID: 4900000, guid: ea671f384868a704c9e8c5215d4f4437, type: 3}
 --- !u!1 &2061792733
 GameObject:
   m_ObjectHideFlags: 0
