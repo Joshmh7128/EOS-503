@@ -63,6 +63,9 @@ public class Jan_Tutorial : NPC
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "My mind is like a steel trap, but even with all of my memories to rely on, I am still stuck. I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?")
         {
             //second choice tutorial popup
+            OpenTutorial("When your response does not match your conversation partner’s preferred theoretical worldview, your conversation partner will speak and behave more dismissively. The first time this happens, you will have the opportunity to change their mind with a more compelling response. However for most residents, if your second response fails to impress them, they will end the conversation and you will be given a chance to restart the conversation with additional information about the resident’s theoretical worldview and the learning theories embedded in each response option.\n\nThis changes when talking with governors and community leaders, as they are more forgiving of ideas that do not match their world view. During these conversations you will often be provided at least one more chance to try and solve their problem. However if you fail to solve their problem, you will not be able to try again, and must bear the consequences. But, back to the conversation at hand.\n\nJan indicated that he has a “mind like a steel trap” and “memories to rely on”—perhaps he would be more open to an Information Processing Theory response focused on people and events from his past.");
+            chosenChoice = "Turn Memories into Leads";
+            StartCoroutine(HighlightChoice());
         }
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "This... is not a terrible idea, and fits with my memories. Maybe I am being too harsh in my judgment...? Hmmmm. ")
         {
