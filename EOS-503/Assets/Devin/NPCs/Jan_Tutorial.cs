@@ -8,6 +8,7 @@ public class Jan_Tutorial : NPC
     public GameObject tutorialPopup;
     private Text tutorialText;
     private Button tutorialButton;
+    private string chosenChoice;
 
     private void Start()
     {
@@ -29,13 +30,13 @@ public class Jan_Tutorial : NPC
     {
         tutorialText.text = tutText;
         tutorialPopup.SetActive(true);
-        myTalk.enablePass = false;
+        myTalk.passWithMouse = false;
     }
 
     public void CloseTutorial()
     {
         tutorialPopup.SetActive(false);
-        myTalk.enablePass = true;
+        myTalk.passWithMouse = true;
     }
 
     public override void StartConversation()
@@ -55,6 +56,9 @@ public class Jan_Tutorial : NPC
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "And now you, from the High Council, you have come down to help? I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?")
         {
             //first choice tutorial popup
+            OpenTutorial("As you can see, there are a few different ways to respond to the person you’re talking to. Hovering over each of the three options will allow you to see the full text of your response. Feel free to review the conversation history to determine your conversation partner’s theoretical worldview. \n \nLet’s see if Jan can be enticed by a Behavioral response like the idea of a customer rewards system.");
+            chosenChoice = "Create Customer Reward Systems";
+            StartCoroutine(HighlightChoice());
         }
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "My mind is like a steel trap, but even with all of my memories to rely on, I am still stuck. I have been around long enough to not trust in a savior to solve my troubles. What say you to that, esteemed DATA Agent? Hm?")
         {
@@ -71,6 +75,19 @@ public class Jan_Tutorial : NPC
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "[Let's run through that one more time...]")
         {
             myTalk.buttonDisabled = -1;
+        }
+    }
+
+    IEnumerator HighlightChoice()
+    {
+        yield return new WaitForEndOfFrame();
+        Button[] myButtons = myTalk.choicesParent.GetComponentsInChildren<Button>();
+        foreach (Button b in myButtons)
+        {
+            if (b.gameObject.transform.Find("Preview").GetComponent<Text>().text != chosenChoice)
+            {
+                b.interactable = false;
+            }
         }
     }
 
