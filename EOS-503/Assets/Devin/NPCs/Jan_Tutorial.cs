@@ -67,13 +67,20 @@ public class Jan_Tutorial : NPC
             chosenChoice = "Turn Memories into Leads";
             StartCoroutine(HighlightChoice());
         }
-        else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "This... is not a terrible idea, and fits with my memories. Maybe I am being too harsh in my judgment...? Hmmmm. ")
+        else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "Oh ho, a bold assertion!")
+        {
+            //correct choice tutorial popup
+            OpenTutorial("When a conversation partner approves of your response, they will often seek further clarification and guidance, giving you an opportunity to respond to new questions, concerns, and quippy remarks. You need to continue providing help and guidance until you either succeed or fail in helping the resident. \n\nMost residents will work with you after successfully communicating with them twice, however governors and community leaders may need a little more convincing.Similarly as mentioned before, residents are quick to end conversations they find unproductive, while governors and community leaders are more tolerant of your miscommunication.From here on it will be up to you to identify the worldview of the resident, and align your response to their view!");
+        }
+        else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "This... is not a terrible idea, and fits with my memories. Maybe I am being too harsh in my judgment...? Hmmmm.")
         {
             //win state tutorial popup
+            OpenTutorial("Good job convincing Jan! One last thing you should know about your interactions with residents! If you succeed in convincing them to work with you, then you will gain Influence with the residents faction. \n\nYou'll be free to select whichever responses you like, but the quality of your response matters for the Influence gained. The more receptive your conversation partner is to your argument, the stronger your bond will become and the more Influence you'll have with their faction in the future. Your Influence will be utilized primarily in the second part of the game, though there may be a few opportunities to use this system in the first part of the game.From here you should know everything necessary to complete your work!");
         }
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "Hmph, this is all you can think of to help me?")
         {
             //lose state tutorial popup
+            OpenTutorial("Oh well, you did your best! One last thing you should know about your interactions with residents! If you succeed in convincing them to work with you, then you will gain Influence with the residents faction. \n\nYou'll be free to select whichever responses you like, but the quality of your response matters for the Influence gained. The more receptive your conversation partner is to your argument, the stronger your bond will become and the more Influence you'll have with their faction in the future.Your Influence will be utilized primarily in the second part of the game, though there may be a few opportunities to use this system in the first part of the game.From here you should know everything necessary to complete your work!");
         }
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "[Let's run through that one more time...]")
         {
