@@ -9,10 +9,11 @@ public class RandomNPCPartGen : MonoBehaviour
     [SerializeField] Transform HairBackParent;  // hair back parent
     [SerializeField] Color HairColor;           // color of our hair
     [SerializeField] Transform HeadParent;      // our Head parent
-    [SerializeField] Renderer HandsRenderer;    // renderer of our hands
+    [SerializeField] SpriteRenderer HandsRenderer;    // renderer of our hands
     [SerializeField] Color SkinColor;           // color of our skin
     [SerializeField] Transform ShirtParent;     // shirt parent
     [SerializeField] Transform PantsParent;     // pants parent
+    [SerializeField] Transform ShoesParent;     // shoes parent
     // all of our random selections
     [SerializeField] int hairFrontChoice;
     [SerializeField] int hairBackChoice;
@@ -20,28 +21,42 @@ public class RandomNPCPartGen : MonoBehaviour
     [SerializeField] int shirtChoice;
     [SerializeField] int pantsChoice;
     // lists of skin and hair colors
-    [SerializeField] Color[] colors;
+    [SerializeField] Color[] skinColors;
+    [SerializeField] Color[] hairColors;
 
     private void Start()
     {
         // in the start, generate all of our choices based off of the amount of children each object has
-
-        // hair front
-        hairFrontChoice = Random.Range(0, HairFrontParent.childCount);
-        // hair back
-        hairBackChoice = Random.Range(0, HairBackParent.childCount);
-        // hair color application
-
-        // head
-
-        // shirt
-
-        // pants
+        FullGen();
     }
 
-    // select and choose our hair back style, if it is empty also select the empty front style
-    void HairFrontGen()
+    private void FullGen()
     {
+        // pick hair front and activate
+        hairFrontChoice = Random.Range(0, HairFrontParent.childCount);
+        GameObject hairFrontChoiceObject = HairFrontParent.GetChild(hairFrontChoice).gameObject;
+        hairFrontChoiceObject.SetActive(true);
+        // hair back and activate
+        hairBackChoice = Random.Range(0, HairBackParent.childCount);
+        GameObject hairBackChoiceObject = HairBackParent.GetChild(hairBackChoice).gameObject;
+        hairBackChoiceObject.SetActive(true);
+        // hair color choice and application
+        Color hairColor = hairColors[Random.Range(0, hairColors.Length)]; // choose color
+        hairFrontChoiceObject.gameObject.GetComponent<SpriteRenderer>().color = hairColor; // set front
+        hairBackChoiceObject.gameObject.GetComponent<SpriteRenderer>().color = hairColor; // set back
+        // head
+        headChoice = Random.Range(0, HeadParent.childCount);
+        GameObject headChoiceObject = HeadParent.GetChild(headChoice).gameObject;
+        headChoiceObject.SetActive(true);
+        // head and hands skin color choice and application
 
+        // shirt
+        shirtChoice = Random.Range(0, ShirtParent.childCount);
+        GameObject shirtChoiceObject = ShirtParent.GetChild(shirtChoice).gameObject;
+        shirtChoiceObject.SetActive(true);
+        // pants
+        pantsChoice = Random.Range(0, PantsParent.childCount);
+        GameObject pantsChoiceObject = PantsParent.GetChild(pantsChoice).gameObject;
+        pantsChoiceObject.SetActive(true);
     }
 }
