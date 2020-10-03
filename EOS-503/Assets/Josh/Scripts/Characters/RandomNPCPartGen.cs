@@ -20,6 +20,7 @@ public class RandomNPCPartGen : MonoBehaviour
     [SerializeField] int headChoice;
     [SerializeField] int shirtChoice;
     [SerializeField] int pantsChoice;
+    [SerializeField] int shoesChoice;
     // lists of skin and hair colors
     [SerializeField] Color[] skinColors;
     [SerializeField] Color[] hairColors;
@@ -49,7 +50,9 @@ public class RandomNPCPartGen : MonoBehaviour
         GameObject headChoiceObject = HeadParent.GetChild(headChoice).gameObject;
         headChoiceObject.SetActive(true);
         // head and hands skin color choice and application
-
+        Color skinColor = skinColors[Random.Range(0, skinColors.Length)]; // choose color
+        headChoiceObject.gameObject.GetComponent<SpriteRenderer>().color = skinColor; // set front
+        HandsRenderer.color = skinColor; // set back
         // shirt
         shirtChoice = Random.Range(0, ShirtParent.childCount);
         GameObject shirtChoiceObject = ShirtParent.GetChild(shirtChoice).gameObject;
@@ -58,5 +61,9 @@ public class RandomNPCPartGen : MonoBehaviour
         pantsChoice = Random.Range(0, PantsParent.childCount);
         GameObject pantsChoiceObject = PantsParent.GetChild(pantsChoice).gameObject;
         pantsChoiceObject.SetActive(true);
+        //shoes
+        shoesChoice = Random.Range(0, ShoesParent.childCount);
+        GameObject shoesChoiceObject = ShoesParent.GetChild(shoesChoice).gameObject;
+        shoesChoiceObject.SetActive(true);
     }
 }
