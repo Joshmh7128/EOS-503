@@ -3,32 +3,32 @@ speaker:Excuse my interruption, friends.
 speaker:[expression=2]I could not help but overhear your conversation with the trader, and it happens that I am also in need of your expertise, if you can spare a moment.
 speaker:[expression=1]I am Hamadi, Commune 503's Chief Engineering Officer. I guide our technological affairs, from acquisition to energy production to everyday maintenance.
 speaker:[expression=3]You were present to see the commotion, yes? Quite unfortunate. After all, it is my responsibility to keep the elevators running.
-speaker:[expression=1]No, no, do not worry! This was not your fault, and I do not expect you to do any labor on my behalf. But I have little experience managing such construction projects, and, seeing as you are a DATA Agent, it would be quite helpful to get your advice.
-speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
+speaker:[expression=1]No, no, do not worry! This was not your fault, and I do not expect you to do any labor on my behalf. But I have little experience managing such construction projects, and, seeing as you are a DATA Agent, it would be quite helpful to get your advice.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[expression=3]Today's squabble is not the first time we have run into problems with "The Beast."
+speaker:In truth, it has been challenging to prioritize elevator maintenance over the years, and what with so many other duties, we have mostly focused on non-electronic issues-- wait times, weight limits, movement of contraband, that sort of thing.
+speaker:[question=xxx][expression=2]I have no experience or staff with the specific maintenance and repair skills needed to get things moving in a timely fashion. Without them, I am at a loss for what to do. What would you recommend?
+[choice=Find Examples of this Problem from Others]Not everyone will have the same experiences, so when having trouble with solving a new problem, try to find examples of the problem from others, and work through the problem with them. This should help you understand the process for fixing the problem.
+[choice=Try to Fix it Yourself to Learn]The best way to get this fixed is to repair it yourself, and in the process, learn what works and what does not. With that you will build an understanding of how to solve this problem, and when it comes up again in the future you will be able to solve it quickly.
+[choice=Search your Memory for Similar Experiences]While you say that you have no experience with this, try to search your memories for anything that might be related. You might find that experiences you have had can actually help you to solve this problem more than you might think!
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]I was never trained to fix elevators. I think I would do more harm than good trying this myself.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]I know my own experiences, and that nothing in my experiences can help me, otherwise this wouldn't be a problem.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:Blah blah blah blah blah blah.
-speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=0xx][expression=2]I'm not sure you really understand. I have no experience with this problem, so I am at a loss for what to do next to fix this, and I hope you can give me a better idea than the last one.
+[choice=Find Examples of this Problem from Others]Blah blah blah blah blah blah.
+[choice=Try to Fix it Yourself to Learn]Blah blah blah blah blah blah.
+[choice=Search your Memory for Similar Experiences]Blah blah blah blah blah blah.
 [title=0xx-end]
 
 [title=lose-start]
