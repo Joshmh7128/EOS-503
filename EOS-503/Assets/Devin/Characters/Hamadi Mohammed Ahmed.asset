@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
+  m_Name: Hamadi Mohammed Ahmed
+  m_EditorClassIdentifier: 
+  dialoger: Hamadi Mohammed Ahmed
+  photo: {fileID: 21300000, guid: 500063626a4d0a047bb4559d4f974da6, type: 3}
+  expressions:
+  - name: 1
+    photo: {fileID: 21300000, guid: 20b935b2c6094414ea20bf48bde7cf3e, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 2
+    photo: {fileID: 21300000, guid: 83a9478f0ee2da542ac3498912612c3b, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 3
+    photo: {fileID: 21300000, guid: 3aa2b9be627e7a744bc84ad05c5b5322, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 4
+    photo: {fileID: 0}
+    boolInAnimator: 
+    audio: {fileID: 0}
