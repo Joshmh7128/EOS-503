@@ -14,8 +14,12 @@ public class Argument01 : NPC
     private UnityEvent OnFactionsExit;
     private UnityEvent OnJanEnter;
     private UnityEvent OnJanTutorial;
+    private UnityEvent OnJanExit;
+    private UnityEvent OnHamadiEnter;
+    private UnityEvent OnHamadiExit;
     public Animator cutsceneAnim;
     public Jan_Tutorial myJan;
+    public Hamadi_VS myHamadi;
 
     private void Start()
     {
@@ -27,6 +31,9 @@ public class Argument01 : NPC
         OnFactionsExit = new UnityEvent();
         OnJanEnter = new UnityEvent();
         OnJanTutorial = new UnityEvent();
+        OnJanExit = new UnityEvent();
+        OnHamadiEnter = new UnityEvent();
+        OnHamadiExit = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
@@ -35,6 +42,9 @@ public class Argument01 : NPC
         OnFactionsExit.AddListener(FactionsExit);
         OnJanEnter.AddListener(JanEnter);
         OnJanTutorial.AddListener(JanTutorial);
+        OnJanExit.AddListener(JanExit);
+        OnHamadiEnter.AddListener(HamadiEnter);
+        OnHamadiExit.AddListener(HamadiExit);
         StartCoroutine(EnterScene());
     }
 
@@ -90,8 +100,27 @@ public class Argument01 : NPC
 
     public void JanTutorial()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnJanExit;
         myJan.StartConversation();
+    }
+
+    public void JanExit()
+    {
+        myTalk.callback = OnHamadiEnter;
+        myTalk.OnEndAnimating -= myJan.OnEndAnimating;
+        StartCoroutine(DoJanExit());
+    }
+
+    public void HamadiEnter()
+    {
+        myTalk.callback = OnHamadiExit;
+        StartCoroutine(DoHamadiEnter());
+    }
+
+    public void HamadiExit()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoHamadiExit());
     }
 
     IEnumerator EnterScene()
@@ -150,5 +179,26 @@ public class Argument01 : NPC
         cutsceneAnim.Play("janEnter");
         yield return new WaitForSeconds(1.5f);
         myTalk.NewTalk("jan-enter-start", "jan-enter-end");
+    }
+
+    IEnumerator DoJanExit()
+    {
+        cutsceneAnim.Play("janExit");
+        yield return new WaitForSeconds(1.5f);
+        myTalk.NewTalk("jan-exit-start", "jan-exit-end");
+    }
+
+    IEnumerator DoHamadiEnter()
+    {
+        cutsceneAnim.Play("hamadiEnter");
+        yield return new WaitForSeconds(1.5f);
+        myHamadi.StartConversation();
+    }
+
+    IEnumerator DoHamadiExit()
+    {
+        cutsceneAnim.Play("hamadiExit");
+        yield return new WaitForSeconds(1.5f);
+        myHamadi.StartConversation();
     }
 }

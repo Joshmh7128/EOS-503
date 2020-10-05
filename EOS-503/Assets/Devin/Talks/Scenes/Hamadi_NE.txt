@@ -1,14 +1,12 @@
 [title=hello-start]
 speaker:Excuse my interruption, friends.
-speaker:[expression=2]I could not help but overhear your conversation with the trader, and it happens that I am also in need of your expertise, if you can spare a moment.
-speaker:[expression=1]I am Hamadi, Commune 503's Chief Engineering Officer. I guide our technological affairs, from acquisition to energy production to everyday maintenance.
-speaker:[expression=3]You were present to see the commotion, yes? Quite unfortunate. After all, it is my responsibility to keep the elevators running.
-speaker:[expression=1]No, no, do not worry! This was not your fault, and I do not expect you to do any labor on my behalf. But I have little experience managing such construction projects, and, seeing as you are a DATA Agent, it would be quite helpful to get your advice.[newtalk start=xxx-start break=xxx-end]
+speaker:[expression=1]I am Hamadi, the manager of the <i>'Musafir'</i>-- the elevator that was just damaged.
+speaker:[expression=2]I overheard your conversation with Jan, and if you could spare the moment I would appreciate your counsel on getting the <i>Musafir</i> fixed.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[expression=3]Today's squabble is not the first time we have run into problems with the <i>"Musafir."</i>
+speaker:[expression=3]Today's squabble is not the first time we have run into problems with the <i>Musafir.</i>
 speaker:In truth, it has been challenging to prioritize elevator maintenance over the years, and what with so many other duties, we have mostly focused on non-electronic issues-- wait times, weight limits, movement of contraband, that sort of thing.
 speaker:[question=xxx][expression=2]I have no experience or staff with the specific maintenance and repair skills needed to get things moving in a timely fashion. Without them, I am at a loss for what to do. What would you recommend?
 [choice=Find Examples of this Problem from Others]Not everyone will have the same experiences, so when having trouble with solving a new problem, try to find examples of the problem from others, and work through the problem with them. This should help you understand the process for fixing the problem.
