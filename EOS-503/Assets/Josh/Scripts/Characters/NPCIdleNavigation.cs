@@ -11,6 +11,7 @@ public class NPCIdleNavigation : MonoBehaviour
     [SerializeField] float movementSpeed;
     [SerializeField] float movementSpeedMin;
     [SerializeField] float movementSpeedMax;
+    [SerializeField] Transform CharacterSpriteContainer;
  
     private void Start()
     {
@@ -26,6 +27,19 @@ public class NPCIdleNavigation : MonoBehaviour
 
         // move sprite towards the target location
         transform.position = Vector2.MoveTowards(transform.position, targetPosition, step);
+
+        // change the sprite size based on it's direction
+        // to the right
+        if (targetPosition.x > transform.position.x)
+        {
+            CharacterSpriteContainer.localScale = new Vector2(1, 1);
+        }
+
+        // to the left
+        if (targetPosition.x < transform.position.x)
+        {
+            CharacterSpriteContainer.localScale = new Vector2(-1, 1);
+        }
     }
 
     // our movement coroutine
