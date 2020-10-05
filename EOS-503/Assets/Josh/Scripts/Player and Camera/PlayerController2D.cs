@@ -11,6 +11,8 @@ public class PlayerController2D : MonoBehaviour
     public CameraLerpScript cameraLerpScript; // so we can access it and give it camera positions when needed
     public bool isRealPlayer;
     public bool canMove;
+    [SerializeField] protected Sprite[] playerSprites;
+    [SerializeField] protected SpriteRenderer playerSpriteRenderer;
 
     // the awake function is called before anything else
     private void Awake()
@@ -22,15 +24,19 @@ public class PlayerController2D : MonoBehaviour
     private void Start()
     {
         // check to see if player is the real player, if not, destroy it
-        if (isRealPlayer == false)
+        /*if (isRealPlayer == false)
         {
             PlayerController otherPlayerController = GameObject.Find("Player Controller Package").GetComponent<PlayerController>();
 
-            if (otherPlayerController.isRealPlayer == true)
+            if (otherPlayerController == null)
+            {
+                Debug.Log("No Other Player Controller Detected");
+            }
+            else if (otherPlayerController.isRealPlayer == true)
             {
                 Destroy(gameObject);
             }
-        }
+        }*/
     }
 
     // Fixed Update is called 60 times per second
@@ -52,5 +58,58 @@ public class PlayerController2D : MonoBehaviour
 
         // set the velocity
         playerRigidbody.velocity = new Vector3(horizontalMovement * playerSpeed, verticalMovement * playerSpeed);
+
+        // set the player's sprite accordingly
+        /// 
+        /// Sprites are:
+        /// 0 - Facing Forward Right
+        /// 1 - Facing Forward Left
+        /// 2 - Facing Back Right
+        /// 3 - Facing Back Left
+        /// 
+
+        // up 
+        if (Input.GetKey(KeyCode.W))
+        {
+            playerSpriteRenderer.sprite = playerSprites[2];
+        }
+        // down
+        if (Input.GetKey(KeyCode.S))
+        {
+            playerSpriteRenderer.sprite = playerSprites[0];
+        }
+        // right
+        if (Input.GetKey(KeyCode.D))
+        {
+            playerSpriteRenderer.sprite = playerSprites[0];
+        }
+        // left
+        if (Input.GetKey(KeyCode.A))
+        {
+            playerSpriteRenderer.sprite = playerSprites[1];
+        }
+        // up right
+        if (Input.GetKey(KeyCode.W) && Input.GetKey((KeyCode.D)))
+        {
+            playerSpriteRenderer.sprite = playerSprites[2];
+        }
+
+        // up left
+        if (Input.GetKey(KeyCode.W) && Input.GetKey((KeyCode.A)))
+        {
+            playerSpriteRenderer.sprite = playerSprites[3];
+        }
+
+        // down right
+        if (Input.GetKey(KeyCode.S) && Input.GetKey((KeyCode.D)))
+        {
+            playerSpriteRenderer.sprite = playerSprites[0];
+        }
+
+        // down left
+        if (Input.GetKey(KeyCode.S) && Input.GetKey((KeyCode.A)))
+        {
+            playerSpriteRenderer.sprite = playerSprites[1];
+        }
     }
 }

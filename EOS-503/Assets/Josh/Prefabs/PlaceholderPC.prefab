@@ -468,6 +468,12 @@ MonoBehaviour:
   cameraLerpScript: {fileID: 0}
   isRealPlayer: 0
   canMove: 1
+  playerSprites:
+  - {fileID: 21300000, guid: 6474eb96ccf4fdc428a0bdd055c6180e, type: 3}
+  - {fileID: 21300000, guid: 03c57ebbaf299034e92f168041c6fef8, type: 3}
+  - {fileID: 21300000, guid: 560cd1584199cdc4ea8fe9fba18d2175, type: 3}
+  - {fileID: 21300000, guid: 7c1b8c183053b564d948581c839aaba8, type: 3}
+  playerSpriteRenderer: {fileID: 2647744320168214608}
 --- !u!50 &2647744320168214611
 Rigidbody2D:
   serializedVersion: 4
