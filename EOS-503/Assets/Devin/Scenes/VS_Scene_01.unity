@@ -239,7 +239,7 @@ Transform:
   - {fileID: 2034062928}
   - {fileID: 1549567285}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &161408644
 Animator:
@@ -508,7 +508,7 @@ RectTransform:
   m_Children:
   - {fileID: 567023386}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -924,7 +924,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &372170923
 GameObject:
@@ -1622,7 +1622,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160052262
 GameObject:
@@ -7365,7 +7365,7 @@ Transform:
   m_LocalScale: {x: 0.30613112, y: 0.30613112, z: 0.30613112}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1988668835
 MonoBehaviour:
@@ -7384,6 +7384,7 @@ MonoBehaviour:
   myLines:
   - {fileID: 4900000, guid: 1541ca018cfd7984fa138816ad194332, type: 3}
   cutsceneAnim: {fileID: 161408644}
+  myJan: {fileID: 368017762}
 --- !u!1 &2018462111
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,9 @@ public class Argument01 : NPC
     private UnityEvent OnSolveyExit;
     private UnityEvent OnFactionsExit;
     private UnityEvent OnJanEnter;
+    private UnityEvent OnJanTutorial;
     public Animator cutsceneAnim;
+    public Jan_Tutorial myJan;
 
     private void Start()
     {
@@ -24,6 +26,7 @@ public class Argument01 : NPC
         OnSolveyExit = new UnityEvent();
         OnFactionsExit = new UnityEvent();
         OnJanEnter = new UnityEvent();
+        OnJanTutorial = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
@@ -31,6 +34,7 @@ public class Argument01 : NPC
         OnSolveyExit.AddListener(SolveyExit);
         OnFactionsExit.AddListener(FactionsExit);
         OnJanEnter.AddListener(JanEnter);
+        OnJanTutorial.AddListener(JanTutorial);
         StartCoroutine(EnterScene());
     }
 
@@ -80,8 +84,14 @@ public class Argument01 : NPC
 
     public void JanEnter()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnJanTutorial;
         StartCoroutine(DoJanEnter());
+    }
+
+    public void JanTutorial()
+    {
+        myTalk.callback = null;
+        myJan.StartConversation();
     }
 
     IEnumerator EnterScene()
