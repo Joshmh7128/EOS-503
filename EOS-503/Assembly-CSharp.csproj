@@ -688,17 +688,11 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Repos/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Repos/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Unity/Projects/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
