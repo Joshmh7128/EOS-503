@@ -54,6 +54,7 @@ public class Hamadi_VS : NPC
                 }
                 else
                 {
+                    myTalk.buttonDisabled = -1;
                     myTalk.NewTalk("lose-start", "lose-end");
                 }
                 break;
@@ -64,6 +65,7 @@ public class Hamadi_VS : NPC
                 }
                 else
                 {
+                    myTalk.buttonDisabled = -1;
                     myTalk.NewTalk("lose-start", "lose-end");
                 }
                 break;
@@ -74,6 +76,7 @@ public class Hamadi_VS : NPC
                 }
                 else
                 {
+                    myTalk.buttonDisabled = -1;
                     myTalk.NewTalk("lose-start", "lose-end");
                 }
                 break;
