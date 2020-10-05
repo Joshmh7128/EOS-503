@@ -2495,11 +2495,16 @@ public class RPGTalk : MonoBehaviour
             //The talk has finished
 
 
-
             //check if we are supposed to be playing another talk
             if (!string.IsNullOrEmpty(changeToStart) && !string.IsNullOrEmpty(changeToBreak))
             {
                 NewTalk(changeToStart, changeToBreak);
+                return;
+            }
+
+            //added by devin
+            if(questions.Count > 0)
+            {
                 return;
             }
 
