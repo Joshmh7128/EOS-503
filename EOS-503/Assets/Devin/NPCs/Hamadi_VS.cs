@@ -7,19 +7,12 @@ public class Hamadi_VS : NPC
     private void Start()
     {
         myName = "Hamadi Mohammed Ahmed";
-        StartCoroutine(TestStart());
     }
 
     public override void StartConversation()
     {
         myTalk.txtToParse = myLines[0];
         base.StartConversation();
-    }
-
-    IEnumerator TestStart()
-    {
-        yield return new WaitForSeconds(0.1f);
-        StartConversation();
     }
 
     public override void OnMadeChoice(string id, int num)

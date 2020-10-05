@@ -17,13 +17,6 @@ public class Jan_Tutorial : NPC
         tutorialButton.onClick.AddListener(CloseTutorial);
 
         myName = "Jan Hurwicz";
-        StartCoroutine(TestStart());
-    }
-
-    IEnumerator TestStart()
-    {
-        yield return new WaitForSeconds(0.1f);
-        StartConversation();
     }
 
     public void OpenTutorial(string tutText)
