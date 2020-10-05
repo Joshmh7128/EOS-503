@@ -1,7 +1,7 @@
 [title=hello-start]
 speaker:Excuse my interruption, friends.
 speaker:[expression=1]I am Hamadi, the manager of the <i>'Musafir'</i>-- the elevator that was just damaged.
-speaker:[expression=2]I overheard your conversation with Jan, and if you could spare the moment I would appreciate your counsel on getting the <i>Musafir</i> fixed.[newtalk start=xxx-start break=xxx-end]
+speaker:[expression=2]I overheard your conversation with Jan, and if you could spare a moment I would appreciate your counsel on getting the <i>Musafir</i> fixed.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
