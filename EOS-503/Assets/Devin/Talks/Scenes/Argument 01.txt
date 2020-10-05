@@ -57,3 +57,11 @@ Jan Hurwicz:[expression=3]Truly, Han Min-su, you trust this person? What if they
 [title=jan-exit-start]
 Han Min-su:[expression=4]I apologize for Jan's... interruption. Our commune is very dear to him, and this situation has been stressful for us all. Now, let us continue--
 [title=jan-exit-end]
+
+[title=hamadi-exit-start]
+Han Min-su:[expression=3]It seems that we will continue to have interruptions, so let us find another time to talk.
+Han Min-su:You have been invited to each of the three cities-- please try to convince their governors to meet. We'll start getting materials sorted for repairing the elevator, see if you can get some help from the governors for this as well.
+Han Min-su:[expression=3]If they are giving you trouble, remind them that the Commune Governing Room can only be accessed by this elevator, and they won't be able to get anything approved until it's fixed.
+Han Min-su:[expression=1]Anyway, I am glad you are here. <i>We</i> are glad you are here.
+Han Min-su:[expression=1]Please let us know if there is anything that we can do to help, and when you have a chance later come and find me so that we can discuss some matters I feel you could help me with!
+[title=hamadi-exit-end]

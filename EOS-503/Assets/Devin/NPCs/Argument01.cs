@@ -17,6 +17,7 @@ public class Argument01 : NPC
     private UnityEvent OnJanExit;
     private UnityEvent OnHamadiEnter;
     private UnityEvent OnHamadiExit;
+    private UnityEvent OnMinSuExit;
     public Animator cutsceneAnim;
     public Jan_Tutorial myJan;
     public Hamadi_VS myHamadi;
@@ -34,6 +35,7 @@ public class Argument01 : NPC
         OnJanExit = new UnityEvent();
         OnHamadiEnter = new UnityEvent();
         OnHamadiExit = new UnityEvent();
+        OnMinSuExit = new UnityEvent();
         OnJostle.AddListener(Jostle);
         OnFactionsEnter.AddListener(FactionsEnter);
         OnGabrielExit.AddListener(GabrielExit);
@@ -45,6 +47,7 @@ public class Argument01 : NPC
         OnJanExit.AddListener(JanExit);
         OnHamadiEnter.AddListener(HamadiEnter);
         OnHamadiExit.AddListener(HamadiExit);
+        OnMinSuExit.AddListener(MinSuExit);
         StartCoroutine(EnterScene());
     }
 
@@ -119,8 +122,14 @@ public class Argument01 : NPC
 
     public void HamadiExit()
     {
-        myTalk.callback = null;
+        myTalk.callback = OnMinSuExit;
         StartCoroutine(DoHamadiExit());
+    }
+
+    public void MinSuExit()
+    {
+        myTalk.callback = null;
+        StartCoroutine(DoMinSuExit());
     }
 
     IEnumerator EnterScene()
@@ -170,7 +179,7 @@ public class Argument01 : NPC
     IEnumerator DoFactionsExit()
     {
         cutsceneAnim.Play("factionsDepart");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.5f);
         myTalk.NewTalk("min-su-intro-start", "min-su-intro-end");
     }
 
@@ -185,6 +194,7 @@ public class Argument01 : NPC
     {
         cutsceneAnim.Play("janExit");
         yield return new WaitForSeconds(1.5f);
+        myTalk.txtToParse = myLines[0];
         myTalk.NewTalk("jan-exit-start", "jan-exit-end");
     }
 
@@ -199,6 +209,15 @@ public class Argument01 : NPC
     {
         cutsceneAnim.Play("hamadiExit");
         yield return new WaitForSeconds(1.5f);
-        myHamadi.StartConversation();
+        myTalk.txtToParse = myLines[0];
+        myTalk.NewTalk("hamadi-exit-start", "hamadi-exit-end");
+    }
+
+    IEnumerator DoMinSuExit()
+    {
+        cutsceneAnim.Play("minSuExit");
+        yield return new WaitForSeconds(1.5f);
+        cutsceneAnim.gameObject.SetActive(false);
+        //return control to player
     }
 }
