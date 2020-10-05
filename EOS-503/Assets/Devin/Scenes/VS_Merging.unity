@@ -716,6 +716,7 @@ GameObject:
   - component: {fileID: 94968176}
   - component: {fileID: 94968175}
   - component: {fileID: 94968174}
+  - component: {fileID: 94968179}
   m_Layer: 0
   m_Name: Cutscene Camera
   m_TagString: MainCamera
@@ -865,6 +866,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &94968179
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94968173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39e57cb60ccc1f04abe516a60ebf0ae6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &100047153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28334,6 +28354,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
     type: 3}
   m_PrefabInstance: {fileID: 1715659199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1402671675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2647744320168214607, guid: 125eac4564ea09c478414553f5190289,
+    type: 3}
+  m_PrefabInstance: {fileID: 2647744320372862272}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1406455927
 PrefabInstance:
@@ -81182,7 +81208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2209343514922352358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0499985, y: 0.18999964, z: 0}
+  m_LocalPosition: {x: 1.55, y: 0.66, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 2142983360}
@@ -87001,7 +87027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2209343516075919875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0499985, y: -0.68000036, z: 0}
+  m_LocalPosition: {x: 1.57, y: -0.72, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 947925526}
@@ -87083,7 +87109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2209343516100171219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.87, y: -0.11, z: 0}
+  m_LocalPosition: {x: 3.06, y: -0.39, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 1694336603}
@@ -87190,6 +87216,8 @@ MonoBehaviour:
   cutsceneAnim: {fileID: 2209343514727627464}
   myJan: {fileID: 2209343514529389870}
   myHamadi: {fileID: 2209343515890866633}
+  myPlayer: {fileID: 1402671675}
+  cutsceneCamera: {fileID: 94968173}
 --- !u!1 &2209343516130420705
 GameObject:
   m_ObjectHideFlags: 0

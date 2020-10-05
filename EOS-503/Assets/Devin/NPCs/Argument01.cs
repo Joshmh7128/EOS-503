@@ -21,6 +21,8 @@ public class Argument01 : NPC
     public Animator cutsceneAnim;
     public Jan_Tutorial myJan;
     public Hamadi_VS myHamadi;
+    public GameObject myPlayer;
+    public GameObject cutsceneCamera;
 
     private void Start()
     {
@@ -134,7 +136,7 @@ public class Argument01 : NPC
 
     IEnumerator EnterScene()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3f);
         StartConversation();
     }
 
@@ -217,7 +219,11 @@ public class Argument01 : NPC
     {
         cutsceneAnim.Play("minSuExit");
         yield return new WaitForSeconds(1.5f);
+        cutsceneCamera.GetComponent<Animator>().Play("cutsceneEnd");
+        yield return new WaitForSeconds(3f);
         cutsceneAnim.gameObject.SetActive(false);
+        cutsceneCamera.SetActive(false);
+        myPlayer.SetActive(true);
         //return control to player
     }
 }
