@@ -23,6 +23,7 @@ public class Argument01 : NPC
     public Hamadi_VS myHamadi;
     public GameObject myPlayer;
     public GameObject cutsceneCamera;
+    public GameObject damage;
 
     private void Start()
     {
@@ -144,6 +145,7 @@ public class Argument01 : NPC
     {
         cutsceneAnim.Play("elevatorBrawl");
         yield return new WaitForSeconds(3f);
+        damage.SetActive(true);
         myTalk.showPlayerPhoto = false;
         myTalk.NewTalk("blame-start", "blame-end");
     }
