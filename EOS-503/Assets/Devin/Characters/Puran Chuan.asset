@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Puran Chuan
   m_EditorClassIdentifier: 
   dialoger: Puran Chuan
-  photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+  photo: {fileID: 21300000, guid: 0a511eabfb8834b4c877a82b91af366f, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+    photo: {fileID: 21300000, guid: 2cc4b14deb5275744afc358bfa5a8719, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    photo: {fileID: 21300000, guid: d9893f2501acecd4c906d240133c936b, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    photo: {fileID: 21300000, guid: 5ae72bae2efcdab469e7b3ae88fdd219, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4

@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Atefeh Riahi
   m_EditorClassIdentifier: 
   dialoger: Atefeh Riahi
-  photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+  photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: 6d210963d3dbb3f49bc5961628106c9e, type: 3}
+    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: 5ba9c00814b6caa45b4d79be20e48984, type: 3}
+    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
-    photo: {fileID: 0}
+    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
