@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Solvey Ottadottir
   m_EditorClassIdentifier: 
   dialoger: Solvey Ottadottir
-  photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+  photo: {fileID: 21300000, guid: a912378d7bdd22f4c8c2c6d15115b10b, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: f585820227cb74946ad00b7ff5addf8c, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: a912378d7bdd22f4c8c2c6d15115b10b, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: a912378d7bdd22f4c8c2c6d15115b10b, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: 3cf5b1c2f79903840a55e19e54d91a11, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}

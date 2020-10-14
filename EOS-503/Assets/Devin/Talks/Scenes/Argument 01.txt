@@ -24,14 +24,14 @@ Gabriel Brodersen:I am tasked with inviting you to 503-A, the Workers' Hold, to 
 
 [title=atefeh-intro-start]
 Atefeh Riahi:[expression=1]Welcome, welcome! I hope you're not too tired from your trip, Agent! I am Atefeh Riahi, the <color=blue><b>Seekers'</b></color> Representative to the High Council.
-Atefeh Riahi:While the Workers are all work and no play, <i>we</i> follow a path of self-actualization from which learning and doing bring out greatness in each of us. 
+Atefeh Riahi:[expression=4]While the Workers are all work and no play, <i>we</i> follow a path of self-actualization from which learning and doing bring out greatness in each of us. 
 Atefeh Riahi:[expression=1]And now, it is my great pleasure to invite you to meet with Governor Biff in 503-B, the City of Seekers! He has pressing business with you, Agent. Please make your way there at your earliest convenience!
 [title=atefeh-intro-end]
 
 [title=solvey-intro-start]
 Solvey Ottadottir:[expression=1]Hello and welcome to EOS-503, Agent! I am Solvey Ottadottir, the <color=red><b>People's</b></color> Representative to the High Council. 
-Solvey Ottadottir:We pride ourselves on ensuring every individual voice is heard as part of community decision-making, and we take care that our children learn the fundamentals of democractic participation so they can contribute as well! 
-Solvey Ottadottir:I am excited you are also to be included on these matters! Governor Duncan has asked that you join our next town hall meeting in 503-C, the People's Republic. You have some time until it starts, but please do come and share your voice!
+Solvey Ottadottir:[expression=4]We pride ourselves on ensuring every individual voice is heard as part of community decision-making, and we take care that our children learn the fundamentals of democractic participation so they can contribute as well! 
+Solvey Ottadottir:[expression=1]I am excited you are also to be included on these matters! Governor Duncan has asked that you join our next town hall meeting in 503-C, the People's Republic. You have some time until it starts, but please do come and share your voice!
 [title=solvey-intro-end]
 
 [title=grumble-start]
