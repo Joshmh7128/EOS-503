@@ -146,11 +146,6 @@ public class RPGTalk : MonoBehaviour
     private int topButton;
     public bool scrambleButtons = true;
     public NPC currentNPC;
-    /*
-    public string choice0, choice1, choice2;
-    public string line20, line19, line18, line17, line16, line15, line14, line13, line12, line11, line10;
-    public string line09, line08, line07, line06, line05, line04, line03, line02, line01, line00;
-    */
 
     /// <summary>
     /// Should there be photos of the dialogers?
