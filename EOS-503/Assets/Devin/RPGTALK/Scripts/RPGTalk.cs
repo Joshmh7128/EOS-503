@@ -2508,6 +2508,11 @@ public class RPGTalk : MonoBehaviour
                 return;
             }
 
+            else
+            {
+                buttonDisabled = -1;
+            }
+
             //check if we are saved something that should take me to another talk
             foreach (RPGtalkSaveStatement saved in saves)
             {
