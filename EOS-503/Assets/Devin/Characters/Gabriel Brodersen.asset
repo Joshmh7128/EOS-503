@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Gabriel Brodersen
   m_EditorClassIdentifier: 
   dialoger: Gabriel Brodersen
-  photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+  photo: {fileID: 21300000, guid: bd7670914d9ca564dbe8d57e30246bb3, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: e13d73f7d061a8a41999c5609aa41458, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: bd7670914d9ca564dbe8d57e30246bb3, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: bd7670914d9ca564dbe8d57e30246bb3, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
-    photo: {fileID: 21300000, guid: c00fa7ea23097a44baa8e80722e5aa78, type: 3}
+    photo: {fileID: 21300000, guid: 846976cb713ac9a468c9c9fb6a9e1796, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}

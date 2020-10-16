@@ -17,9 +17,9 @@ Gabriel Brodersen:[expression=2]<i>Tch.</i> At least the DATA Agent made it here
 [title=gabriel-tch-end]
 
 [title=gabriel-intro-start]
-Gabriel Brodersen:[expression=1]Hello! You must be that DATA Agent the High Council informed us about! I'm Gabriel Brodersen, the <color=green><b>Workers'</b></color> Representative to the High Council!
+Gabriel Brodersen:[expression=4]Hello! You must be that DATA Agent the High Council informed us about! I'm Gabriel Brodersen, the <color=green><b>Workers'</b></color> Representative to the High Council!
 Gabriel Brodersen:[expression=1]Here, we believe work is an essential part of life, that one must learn to contribute to the workforce to keep society productive! 
-Gabriel Brodersen:I am tasked with inviting you to 503-A, the Workers' Hold, to meet with Governor Rheegan. She is expecting you soon-- efficiency may as well be her middle name, so I wouldn't keep her waiting. See you soon!
+Gabriel Brodersen:[expression=4]I am tasked with inviting you to 503-A, the Workers' Hold, to meet with Governor Rheegan. She is expecting you soon-- efficiency may as well be her middle name, so I wouldn't keep her waiting. See you soon!
 [title=gabriel-intro-end]
 
 [title=atefeh-intro-start]
