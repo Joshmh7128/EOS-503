@@ -8117,6 +8117,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &499265310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499265311}
+  m_Layer: 0
+  m_Name: Cone Large
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499265311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499265310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.629, y: 1.425, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1366718851}
+  - {fileID: 725218317}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &501555645
 GameObject:
   m_ObjectHideFlags: 0
@@ -19699,6 +19731,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1905895456}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &725218317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+    type: 3}
+  m_PrefabInstance: {fileID: 904969210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &731916745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20414,6 +20452,90 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137905969846766507, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_Name
+      value: Standard Shadow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a0078361a410cb9458600bc36c819944, type: 3}
+--- !u!1001 &904969210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 499265311}
+    m_Modifications:
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.333
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39064807
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.19110107
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180840858176615474, guid: a0078361a410cb9458600bc36c819944,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2696064
       objectReference: {fileID: 0}
     - target: {fileID: 2137905969846766507, guid: a0078361a410cb9458600bc36c819944,
         type: 3}
@@ -28018,6 +28140,87 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1366718850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1366718851}
+  - component: {fileID: 1366718852}
+  m_Layer: 0
+  m_Name: Cone Large Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1366718851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366718850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.002, y: -0.361, z: 0}
+  m_LocalScale: {x: 0.34501, y: 0.34501, z: 0.34501}
+  m_Children: []
+  m_Father: {fileID: 499265311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1366718852
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366718850}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 09e8fb1d07b078e45acd1e5c02f42ecc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1375694063
 GameObject:
   m_ObjectHideFlags: 0
@@ -34435,6 +34638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Randomized NPC (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4055590536554080216, guid: 4eea7a000e4e6ec4fbe81a0b6c7b6abf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4055590536554080223, guid: 4eea7a000e4e6ec4fbe81a0b6c7b6abf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38210,7 +38418,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3cd6e2b3a4867564aa469804d8d7bd3c, type: 2}
+  - {fileID: 2100000, guid: c97f317a9830bcd4ba2fa0b45862e434, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

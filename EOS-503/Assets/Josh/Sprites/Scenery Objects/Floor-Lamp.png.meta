@@ -43,7 +43,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
+  alignment: 7
   spritePivot: {x: 0.50000006, y: 0.15701674}
   spritePixelsToUnits: 16
   spriteBorder: {x: 8, y: 5, z: 8, w: 8}
