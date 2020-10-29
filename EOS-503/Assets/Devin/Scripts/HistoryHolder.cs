@@ -64,6 +64,10 @@ public class HistoryHolder : MonoBehaviour
         {
             return;
         }
+        else if (index == 1)
+        {
+            prevButton.interactable = false;
+        }
         else if (index == histories.Count - 1)
         {
             nextButton.interactable = true;
@@ -76,6 +80,10 @@ public class HistoryHolder : MonoBehaviour
         if (index == histories.Count - 1)
         {
             return;
+        }
+        else if(index == histories.Count - 2)
+        {
+            nextButton.interactable = false;
         }
         else if (index == 0)
         {
