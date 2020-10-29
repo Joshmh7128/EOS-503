@@ -146,6 +146,7 @@ public class RPGTalk : MonoBehaviour
     private int topButton;
     public bool scrambleButtons = true;
     public NPC currentNPC;
+    public HistoryHolder myHistory;
 
     /// <summary>
     /// Should there be photos of the dialogers?
@@ -322,9 +323,6 @@ public class RPGTalk : MonoBehaviour
     //Event to be called when a it play next line in the talk
     public delegate void MadeAChoiceAction(string questionID, int choiceNumber);
     public event MadeAChoiceAction OnMadeChoice;
-
-    //holds choice events
-    public UnityEvent[] ChoiceEvents = new UnityEvent[5];
 
     /// <summary>
     /// The Expression that this character is expressing
@@ -2078,10 +2076,6 @@ public class RPGTalk : MonoBehaviour
         StartCoroutine(ReenableSkip(enableQuickSkip));
 
         PlayNext();
-        if(ChoiceEvents[choiceNumber] != null)
-        {
-            ChoiceEvents[choiceNumber].Invoke();
-        }
         
         if(choiceNumber == 0)
         {
@@ -2372,6 +2366,8 @@ public class RPGTalk : MonoBehaviour
         {
             OnPlayNext();
         }
+
+        Debug.Log(rpgtalkElements[cutscenePosition - 1].dialogText);
 
         //If we had auto pass, cancel it
         if (autoPass)
