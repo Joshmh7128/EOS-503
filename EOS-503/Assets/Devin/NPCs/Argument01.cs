@@ -51,7 +51,8 @@ public class Argument01 : NPC
         OnHamadiEnter.AddListener(HamadiEnter);
         OnHamadiExit.AddListener(HamadiExit);
         OnMinSuExit.AddListener(MinSuExit);
-        StartCoroutine(EnterScene());
+        //StartCoroutine(EnterScene());
+        HamadiEnter();
     }
 
     public override void StartConversation()
