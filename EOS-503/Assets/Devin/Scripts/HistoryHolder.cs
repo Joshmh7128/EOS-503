@@ -51,7 +51,7 @@ public class HistoryHolder : MonoBehaviour
             panel.SetActive(true);
             thisText.text = "Hide Conversation Log";
         }
-        else if (!panel.activeSelf)
+        else
         {
             panel.SetActive(false);
             thisText.text = "Show Conversation Log";

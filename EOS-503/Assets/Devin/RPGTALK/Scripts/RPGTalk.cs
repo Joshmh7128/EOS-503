@@ -1991,6 +1991,7 @@ public class RPGTalk : MonoBehaviour
                                 }
                                 int choiceNumber = i;
                                 newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
+                                newChoiceBtn.GetComponent<ButtonScript>().myHistory = this.myHistory;
                                 if (i == 0)
                                 {
                                     //StartCoroutine(SelectButton(newChoiceBtn));
@@ -2367,7 +2368,6 @@ public class RPGTalk : MonoBehaviour
             OnPlayNext();
         }
 
-        Debug.Log(rpgtalkElements[cutscenePosition - 1].dialogText);
         HistoryElement he = new HistoryElement(rpgtalkElements[cutscenePosition - 1].speakerName, rpgtalkElements[cutscenePosition - 1].dialogText);
         myHistory.histories.Add(he);
         myHistory.index = myHistory.histories.Count - 1;

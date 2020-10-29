@@ -236,6 +236,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0852d14fd83f61145b48244ef0fa5477, type: 3}
   - {fileID: 21300000, guid: af4557c98c6e67849b786801a71cb0a6, type: 3}
   - {fileID: 21300000, guid: 4ae3c17cf5c752642ba8502732bc4dd8, type: 3}
+  myHistory: {fileID: 0}
 --- !u!114 &6387967221822418436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +271,21 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 3957128423744534889}
           m_MethodName: Contract
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3957128423744534889}
+          m_MethodName: LogChoice
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
