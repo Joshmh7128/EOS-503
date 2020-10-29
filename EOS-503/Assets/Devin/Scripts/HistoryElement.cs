@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class HistoryElement : MonoBehaviour
 {
-    private string spoke;
-    private string said;
+    public string spoke;
+    public string said;
 
     public HistoryElement(string spoke, string said)
     {

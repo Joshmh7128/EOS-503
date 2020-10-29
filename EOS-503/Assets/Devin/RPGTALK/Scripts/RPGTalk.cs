@@ -2368,6 +2368,9 @@ public class RPGTalk : MonoBehaviour
         }
 
         Debug.Log(rpgtalkElements[cutscenePosition - 1].dialogText);
+        HistoryElement he = new HistoryElement(rpgtalkElements[cutscenePosition - 1].speakerName, rpgtalkElements[cutscenePosition - 1].dialogText);
+        myHistory.histories.Add(he);
+        myHistory.index = myHistory.histories.Count - 1;
 
         //If we had auto pass, cancel it
         if (autoPass)
