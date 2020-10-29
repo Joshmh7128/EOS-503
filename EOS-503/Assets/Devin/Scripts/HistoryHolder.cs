@@ -14,7 +14,7 @@ public class HistoryHolder : MonoBehaviour
     private Text thisText;
     public Button prevButton;
     public Button nextButton;
-    public int index;
+    public int index = 0;
     public GameObject panel;
 
     private void Awake()
@@ -29,14 +29,39 @@ public class HistoryHolder : MonoBehaviour
 
     private void Update()
     {
-        if(panel.gameObject.activeSelf)
+        if(panel.gameObject.activeInHierarchy && histories.Count > 0)
         {
             spokeText.text = histories[index].spoke;
             saidText.text = histories[index].said;
 
             int indexNum = index + 1;
             counter.text = indexNum.ToString() + " / " + histories.Count.ToString();
+
+            if(index == 0)
+            {
+                prevButton.interactable = false;
+            }
+            else
+            {
+                prevButton.interactable = true;
+            }
+            if(index >= histories.Count - 1)
+            {
+                nextButton.interactable = false;
+            }
+            else
+            {
+                nextButton.interactable = true;
+            }
         }
+    }
+
+    private void OnDisable()
+    {
+        histories = new List<HistoryElement>();
+        panel.SetActive(false);
+        thisText.text = "Show Conversation Log";
+        index = 0;
     }
 
     public void Toggle()
@@ -46,7 +71,7 @@ public class HistoryHolder : MonoBehaviour
             return;
         }
         index = histories.Count - 1;
-        if(!panel.activeSelf)
+        if(!panel.activeInHierarchy)
         {
             panel.SetActive(true);
             thisText.text = "Hide Conversation Log";
@@ -64,14 +89,6 @@ public class HistoryHolder : MonoBehaviour
         {
             return;
         }
-        else if (index == 1)
-        {
-            prevButton.interactable = false;
-        }
-        else if (index == histories.Count - 1)
-        {
-            nextButton.interactable = true;
-        }
         index--;
     }
 
@@ -80,14 +97,6 @@ public class HistoryHolder : MonoBehaviour
         if (index == histories.Count - 1)
         {
             return;
-        }
-        else if(index == histories.Count - 2)
-        {
-            nextButton.interactable = false;
-        }
-        else if (index == 0)
-        {
-            prevButton.interactable = true;
         }
         index++;
     }

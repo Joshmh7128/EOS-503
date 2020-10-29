@@ -2367,8 +2367,8 @@ public class RPGTalk : MonoBehaviour
         {
             OnPlayNext();
         }
-
-        HistoryElement he = new HistoryElement(rpgtalkElements[cutscenePosition - 1].speakerName, rpgtalkElements[cutscenePosition - 1].dialogText);
+        RpgtalkElement myElement = rpgtalkElements[cutscenePosition - 1];
+        HistoryElement he = new HistoryElement(myElement.speakerName, myElement.dialogText);
         myHistory.histories.Add(he);
         myHistory.index = myHistory.histories.Count - 1;
 
