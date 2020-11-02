@@ -7867,87 +7867,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 380721326}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &469634024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 469634026}
-  - component: {fileID: 469634025}
-  m_Layer: 0
-  m_Name: Large Wooden Crate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &469634025
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469634024}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 02c84b49a973fa54caf709ac2831a53e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2, y: 2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &469634026
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469634024}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.48, y: 3.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469753185
 GameObject:
   m_ObjectHideFlags: 0
@@ -35667,6 +35586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Plant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21456630022341185, guid: d6cdff1d41f1fe040b2e095863d0c581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8513276609928449043, guid: d6cdff1d41f1fe040b2e095863d0c581,
         type: 3}
@@ -80192,6 +80116,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large Plant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3908113551469851661, guid: 3b67a5cb10871fd46a06c26c8f3ca4bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b67a5cb10871fd46a06c26c8f3ca4bb, type: 3}
 --- !u!1001 &427780159822768049
@@ -80260,6 +80189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Large Plant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 427780158677594409, guid: 387f709880858df43b90f418ace9ec7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 387f709880858df43b90f418ace9ec7a, type: 3}
@@ -80349,6 +80283,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Large Plant 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984302313261906075, guid: d8bb8234add6c1846b4bd5cfa3c37e3f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5984302313261906076, guid: d8bb8234add6c1846b4bd5cfa3c37e3f,
         type: 3}
@@ -80474,6 +80413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large Plant 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1782021797977617757, guid: 933f22d5240be964aacfc46d26a71252,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 933f22d5240be964aacfc46d26a71252, type: 3}
 --- !u!1001 &1797896602280508315
@@ -80542,6 +80486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hydroponic Cauliflower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393925487596414962, guid: 7c958aa7d2e8d1e4dbe5d0760687b160,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c958aa7d2e8d1e4dbe5d0760687b160, type: 3}
@@ -80612,6 +80561,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone Small
       objectReference: {fileID: 0}
+    - target: {fileID: 1847908490783807626, guid: e6fa07f37f783ea4083b1a8a0db31fec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6fa07f37f783ea4083b1a8a0db31fec, type: 3}
 --- !u!1001 &2607964974410197069
@@ -80681,6 +80635,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hydroponic Lettuce
       objectReference: {fileID: 0}
+    - target: {fileID: 5002957765341836615, guid: ed45acbe82eb8e84e868d4ff60c296d7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed45acbe82eb8e84e868d4ff60c296d7, type: 3}
 --- !u!1001 &2628731017549072494
@@ -80749,6 +80708,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hydroponic Carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628731016474170891, guid: 2067743f96ca58b438fc81cc002217d7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2067743f96ca58b438fc81cc002217d7, type: 3}
@@ -80837,6 +80801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Large Plant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651391966525837856, guid: ec24840207ee70c4ab233eb7d64dad88,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1651391966525837857, guid: ec24840207ee70c4ab233eb7d64dad88,
         type: 3}
@@ -80962,6 +80931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hydroponic Box
       objectReference: {fileID: 0}
+    - target: {fileID: 5592213738392350333, guid: 423f6f7c568bde5478004ae71f252726,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 423f6f7c568bde5478004ae71f252726, type: 3}
 --- !u!1001 &6209557097804495774
@@ -80975,6 +80949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cone Large
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209557098270184576, guid: 65888bb6b23a76744841e92a92095b76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6209557098270184577, guid: 65888bb6b23a76744841e92a92095b76,
         type: 3}
@@ -81124,6 +81103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Plant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21456630022341185, guid: d6cdff1d41f1fe040b2e095863d0c581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8513276609928449043, guid: d6cdff1d41f1fe040b2e095863d0c581,
         type: 3}
