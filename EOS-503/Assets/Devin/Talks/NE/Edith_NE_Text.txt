@@ -6,7 +6,7 @@ speaker:[expression=3]With the Secretaries' push for efficiency, everyone is exp
 
 [title=xxx-start]
 speaker:[question=xxx]Without videos, blueprints, or notes to review first, I am not sure that I'll be able to keep doing what I love. So, got any ideas for how to approach this?
-[choice=Find Other References]Creativity always has a foundation. You might want to try taking some time to find similar ‘toys' that have these resources for review. After examining those you should have more knowledge stored to help you.
+[choice=Find Other References]Creativity always has a foundation. You might want to try taking some time to find similar 'toys' that have these resources for review. After examining those you should have more knowledge stored to help you.
 [choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts and which are immobile. You know how to fix engines and transmissions. Using your knowledge of those, you can come to an understanding of a fix for the problem.
 [choice=Offer Rewards For Notes]But isn't it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Your environment would be more free of clutter therefore your life would be freer. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
 [title=xxx-end]
