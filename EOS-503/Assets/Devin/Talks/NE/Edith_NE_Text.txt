@@ -1,13 +1,14 @@
 [title=hello-start]
-speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
+speaker:Alright. The core of my issue is that recently I haven't been able to reconstruct much of anything my friends bring me.
+speaker:[expression=3]With the Secretaries' push for efficiency, everyone is experimenting in our Hold, trying to make things run better, faster, stronger, but without taking the time to record the process or write it down. I love trying to dismantle and repair all these new toys, but I'm worried that if I go back to work, this would bleed over quickly.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=xxx]Without videos, blueprints, or notes to review first, I am not sure that I’ll be able to keep doing what I love. So, got any ideas for how to approach this?
+[choice=Find Other References]Creativity always has a foundation. You might want to try taking some time to find similar ‘toys’ that have these resources for review. After examining those you should have more knowledge stored to help you.
+[choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts and which are immobile. You know how to fix engines and transmissions. Using your knowledge of those, you can come to an understanding of a fix for the problem.
+[choice=Offer Rewards For Notes]But isn’t it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Having a clear room would make more space for you to live in. Your environment would be more free of clutter therefore your life would be freer for you to do the things you want. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
 [title=xxx-end]
 
 [title=0xx-a-start]
