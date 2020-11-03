@@ -1969,7 +1969,11 @@ MonoBehaviour:
   myHistory: {fileID: 0}
   shouldUsePhotos: 1
   showPlayerPhoto: 1
-  characters: []
+  characters:
+  - character: {fileID: 11400000, guid: 24e3c57e1863a1042a1e6437aa87ffae, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
   UIPhoto: {fileID: 6560416993714789031}
   PlayerPhoto: {fileID: 0}
   shouldStayOnScreen: 0
