@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Devin\NPCs\Argument01.cs" />
+    <Compile Include="Assets\Devin\NPCs\Edith_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\Hamadi_VS.cs" />
     <Compile Include="Assets\Devin\NPCs\Jan_Tutorial.cs" />
     <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
@@ -117,6 +118,7 @@
     <None Include="Assets\Devin\Talks\Event Templates\EventStandard.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Hamadi_NE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoSnippets.txt" />
+    <None Include="Assets\Devin\Talks\NE\Edith_NE_Text.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity_GameJam/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
