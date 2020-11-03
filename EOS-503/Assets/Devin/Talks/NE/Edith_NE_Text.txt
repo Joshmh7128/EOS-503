@@ -8,68 +8,69 @@ speaker:[expression=3]With the Secretaries' push for efficiency, everyone is exp
 speaker:[question=xxx]Without videos, blueprints, or notes to review first, I am not sure that I’ll be able to keep doing what I love. So, got any ideas for how to approach this?
 [choice=Find Other References]Creativity always has a foundation. You might want to try taking some time to find similar ‘toys’ that have these resources for review. After examining those you should have more knowledge stored to help you.
 [choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts and which are immobile. You know how to fix engines and transmissions. Using your knowledge of those, you can come to an understanding of a fix for the problem.
-[choice=Offer Rewards For Notes]But isn’t it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Having a clear room would make more space for you to live in. Your environment would be more free of clutter therefore your life would be freer for you to do the things you want. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
+[choice=Offer Rewards For Notes]But isn’t it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Your environment would be more free of clutter therefore your life would be freer. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]It seems to me like you’re describing jerry-rigging something together for a short term fix. It sounds like a waste of time and energy. That doesn’t seem like a viable solution to the problem.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]I don’t know how long you have been doing your job but here when one thing gets fixed another broken thing just replaces it. No matter how much work I do over 24 hours, there will always be more to do. Additionally, more work over too many hours leaves me unable to work efficiently. For example, during the 15th hour of the day, I am making as many mistakes as I have fixed. No, that won't do.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:Blah blah blah blah blah blah.
-speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:I have only been given directions on how to fix some of the things given to me. If I have the information to fix it, I do it! The rest I really can’t finish, so it doesn’t get done.
+speaker:[question=0xx][expression=2]At one point they had given me all the books and blueprints I needed to get this work done. But recently there have been new problems and I have received no instruction on how to do it. I am also not going to spend my time off going and finding that information. That’s how this clutter problem has developed really.
+[choice=Find Other References]I think that you can fix these things given you had time to do your research during the day. If I can convince Rheegan to give you time during hours to research the new issues and how to fix them would you work on the things in here? You would have the time and be able to put that information onto your hard drive or into your long term memory. You would even improve at your job!
+[choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts, which need to stay still. You know how to fix engines and transmissions. Using your knowledge of those, why not build a fix for the problem?
+[choice=Offer Rewards For Notes]But isn’t it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Having a clear room would make more space for you to live in. Your environment would be more free of clutter therefore your life would be freer for you to do the things you want. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
 [title=0xx-end]
 
 [title=lose-start]
-speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
+speaker:[expression=3]I guess I need to start with fixing where your head's at!
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]Blah blah blah blah! Blah blah blah.
-speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work inhere. I love my work here and I want to do it well. Give me the time or the information and I am all set!
+speaker:[question=01x][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn’t solve my problem of not knowing how to fix the stuff! I don’t have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
+[choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
+[choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
+[choice=Provide Incentives For Solutions]Perhaps you should seek out a reward system. Every time you find a solution to one of your problems you get to do a task of your choosing. This would make finding the solutions enjoyable!
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]If I can’t figure out how to fix these things on my own, being social won't be able to help me either. [newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]While an incentive to find solutions would be wonderful I don’t know where to find that information..[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
-speaker:[expression=1]Blah blah blah blah blah blah!
-speaker:[question=1xx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work inhere. I love my work here and I want to do it well. Give me the time or the information and I am all set!
+speaker:[question=1xx][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn’t solve my problem of not knowing how to fix the stuff! I don’t have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
+[choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
+[choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
+[choice=Provide Incentives For Solutions]Perhaps you should seek out a reward system. Every time you find a solution to one of your problems you get to do a task of your choosing. This would make finding the solutions enjoyable!
 [title=1xx-end]
 
 [title=10x-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]If I can’t figure out how to fix these things on my own, people out there won't be able to help me either. This is MY job. I’m the one who does it.[newtalk start=10x-start break=10x-end]
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]While an incentive to find solutions would be wonderful I don’t know where to find that information[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:[question=10x][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:I have only been given directions on how to fix some of the things given to me. If I have the information to fix it, I do it!
+speaker:[question=10x][expression=2]At one point they had given me all the books and blueprints I needed to get the original work done. But recently there have been new problems and I have received no instruction on how to resolve them. I am also not going to spend my time off going and finding that information.
+[choice=Compile and Store Notes]You could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. All you have to do is find it then take notes!
+[choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
+[choice=Provide Incentives For Solutions]Perhaps you should seek out a reward system. Every time you find a solution to one of your problems you get to do a task of your choosing. This would make finding the solutions enjoyable!
 [title=10x-end]
 
 [title=win-start]
-speaker:[expression=1]Blah blah blah... blah blah blah!
+speaker:[expression=1]Huh I hadn't considered notes...Alright, You get me the time, I’ll take in the information and fix the issues we have built up!
 [title=win-end]
