@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: f76dcee4f20b1264ab0030cedf9cafb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8408277059670827171
+    second: Tileset 1-Workers_0
+  - first:
+      213: -1259926115217697020
+    second: Tileset 1-Workers_1
+  - first:
+      213: -6518349939080806644
+    second: Tileset 1-Workers_2
+  - first:
+      213: -3728013202028833767
+    second: Tileset 1-Workers_3
+  - first:
+      213: -2346544400372802299
+    second: Tileset 1-Workers_4
+  - first:
+      213: -8123624443836815526
+    second: Tileset 1-Workers_5
+  - first:
+      213: -4795026247812063466
+    second: Tileset 1-Workers_6
+  - first:
+      213: 4294596852535807677
+    second: Tileset 1-Workers_7
+  - first:
+      213: -7491693742511264354
+    second: Tileset 1-Workers_8
+  - first:
+      213: -6286877331379086377
+    second: Tileset 1-Workers_9
+  - first:
+      213: -4494438044214470277
+    second: Tileset 1-Workers_10
+  - first:
+      213: 3688087278845551149
+    second: Tileset 1-Workers_11
+  - first:
+      213: 3718060931789860644
+    second: Tileset 1-Workers_12
+  - first:
+      213: 369492048652544834
+    second: Tileset 1-Workers_13
+  - first:
+      213: -6402678521065032711
+    second: Tileset 1-Workers_14
+  - first:
+      213: -5575108491226379793
+    second: Tileset 1-Workers_15
+  - first:
+      213: -8850371758984442030
+    second: Tileset 1-Workers_16
+  - first:
+      213: -6757772383296522600
+    second: Tileset 1-Workers_17
+  - first:
+      213: -8902946881862917484
+    second: Tileset 1-Workers_18
+  - first:
+      213: 2767252344565783511
+    second: Tileset 1-Workers_19
+  - first:
+      213: 7536652383106188368
+    second: Tileset 1-Workers_20
+  - first:
+      213: 3647310734150925161
+    second: Tileset 1-Workers_21
+  - first:
+      213: 7124136049831027708
+    second: Tileset 1-Workers_22
+  - first:
+      213: 3545589795202104257
+    second: Tileset 1-Workers_23
+  - first:
+      213: 899831486073136474
+    second: Tileset 1-Workers_24
+  - first:
+      213: -4769120332661089388
+    second: Tileset 1-Workers_25
+  - first:
+      213: -5709447527837125716
+    second: Tileset 1-Workers_26
+  - first:
+      213: 3911129576430215193
+    second: Tileset 1-Workers_27
+  - first:
+      213: 7738723403237189576
+    second: Tileset 1-Workers_28
+  - first:
+      213: -7090945932306516010
+    second: Tileset 1-Workers_29
+  - first:
+      213: 3134521589441579356
+    second: Tileset 1-Workers_30
+  - first:
+      213: 7972739079720009064
+    second: Tileset 1-Workers_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset 1-Workers_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f114d209ccf4b80800000000000000
+      internalID: -8408277059670827171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071633afd7d38ee0800000000000000
+      internalID: -1259926115217697020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f366f144b2a85a0800000000000000
+      internalID: -6518349939080806644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914da1f9ebf634cc0800000000000000
+      internalID: -3728013202028833767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dd816ec466f6fd0800000000000000
+      internalID: -2346544400372802299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572d60fb96134f80800000000000000
+      internalID: -8123624443836815526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fdc726805a47db0800000000000000
+      internalID: -4795026247812063466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe48e86519799b30800000000000000
+      internalID: 4294596852535807677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d699fdb38280890800000000000000
+      internalID: -7491693742511264354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db91bc506680c8a0800000000000000
+      internalID: -6286877331379086377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79589d496c80a1c0800000000000000
+      internalID: -4494438044214470277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22e93cf6d7be2330800000000000000
+      internalID: 3688087278845551149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fa794e7b4399330800000000000000
+      internalID: 3718060931789860644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b24438f03b02500800000000000000
+      internalID: 369492048652544834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f335e4decd1527a0800000000000000
+      internalID: -6402678521065032711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9003c8d5c31a2b0800000000000000
+      internalID: -5575108491226379793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f4597c6c92d2580800000000000000
+      internalID: -8850371758984442030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8967aa452d19732a0800000000000000
+      internalID: -6757772383296522600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492a3641bf0627480800000000000000
+      internalID: -8902946881862917484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbd5b98851476620800000000000000
+      internalID: 2767252344565783511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05445aa5961979860800000000000000
+      internalID: 7536652383106188368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_21
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf886d9c9dd9230800000000000000
+      internalID: 3647310734150925161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3abb5fdf30ed260800000000000000
+      internalID: 7124136049831027708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_23
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb75462227743130800000000000000
+      internalID: 3545589795202104257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55e91518f7dc7c00800000000000000
+      internalID: 899831486073136474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b94a8435ea0ddb0800000000000000
+      internalID: -4769120332661089388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3398f29b7f3c0b0800000000000000
+      internalID: -5709447527837125716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_27
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910a5a1b0af174630800000000000000
+      internalID: 3911129576430215193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c764f80fe7756b60800000000000000
+      internalID: 7738723403237189576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d77e577e36e79d90800000000000000
+      internalID: -7090945932306516010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59457737ce008b20800000000000000
+      internalID: 3134521589441579356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset 1-Workers_31
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df59d93fbd4ae60800000000000000
+      internalID: 7972739079720009064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0d88ce151add37144893af14a8527f32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
