@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Devin\NPCs\Argument01.cs" />
     <Compile Include="Assets\Devin\NPCs\Edith_NE.cs" />
+    <Compile Include="Assets\Devin\NPCs\FlashForward.cs" />
     <Compile Include="Assets\Devin\NPCs\Hamadi_VS.cs" />
     <Compile Include="Assets\Devin\NPCs\Jan_Tutorial.cs" />
     <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\PlayerController2D.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
+    <None Include="Assets\Devin\Talks\Scenes\Flashforward.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Argument 01.txt" />
