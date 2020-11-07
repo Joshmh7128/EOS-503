@@ -23,5 +23,10 @@ public class FlashForward : NPC
             myTalk.PlayerPhoto.enabled = false;
             myTalk.showPlayerPhoto = false;
         }
+        else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "Well, that settles it. Now it’s time to prepare.")
+        {
+            myTalk.PlayerPhoto.enabled = true;
+            myTalk.showPlayerPhoto = true;
+        }
     }
 }

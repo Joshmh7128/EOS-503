@@ -12,4 +12,19 @@ Sam Hawkins:Thank you. That will end our inquiry.
 Diana Davila:Captain Hawkins, do you now feel confident proceeding with Plan AC?
 Sam Hawkins:[Captain Sam Hawkins leans forward, gaze fixed on the tips of their tented fingers.]
 Sam Hawkins:Your DATA Agent's report was quite comprehensive, Director Davila. Before I call a vote, do any members of the council want to chime in? How about you, Representative Farewell?
+Bartholomew Farewell:Oh! Yes, yes, so long as it gets 503 running again, I have no issue. Especially as their trade has lagged behind last quarter's projections. Though I must say, the plan falls more neatly within Secretary Mbulazi's area of expertise than mine.
+Mthulisi Mbulazi:[expression=3]I have some concerns given the freedoms we grant to our citizenry, but the state of affairs is undeniable. Even if the plan succeeds, there will be many challenges left to overcome.
+Mthulisi Mbulazi:If my members can participate, and we set a time limit of three months... I will affirm. Date-<i>Kaicho</i>, has your team found any reason not to move forward?
+Date Tomo-Kaicho:No, Madam Secretary. In fact, they have identified multiple prior examples-- a useful historical precedent. Given today's testimony and the dynamic between the citizens and their governors, I have no choice but to vote 'yes'.
+Sam Hawkins:[Captain Sam Hawkins slowly looks around the conference table and nods approvingly.]
+Sam Hawkins:Alright. Seems there's majority support. Let’s make this official. All in favor of engaging Plan AC, with assurances that Bureau of Governance staff will be included, and with a time limit of three months, say 'aye'.
+Diana Davila:Aye.
+Mthulisi Mbulazi:Aye.
+Bartholomew Farewell:Aye.
+Date Tomo-Kaicho:Aye.
+Sam Hawkins:[expression=1]Let the record show that the High Council has approved the proposal for Plan AC.
+Sam Hawkins:Director Davila, work with Secretary Mbulazi and your staff to sort out the specifics. Everyone else, this concludes our meeting. We are now adjourned.
+[The menbers of the High Council depart, with the exception of Director Diana Davila.]
+Diana Davila:Well, that settles it. Now it’s time to prepare.
+Diana Davila:We wouldn't be in this situation if not for you. Are you prepared for what's to come? To bear that weight on your shoulders?
 [title=hello-end]
