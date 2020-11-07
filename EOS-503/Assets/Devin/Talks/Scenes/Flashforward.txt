@@ -1,3 +1,15 @@
 [title=hello-start]
-
+Diana Davila:So. That's how it happened?
+Diana Davila:[expression=2]Hm... Quite a tale you've woven for us.
+Sam Hawkins:Sounds like more than you bargained for.
+Sam Hawkins:[expression=2][They pause for a second, seemingly lost in thought.]
+Sam Hawkins:[question=why]Just for curiosity's sake... one last question: why go to all that effort? What was your motivation?
+[choice=Success]I was striving for success.
+[choice=Fun]I wanted to have some fun.
+[choice=Spontaneity]Honestly, I hadn't given it much thought.
+Sam Hawkins:[expression=2]Hmm. Interesting.
+Sam Hawkins:Thank you. That will end our inquiry.
+Diana Davila:Captain Hawkins, do you now feel confident proceeding with Plan AC?
+Sam Hawkins:[Captain Sam Hawkins leans forward, gaze fixed on the tips of their tented fingers.]
+Sam Hawkins:Your DATA Agent's report was quite comprehensive, Director Davila. Before I call a vote, do any members of the council want to chime in? How about you, Representative Farewell?
 [title=hello-end]
