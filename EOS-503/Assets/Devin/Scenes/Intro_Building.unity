@@ -1969,7 +1969,27 @@ MonoBehaviour:
   myHistory: {fileID: 0}
   shouldUsePhotos: 1
   showPlayerPhoto: 1
-  characters: []
+  characters:
+  - character: {fileID: 11400000, guid: 02469a30c8ffcf04c80766b2b373275f, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 7a8d215bd884279469855aba2ac274c3, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8271e2c6b8f5dc049a712b924843e5ef, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 9208ad26a87531149967a55f50bec722, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: 7f7ad7fd217faee4c8f5ea54b61bf12c, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
   UIPhoto: {fileID: 6560416993714789031}
   PlayerPhoto: {fileID: 0}
   shouldStayOnScreen: 0
