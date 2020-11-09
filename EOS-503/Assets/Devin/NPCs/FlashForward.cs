@@ -22,11 +22,13 @@ public class FlashForward : NPC
         {
             myTalk.PlayerPhoto.enabled = false;
             myTalk.showPlayerPhoto = false;
+            myTalk.buttonDisabled = -1;
         }
         else if (myTalk.rpgtalkElements[myTalk.cutscenePosition - 1].dialogText == "Well, that settles it. Now it’s time to prepare.")
         {
             myTalk.PlayerPhoto.enabled = true;
             myTalk.showPlayerPhoto = true;
+            myTalk.OnEndAnimating -= OnEndAnimating;
         }
     }
 }
