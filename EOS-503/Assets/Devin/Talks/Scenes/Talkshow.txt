@@ -3,13 +3,13 @@ Xavier Senecal:[expression=1]Bonjour, folks! Tonight on <b>Constellation Convers
 Sam Hawkins:[expression=1]Pleasure to be here. You know me, always excited to come when I can!
 Xavier Senecal:[expression=1]Hahaha! I'm just glad you had an opening in your busy schedule!
 Sam Hawkins:[expression=1]Ha, well, guess you just got lucky this--
-Xavier Senecal:Captain, if you don’t mind, I’d like to touch on the news of the day.
+Xavier Senecal:Captain, if you don't mind, I'd like to touch on the news of the day.
 Sam Hawkins:Sure thing.
-Xavier Senecal:As you're aware, we're nearing the tenth anniversary of our departure on EOS. What do you have to say to the folks listening at home about the state of things? Any reflections you’d like to share with us?
-Sam Hawkins:Since leaving Earth, we've successfully relocated seventy-two percent of evacuees to one of the station’s many communes. With the advent of automatic language translation tools and resident-matching programs, it's gotten easier. Though we had a few hiccups, I'm proud of how each community has self-organized around its members' shared values.
+Xavier Senecal:As you're aware, we're nearing the tenth anniversary of our departure on EOS. What do you have to say to the folks listening at home about the state of things? Any reflections you'd like to share with us?
+Sam Hawkins:Since leaving Earth, we've successfully relocated seventy-two percent of evacuees to one of the station's many communes. With the advent of automatic language translation tools and resident-matching programs, it's gotten easier. Though we had a few hiccups, I'm proud of how each community has self-organized around its members' shared values.
 Sam Hawkins:[expression=1]By and large, we've seen an improvement in people's lives. Their attitudes are better. They've been more productive. Maybe most important,  they've been acting with a newfound sense of belonging.
 Sam Hawkins:[expression=1]Some are producing great art and literature. More than a few are making strides in biomedical research. And those doing the hard work of keeping us fed and hydrated and breathing clean air, too.
 Sam Hawkins:Obviously we're still working to help those who've struggled to find a place for themselves, but the state of things is... good. Certainly getting better.
-Xavier Senecal:[expression=1]Oh see now <i>THAT'S</i> interesting, captain, because word on the street is that things are a bit rougher than the High Council has cared to admit.  Anything you'd like to share? Maybe just a few tidbits for your old pal Xavier? <i>And a few of his closest friends?</i>
+Xavier Senecal:[expression=1]Oh see now <i>THAT'S</i> interesting, captain, because word on the street is that things are a bit rougher than the High Council has cared to admit. Anything you'd like to share? Maybe just a few tidbits for your old pal Xavier? <i>And a few of his closest friends?</i>
 Xavier Senecal:[expression=1]<i>*Winks directly at camera*</i>
 [title=hello-end]
