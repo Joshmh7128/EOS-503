@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Bartholomew Farewell
   m_EditorClassIdentifier: 
   dialoger: Bartholomew Farewell
-  photo: {fileID: 21300000, guid: 20436e7bac4a44747a9cfa2a27abbaeb, type: 3}
+  photo: {fileID: 21300000, guid: 09828f09983252342b2eb57ae91eeea8, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: 6561516a0c209904097100faef16330d, type: 3}
+    photo: {fileID: 21300000, guid: 532645cb7fa83e84aab8aa5586122409, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: 6b1c34d56adf8734bab82d375ab5c208, type: 3}
+    photo: {fileID: 21300000, guid: 5134675ee4eabe24eae6253863d0927d, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: b39c28ca11ec5764b830b57f14d6336a, type: 3}
+    photo: {fileID: 21300000, guid: 76683c8e2eceb174e8a821eb460e46ac, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4

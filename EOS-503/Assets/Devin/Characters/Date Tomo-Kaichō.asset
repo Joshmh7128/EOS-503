@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
   m_Name: "Date Tomo-Kaich\u014D"
   m_EditorClassIdentifier: 
-  dialoger: "Date Tomo-Kaich\u014D"
-  photo: {fileID: 21300000, guid: 20436e7bac4a44747a9cfa2a27abbaeb, type: 3}
+  dialoger: Date Tomo-Kaicho
+  photo: {fileID: 21300000, guid: 0a511eabfb8834b4c877a82b91af366f, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: 6561516a0c209904097100faef16330d, type: 3}
+    photo: {fileID: 21300000, guid: 2cc4b14deb5275744afc358bfa5a8719, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: 6b1c34d56adf8734bab82d375ab5c208, type: 3}
+    photo: {fileID: 21300000, guid: d9893f2501acecd4c906d240133c936b, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: b39c28ca11ec5764b830b57f14d6336a, type: 3}
+    photo: {fileID: 21300000, guid: 5ae72bae2efcdab469e7b3ae88fdd219, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
