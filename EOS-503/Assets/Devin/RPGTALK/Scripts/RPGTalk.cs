@@ -2497,10 +2497,11 @@ public class RPGTalk : MonoBehaviour
             }
 
             //added by devin
-            if(questions.Count > 0)
+            if(choicesParent.childCount > 0)
             {
                 return;
             }
+            
 
             else
             {
