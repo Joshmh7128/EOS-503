@@ -12,4 +12,13 @@ Sam Hawkins:[expression=1]Some are producing great art and literature. More than
 Sam Hawkins:Obviously we're still working to help those who've struggled to find a place for themselves, but the state of things is... good. Certainly getting better.
 Xavier Senecal:[expression=1]Oh see now <i>THAT'S</i> interesting, captain, because word on the street is that things are a bit rougher than the High Council has cared to admit. Anything you'd like to share? Maybe just a few tidbits for your old pal Xavier? <i>And a few of his closest friends?</i>
 Xavier Senecal:[expression=1]<i>*Winks directly at camera*</i>
+[The EOS security system sounds overhead]
+EOS Security System:[question=continue]Please advance to the Commune Transportation Network. Present your EOS ID for verification.
+[choice=Play]Continue Playing Video
+[choice=Exit]Close and Proceed to Character Creation
+[ROUTES TO CHARACTER CUSTOMIZATION]
 [title=hello-end]
+
+[title=continued-start]
+
+[title=continued-end]

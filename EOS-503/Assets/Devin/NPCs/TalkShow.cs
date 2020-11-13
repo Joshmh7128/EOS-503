@@ -15,4 +15,14 @@ public class TalkShow : NPC
         myTalk.showPlayerPhoto = false;
         base.StartConversation();
     }
+
+    public override void OnMadeChoice(string id, int num)
+    {
+        switch(id)
+        {
+            case "continue":
+
+                break;
+        }
+    }
 }
