@@ -20,5 +20,5 @@ EOS Security System:[question=continue]Please advance to the Commune Transportat
 [title=hello-end]
 
 [title=continued-start]
-
+Sam Hawkins:*Sigh* No, no, nothing of immediate concern. The most consequential thing we've run into wasn't even a big deal, just a commune burning through its resources faster than expected. Everything is under control.
 [title=continued-end]

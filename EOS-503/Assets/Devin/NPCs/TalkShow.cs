@@ -21,7 +21,14 @@ public class TalkShow : NPC
         switch(id)
         {
             case "continue":
-
+                if (num == 0)
+                {
+                    myTalk.NewTalk("continued-start", "continued-end");
+                }
+                else if (num == 1)
+                {
+                    //route to character creation
+                }
                 break;
         }
     }
