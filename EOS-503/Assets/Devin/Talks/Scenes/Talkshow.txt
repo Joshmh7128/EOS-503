@@ -31,4 +31,12 @@ Xavier Senecal:[expression=1]Okay Captain, the viewers all know what an investig
 Xavier Senecal:[expression=2]But according to the Bureau of Late Night Television fact-checkers, the Department for Analyzing Terrestrial Associations, popularly known as DATA, has actually experienced the most growth under your watch. Do you have any comments on that?
 Sam Hawkins:[expression=4][Captain Sam Hawkins gazes down at the floor]
 Sam Hawkins:[expression=4]Ah. You see, DATA has existed since before the evacuation. Growing its ranks was always one of Captain Ferlong's passion projects. He thought their mission was central to our continued existence, to ensure we could always properly feed, shelter, and care for our people...
+Sam Hawkins:[expression=2][Captain Sam Hawkins pauses to reminisce for a moment]
+Sam Hawkins:[expression=4]Captain Ferlong was a visionary. Who would I be if I abandoned his vision after... Well, you know.
+Xavier Senecal:You honor him well, Captain Hawkins.
+Xavier Senecal:Now, as I was saying... DATA has expanded greatly during your tenure. Most viewers probably haven't had the chance to meet a real-life DATA Agent, but these are some of EOS's best and brightest, is that correct?
+Sam Hawkins:[expression=1]Yes, well, Director Davila has done a wonderful job recruiting and training them. DATA Agents move into the communes, learn about their people and goings-on, and work out tensions at all levels.
+Sam Hawkins:[expression=1]They're highly educated about multiple topics, and each specializes in a different subfield... medicine, sociology, education-- that sort of thing. They're trained to recognize different ways people see the world and meet them where they are, facilitating transitions to personal and social achievement.
+Xavier Senecal:[expression=1]Indeed, indeed, sounds like a capable group! Now, as much as I'd <i>love</i> to keep chatting politics, a little birdie told me you've taken up singing again, can you <i>BELIEVE</i> it? I'm sure our viewers can’t wait to hear you belt out a few of your favorite 21st-century classics after this commercial break!
+Sam Hawkins:[expression=2][Captain Sam Hawkins groans as the color leaves their face.]
 [title=continued-end]
