@@ -21,4 +21,14 @@ EOS Security System:[question=continue]Please advance to the Commune Transportat
 
 [title=continued-start]
 Sam Hawkins:*Sigh* No, no, nothing of immediate concern. The most consequential thing we've run into wasn't even a big deal, just a commune burning through its resources faster than expected. Everything is under control.
+Xavier Senecal:[expression=1][Xavier's eyes grow wide with expectation; sighing, Captain Hawkins relents]
+Sam Hawkins:Once DATA opened a case, we discovered an underground pet show ring... a bunch of people training exotic animals for performance on a stage, awarding ribbons for victory, combining weird berries into cubes to feed them...
+Sam Hawkins: A bit concerning, but we resolved the problem-- transferred the animals to communes matching their natural habitat, fined the perpetrators, and rebalanced resource consumption for the commune. As I said, everything is under control.
+Xavier Senecal:[expression=4][Xavier breaks into uproarious laughter, and the live studio audience follows suit]
+Xavier Senecal:[expression=4]Can't argue with that, Captain! Sounds like you're keeping this place from falling apart at the seams, eh?
+[Captain Sam Hawkins half-smiles as everyone laughs]
+Xavier Senecal:[expression=1]Okay Captain, the viewers all know what an investigative journalism aficionado I am! I have to ask about an interesting little statistic I came across before taping. In your time piloting the station, you've made a point to push for, uh... let me check my notes... ah, new leadership for the Bureau of Governance, and increased funding for the Coalition of Record Explorers.
+Xavier Senecal:[expression=2]But according to the Bureau of Late Night Television fact-checkers, the Department for Analyzing Terrestrial Associations, popularly known as DATA, has actually experienced the most growth under your watch. Do you have any comments on that?
+Sam Hawkins:[expression=4][Captain Sam Hawkins gazes down at the floor]
+Sam Hawkins:[expression=4]Ah. You see, DATA has existed since before the evacuation. Growing its ranks was always one of Captain Ferlong's passion projects. He thought their mission was central to our continued existence, to ensure we could always properly feed, shelter, and care for our people...
 [title=continued-end]
