@@ -26,7 +26,7 @@ Sam Hawkins:Once DATA opened a case, we discovered an underground pet show ring.
 Sam Hawkins: A bit concerning, but we resolved the problem-- transferred the animals to communes matching their natural habitat, fined the perpetrators, and rebalanced resource consumption for the commune. As I said, everything is under control.
 Xavier Senecal:[expression=4][Xavier breaks into uproarious laughter, and the live studio audience follows suit]
 Xavier Senecal:[expression=4]Can't argue with that, Captain! Sounds like you're keeping this place from falling apart at the seams, eh?
-[Captain Sam Hawkins half-smiles as everyone laughs]
+Sam Hawkins:[expression=1][Captain Sam Hawkins half-smiles as everyone laughs]
 Xavier Senecal:[expression=1]Okay Captain, the viewers all know what an investigative journalism aficionado I am! I have to ask about an interesting little statistic I came across before taping. In your time piloting the station, you've made a point to push for, uh... let me check my notes... ah, new leadership for the Bureau of Governance, and increased funding for the Coalition of Record Explorers.
 Xavier Senecal:[expression=2]But according to the Bureau of Late Night Television fact-checkers, the Department for Analyzing Terrestrial Associations, popularly known as DATA, has actually experienced the most growth under your watch. Do you have any comments on that?
 Sam Hawkins:[expression=4][Captain Sam Hawkins gazes down at the floor]
@@ -39,4 +39,6 @@ Sam Hawkins:[expression=1]Yes, well, Director Davila has done a wonderful job re
 Sam Hawkins:[expression=1]They're highly educated about multiple topics, and each specializes in a different subfield... medicine, sociology, education-- that sort of thing. They're trained to recognize different ways people see the world and meet them where they are, facilitating transitions to personal and social achievement.
 Xavier Senecal:[expression=1]Indeed, indeed, sounds like a capable group! Now, as much as I'd <i>love</i> to keep chatting politics, a little birdie told me you've taken up singing again, can you <i>BELIEVE</i> it? I'm sure our viewers can’t wait to hear you belt out a few of your favorite 21st-century classics after this commercial break!
 Sam Hawkins:[expression=2][Captain Sam Hawkins groans as the color leaves their face.]
+EOS Security System:[The EOS security system sends a message to your display console]
+EOS Security System:To not hold up others, you MUST move forward to the Commune Transportation Network and present your EOS ID for verification.
 [title=continued-end]
