@@ -1,0 +1,74 @@
+[title=hello-start]
+speaker:Hello yes I think this is the beginning[newtalk start=xxx-start break=xxx-end]
+[title=hello-end]
+
+
+[title=xxx-start]
+speaker:[question=xxx][expression=2]Okay I believe this is when you make the choice
+[choice=choice 1]This be choice 1.
+[choice=choice 2]This be choice 2.
+[choice=choice 3]This be choice 3.
+[title=xxx-end]
+
+[title=0xx-a-start]
+speaker:[expression=3]I am angry now why would you pick that choice[newtalk start=0xx-start break=0xx-end]
+[title=0xx-a-end]
+
+[title=0xx-b-start]
+speaker:[expression=3]Why would you choose that I am so angry now[newtalk start=0xx-start break=0xx-end]
+[title=0xx-b-end]
+
+[title=0xx-start]
+speaker:Okay so you've pissed me off but I'm willing to give you another chance.
+speaker:[question=0xx][expression=2]What is my favorite color?
+[choice=Scar]The color of scars.
+[choice=Blue]You seem like a blue kind of fella..
+[choice=None]You're too edgy to have a favorite color you prick.
+[title=0xx-end]
+
+[title=lose-start]
+speaker:[expression=3]You are nitpicking and biased, I win, bye bye
+[title=lose-end]
+
+[title=01x-start]
+speaker:[expression=1]Okay, you guessed my favorite color, but can I really trust you?
+speaker:[question=01x][expression=2]Read my mind; if you get this question wrong, what am I going to say to you?
+[choice=An Insult]eat shit and die
+[choice=A Compliment]You look nice today!
+[choice=Some Inane Bullshit]I don't know what inane bullshit is.
+[title=01x-end]
+
+[title=010-a-start]
+speaker:[expression=3]Actually, what I was going to say was...[newtalk start=lose-start break=lose-end]
+[title=010-a-end]
+
+[title=010-b-start]
+speaker:[expression=3]Wrong, bucko! I was gonna say...[newtalk start=lose-start break=lose-end]
+[title=010-b-end]
+
+[title=1xx-start]
+speaker:[expression=1]Wow you picked the correct choice you are very cool!
+speaker:[question=1xx][expression=2]Now, confess to me. Beans?
+[choice=Beans.]Beans.
+[choice=Beans?]Beans?
+[choice=What?]What the absolute fuck are you on about? Is something wrong with you? Is there anything actually going on in your brain?
+[title=1xx-end]
+
+[title=10x-a-start]
+speaker:[expression=3]Yes moron, beans.[newtalk start=10x-start break=10x-end]
+[title=10x-a-end]
+
+[title=10x-b-start]
+speaker:[expression=3]okay that wasnt very nice you dick[newtalk start=10x-start break=10x-end]
+[title=10x-b-end]
+
+[title=10x-start]
+speaker:[question=10x][expression=2]What kind of ice are you on right now?
+[choice=Thin]Thin fucking ice.
+[choice=Thicc]Thicccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.
+[choice=Snarky Option]Water.
+[title=10x-end]
+
+[title=win-start]
+speaker:[expression=1]Uh you win or something I guess go fuck off now
+[title=win-end]
