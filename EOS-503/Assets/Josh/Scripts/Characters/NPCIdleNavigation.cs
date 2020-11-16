@@ -11,6 +11,7 @@ public class NPCIdleNavigation : MonoBehaviour
     [SerializeField] float movementSpeed;
     [SerializeField] float movementSpeedMin;
     [SerializeField] float movementSpeedMax;
+    [SerializeField] float waitMax;
     [SerializeField] Transform CharacterSpriteContainer;
  
     private void Start()
@@ -47,7 +48,7 @@ public class NPCIdleNavigation : MonoBehaviour
     {
         movementSpeed = Random.Range(movementSpeedMin, movementSpeedMax);
         targetPosition = new Vector2(startingPosition.x + Random.Range(0,navigationRadius), startingPosition.y + Random.Range(0, navigationRadius));
-        yield return new WaitForSeconds(Random.Range(1, 6));
+        yield return new WaitForSeconds(Random.Range(1, waitMax));
         StartCoroutine(MovementCycle()); // auto restart
     }
 

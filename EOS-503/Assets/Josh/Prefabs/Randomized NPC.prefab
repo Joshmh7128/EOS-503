@@ -913,6 +913,7 @@ MonoBehaviour:
   movementSpeed: 0
   movementSpeedMin: 0.5
   movementSpeedMax: 0.75
+  waitMax: 15
   CharacterSpriteContainer: {fileID: 2895409652643975795}
 --- !u!1 &4055590536599210725
 GameObject:
