@@ -1,7 +1,7 @@
 [title=hello-start]
 Xavier Senecal:[expression=1]Bonjour, folks! Tonight on <b>Constellation Conversation</b>, we have the space station's very own Captain Sam Hawkins, spilling the beans on the good, bad, and ugly of our quirky little vessel EOS-503. Captain Hawkins, it's a pleasure to have you with us again!
 Sam Hawkins:[expression=1]Pleasure to be here. You know me, always excited to come when I can!
-Xavier Senecal:[expression=1]Hahaha! I'm just glad you had an opening in your busy schedule!
+Xavier Senecal:[expression=4]Hahaha! I'm just glad you had an opening in your busy schedule!
 Sam Hawkins:[expression=1]Ha, well, guess you just got lucky this--
 Xavier Senecal:Captain, if you don't mind, I'd like to touch on the news of the day.
 Sam Hawkins:Sure thing.
@@ -11,7 +11,7 @@ Sam Hawkins:[expression=1]By and large, we've seen an improvement in people's li
 Sam Hawkins:[expression=1]Some are producing great art and literature. More than a few are making strides in biomedical research. And those doing the hard work of keeping us fed and hydrated and breathing clean air, too.
 Sam Hawkins:Obviously we're still working to help those who've struggled to find a place for themselves, but the state of things is... good. Certainly getting better.
 Xavier Senecal:[expression=1]Oh see now <i>THAT'S</i> interesting, captain, because word on the street is that things are a bit rougher than the High Council has cared to admit. Anything you'd like to share? Maybe just a few tidbits for your old pal Xavier? <i>And a few of his closest friends?</i>
-Xavier Senecal:[expression=1]<i>*Winks directly at camera*</i>
+Xavier Senecal:[expression=4]<i>*Winks directly at camera*</i>
 [The EOS security system sounds overhead]
 EOS Security System:[question=continue]Please advance to the Commune Transportation Network. Present your EOS ID for verification.
 [choice=Play]Continue Playing Video
