@@ -90,6 +90,7 @@
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSmartPointer.cs" />
     <Compile Include="Assets\Devin\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Devin\Scripts\NPC.cs" />
+    <Compile Include="Assets\Josh\Scripts\Characters\NPCActiveNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\NPCIdleNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\RandomNPCPartGen.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraAutoSwitch.cs" />
