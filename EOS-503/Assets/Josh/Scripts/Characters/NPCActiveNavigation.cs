@@ -13,6 +13,8 @@ public class NPCActiveNavigation : MonoBehaviour
     [SerializeField] Vector2[] PathNodesR; // random list
     // which node are we on?
     [SerializeField] int currentNode;
+    // can we continue?
+    [SerializeField] bool canAdd;
     // what is our current destination to move to?
     [SerializeField] Vector2 targetPosition;
     // the radius of randomness applied to each node to make the NPCs look more natural
@@ -35,26 +37,26 @@ public class NPCActiveNavigation : MonoBehaviour
         PathNodesR = PathNodes;
         // local counter
         int i = 0;
-        // randomize our random list
-        foreach (Vector2 position in PathNodesR)
-        {
-            // make sure to round so that it doesn't fuck itself up
-           // PathNodesR[i] = new Vector2(Mathf.Round(position.x+Random.Range(-radiusRandomness, radiusRandomness)), Mathf.Round(position.y + Random.Range(-radiusRandomness, radiusRandomness)));
-            i += 1;
-        }
         // make our first target position the first position in the coordinates list
         targetPosition = PathNodesR[0];
         // set our current node to 0
         currentNode = 0;
-        // define our movement speed and truncate
-        movementSpeedlocal = Mathf.Round(Random.Range(movementSpeedlow, movementSpeedhigh)*100 ) /100f;
+        // define our movement speed and truncate. it is imporant that we make sure this remains a float so that it can hit the targeted 2 dp rounded positions.
+        movementSpeedlocal = (float)(Random.Range(movementSpeedlow, movementSpeedhigh)*100 ) /100f;
+
+        // randomize our node list
+        foreach (Vector2 position in PathNodesR)
+        {   
+            // then input the randomized values, create our randomized variables and round to the 2nd decimal point
+            PathNodesR[i] = new Vector2(position.x + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2), position.y + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2));
+            i += 1;
+        }
     }
 
-    // fixed update runs once per frame
-    private void FixedUpdate()
+    // update runs once per tick
+    private void Update()
     {
         // singleton to ensure we do not double count on frames when reaching destination
-        bool canAdd;
         canAdd = false;
         // every frame, move to our NPC to the target position
         if (activeNPC != null)
@@ -63,7 +65,15 @@ public class NPCActiveNavigation : MonoBehaviour
             activeNPC.transform.position = Vector2.MoveTowards(activeNPC.transform.position, targetPosition,  movementSpeedlocal);
         }
         // check to see if we have reached out target position, if so, add one to the node counter
-        if ((activeNPC.transform.position.x == targetPosition.x) && (activeNPC.transform.position.y == targetPosition.y))
+        // create percentage node check range for movement progression
+        float microRadiusRand;
+        microRadiusRand = radiusRandomness * 0.1f;
+        // less than the maximum AND more than the mininum
+        if ((activeNPC.transform.position.x < targetPosition.x + microRadiusRand)  && // less than max X at target pos?
+            (activeNPC.transform.position.x > targetPosition.x + -microRadiusRand) && // more than min X?
+            (activeNPC.transform.position.y < targetPosition.y + microRadiusRand) && // less than max Y?
+            (activeNPC.transform.position.y > targetPosition.y + -microRadiusRand) // more than min Y?
+            )
         {
             // check singleton
             canAdd = true;
@@ -101,10 +111,10 @@ public class NPCActiveNavigation : MonoBehaviour
         PathNodesR = PathNodes;
         // local counter
         int i = 0;
-        // randomize our random list
+        // randomize our node list
         foreach (Vector2 position in PathNodesR)
         {
-            PathNodesR[i] = new Vector2(position.x + Mathf.Round(Random.Range(-radiusRandomness, radiusRandomness)), position.y + Mathf.Round(Random.Range(-radiusRandomness, radiusRandomness)));
+            PathNodesR[i] = new Vector2((float)position.x + (Random.Range(-radiusRandomness, radiusRandomness)), (float)position.y + (Random.Range(-radiusRandomness, radiusRandomness)));
             i += 1;
         }
         // spawn our new NPC
