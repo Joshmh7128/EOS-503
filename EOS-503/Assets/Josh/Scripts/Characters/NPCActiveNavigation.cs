@@ -19,6 +19,8 @@ public class NPCActiveNavigation : MonoBehaviour
     [SerializeField] Vector2 targetPosition;
     // the radius of randomness applied to each node to make the NPCs look more natural
     [SerializeField] float radiusRandomness;
+    // what is the micro-radius for pathwalking the random nodes?
+    [SerializeField] float degreeOfAcceptance;
     // movement speed
     [SerializeField] float movementSpeedlow;
     [SerializeField] float movementSpeedhigh;
@@ -54,20 +56,23 @@ public class NPCActiveNavigation : MonoBehaviour
     }
 
     // update runs once per tick
-    private void Update()
+    private void FixedUpdate()
     {
+        // define our movement speed in game time
+        float step = movementSpeedlocal * Time.deltaTime;
+
         // singleton to ensure we do not double count on frames when reaching destination
         canAdd = false;
         // every frame, move to our NPC to the target position
         if (activeNPC != null)
         {
             // movement
-            activeNPC.transform.position = Vector2.MoveTowards(activeNPC.transform.position, targetPosition,  movementSpeedlocal);
+            activeNPC.transform.position = Vector2.MoveTowards(activeNPC.transform.position, targetPosition,  step);
         }
         // check to see if we have reached out target position, if so, add one to the node counter
         // create percentage node check range for movement progression
         float microRadiusRand;
-        microRadiusRand = radiusRandomness * 0.1f;
+        microRadiusRand = radiusRandomness * degreeOfAcceptance;
         // less than the maximum AND more than the mininum
         if ((activeNPC.transform.position.x < targetPosition.x + microRadiusRand)  && // less than max X at target pos?
             (activeNPC.transform.position.x > targetPosition.x + -microRadiusRand) && // more than min X?
