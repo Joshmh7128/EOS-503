@@ -105,11 +105,13 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
     <Compile Include="Assets\Zack\Misc. Stuff\ZackTestNPC.cs" />
+    <Compile Include="Assets\Zack\Scripts\Argument02.cs" />
     <Compile Include="Assets\Zack\Scripts\BodyPart.cs" />
     <Compile Include="Assets\Zack\Scripts\ColorPicker.cs" />
     <Compile Include="Assets\Zack\Scripts\CreatorManager.cs" />
     <Compile Include="Assets\Zack\Scripts\CreatorSummoning.cs" />
     <Compile Include="Assets\Zack\Scripts\CustomCharacter.cs" />
+    <Compile Include="Assets\Zack\Scripts\DoorSceneTransition.cs" />
     <Compile Include="Assets\Zack\Scripts\PlayerImage.cs" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
@@ -117,6 +119,7 @@
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
+    <None Include="Assets\Zack\Misc. Stuff\Argument 02.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Tutorial_NE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText_PT_BR.txt" />
     <None Include="Assets\Devin\Talks\Event Templates\EventStandard.txt" />
