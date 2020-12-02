@@ -51,7 +51,7 @@ public class NPCActiveNavigation : MonoBehaviour
         {   
             // then input the randomized values, create our randomized variables and round to the 2nd decimal point
             PathNodesR[i] = new Vector2(position.x + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2), position.y + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2));
-            i += 1;
+            i++;
         }
     }
 
@@ -120,7 +120,7 @@ public class NPCActiveNavigation : MonoBehaviour
         foreach (Vector2 position in PathNodesR)
         {
             PathNodesR[i] = new Vector2((float)position.x + (Random.Range(-radiusRandomness, radiusRandomness)), (float)position.y + (Random.Range(-radiusRandomness, radiusRandomness)));
-            i += 1;
+            i++;
         }
         // spawn our new NPC
         activeNPC = Instantiate(pathwalkerNPC, transform);
