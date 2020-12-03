@@ -19,7 +19,7 @@ public class DoorSceneTransition : MonoBehaviour
         if (other.tag == "Player")
         {
             interactable = true;
-            Debug.Log("very nice");
+            // Debug.Log("very nice");
         }
     }
 
