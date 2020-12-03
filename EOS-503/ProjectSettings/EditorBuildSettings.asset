@@ -14,4 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Zack/Scenes/CustomPlayer&InfluenceTest.unity
     guid: b212b57924ab0b943806b8f39fdae704
+    path: Assets/Josh/Scenes/Testing/WorkersTestingEnvironment.unity
+    guid: 60e585f8710bec1499433d8297496e4d
   m_configObjects: {}
