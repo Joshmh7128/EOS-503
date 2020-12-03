@@ -9,7 +9,7 @@ public class NPCActiveNavigation : MonoBehaviour
     /// </summary>
 
     // the nodes that we will be working with to make our NPCs move
-    [SerializeField] Vector2[] PathNodes;
+    [SerializeField] Vector2[] PathNodes; // readonly so it doesn't get overwritten when defining randoms
     [SerializeField] Vector2[] PathNodesR; // random list
     // which node are we on?
     [SerializeField] int currentNode;
@@ -36,7 +36,12 @@ public class NPCActiveNavigation : MonoBehaviour
         // instantiate the walking NPC
         activeNPC = Instantiate(pathwalkerNPC, transform);
         // copy our list to our randomized list
-        PathNodesR = PathNodes;
+        int i = 0;
+
+        foreach (Vector2 element in PathNodes)
+        {
+
+        }
         // local counter
         int i = 0;
         // make our first target position the first position in the coordinates list
