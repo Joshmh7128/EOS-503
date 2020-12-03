@@ -132,7 +132,7 @@ public class NPCActiveNavigation : MonoBehaviour
         // draw each position in the path
         foreach (Vector2 position in PathNodes)
         {
-            Gizmos.DrawWireSphere(position, radiusRandomness);
+            Gizmos.DrawWireSphere(position, radiusRandomness*2);
         }
     }
 }
