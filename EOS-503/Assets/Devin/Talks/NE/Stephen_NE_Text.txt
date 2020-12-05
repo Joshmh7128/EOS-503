@@ -31,8 +31,8 @@ speaker:[expression=2]I’ll just 'ave to keep thinking about all this. Still nice
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]Reframing it… not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
-speaker:[question=01x][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn… 'ow do you think I should approach this?
+speaker:[expression=1]Reframing it... not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
+speaker:[question=01x][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
 [choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
 [choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
 [choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
@@ -47,8 +47,8 @@ speaker:[expression=3]I’m not sure that is all that different...[newtalk start=l
 [title=010-b-end]
 
 [title=1xx-start]
-speaker:[expression=1]Reframing it… not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
-speaker:[question=1xx][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn… 'ow do you think I should approach this?
+speaker:[expression=1]Reframing it... not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
+speaker:[question=1xx][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
 [choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
 [choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
 [choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
@@ -63,7 +63,7 @@ speaker:[expression=3]I’m not sure that is all that different, I will still need
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:[question=10x][expression=2]You 'ave to understand that I don’t want to pick up their slack. I really doubt springing these new ideas on 'em will help them construct an understanding… 'ow else do you think I should approach this?
+speaker:[question=10x][expression=2]You 'ave to understand that I don’t want to pick up their slack. I really doubt springing these new ideas on 'em will help them construct an understanding... 'ow else do you think I should approach this?
 [choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
 [choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
 [choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
