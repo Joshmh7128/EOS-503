@@ -1,41 +1,41 @@
 [title=hello-start]
-speaker:*Sigh* I do the same thing each day from dawn to dusk. I either clean all the time, or organize others to clean, and nothing changes from day to day. I need something new. Give me the same routine every day and no downtime and I’ll-- laze around, as you see.[newtalk start=xxx-start break=xxx-end]
+speaker:*Sigh* I do the same thing each day from dawn to dusk. I either clean all the time, or organize others to clean, and nothing changes from day to day. I need something new. Give me the same routine every day and no downtime and I'll-- laze around, as you see.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]So many of the cleaning processes are time consuming, boring, and inefficient. But repeating the same process 'aven’t 'elped me fix 'em. Ah, sorry for boring you with my troubles. Though while you are 'ere, any thoughts on how I could address my woes?
+speaker:[question=xxx][expression=2]So many of the cleaning processes are time consuming, boring, and inefficient. But repeating the same process 'aven't 'elped me fix 'em. Ah, sorry for boring you with my troubles. Though while you are 'ere, any thoughts on how I could address my woes?
 [choice=Create Ideas From Experiences]Doing the same things repeatedly can be boring. One solution might be to reframe it, instead of focusing on the action, build a new understanding of the purpose. From your experiences create new ideas, and use those to be more efficient. This may even make the tasks more fun, since you approach them in a new way!
 [choice=Store Ideas From Media]Well before negotiations finish, why not take the time to read and watch videos on cleaning? You can then store new ideas for later. Use those to make things more efficient, and then you will have plenty of time to relax outside of work!
 [choice=Look for Invariants]If your goal is to make the cleaning processes faster, more fun, and more efficient then you should test out new techniques and see what changes and what stays the same. Finding invariants will help you figure out when certain strategies work, and be more efficient. Then you can have more fun since work will be easier!
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Hmm those couldn’t 'urt, but not sure they will 'elp either. Just remembering what they do won’t 'elp me to do it.[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]Hmm those couldn't 'urt, but not sure they will 'elp either. Just remembering what they do won't 'elp me to do it.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]I know this routine by 'eart, I’m not opposed to testing new techniques, but this process sounds just as tedious and boring. It might pay off eventually, but I’m really not sure.[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]I know this routine by 'eart, I'm not opposed to testing new techniques, but this process sounds just as tedious and boring. It might pay off eventually, but I'm really not sure.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:[question=0xx][expression=2]As I said, the cleaning processes are time consuming, boring, and inefficient. But repeating the same process 'aven’t 'elped me build a better way. Any other thoughts on addressing my woes?
+speaker:[question=0xx][expression=2]As I said, the cleaning processes are time consuming, boring, and inefficient. But repeating the same process 'aven't 'elped me build a better way. Any other thoughts on addressing my woes?
 [choice=Create Ideas From Experiences]Doing the same things repeatedly can be boring. One solution might be to reframe it, instead of focusing on the action, build a new understanding of the purpose. From your experiences create new ideas, and use those to be more efficient. This may even make the tasks more fun, since you approach them in a new way!
 [choice=Store Ideas From Media]Well before negotiations finish, why not take the time to read and watch videos on cleaning? You can then store new ideas for later. Use those to make things more efficient, and then you will have plenty of time to relax outside of work!
-[choice=Look For Invariants]I know this routine by 'eart, I’m not opposed to testing new techniques, but this process sounds just as tedious and boring. It might pay off eventually, but I’m really not sure.
+[choice=Look For Invariants]I know this routine by 'eart, I'm not opposed to testing new techniques, but this process sounds just as tedious and boring. It might pay off eventually, but I'm really not sure.
 [title=0xx-end]
 
 [title=lose-start]
 speaker:[expression=3]I will still need to cover for them for a while. I need something that can be done faster.
-speaker:[expression=2]I’ll just 'ave to keep thinking about all this. Still nice to 'ave someone to share my woes with. For taking the time I’ll come to whatever meeting you arrange with Rheegan and Simm. Just 'ave 'em let me know when it 'appens.
+speaker:[expression=2]I'll just 'ave to keep thinking about all this. Still nice to 'ave someone to share my woes with. For taking the time I'll come to whatever meeting you arrange with Rheegan and Simm. Just 'ave 'em let me know when it 'appens.
 [title=lose-end]
 
 [title=01x-start]
 speaker:[expression=1]Reframing it... not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
-speaker:[question=01x][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
-[choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
-[choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
-[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
+speaker:[question=01x][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I'll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
+[choice=Build Understanding through Practice]You are right, springing new ideas won't help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won't have to pick up any slack.
+[choice=Learn Application in Context]True true, simply giving them a new model for work won't help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won't have to pick up any slack.
+[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won't have to pick up any slack.
 [title=01x-end]
 
 [title=010-a-start]
@@ -43,15 +43,15 @@ speaker:[expression=3]Hmm...[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]I’m not sure that is all that different...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I'm not sure that is all that different...[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
 speaker:[expression=1]Reframing it... not a bad idea! Instead of focusing too much on the specific actions, look at the bigger picture.
-speaker:[question=1xx][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I’ll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
-[choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
-[choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
-[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
+speaker:[question=1xx][expression=2]Still while that would 'elp me, I need to organize the others too, otherwise I'll 'ave to pick up their slack. I doubt springing these new ideas on 'em will help them learn... 'ow do you think I should approach this?
+[choice=Build Understanding through Practice]You are right, springing new ideas won't help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won't have to pick up any slack.
+[choice=Learn Application in Context]True true, simply giving them a new model for work won't help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won't have to pick up any slack.
+[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won't have to pick up any slack.
 [title=1xx-end]
 
 [title=10x-a-start]
@@ -59,17 +59,17 @@ speaker:[expression=3]Hmm, while promising, I will still need to cover for them 
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]I’m not sure that is all that different, I will still need to cover for them while writing the manual. I need something that can be done faster.[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]I'm not sure that is all that different, I will still need to cover for them while writing the manual. I need something that can be done faster.[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:[question=10x][expression=2]You 'ave to understand that I don’t want to pick up their slack. I really doubt springing these new ideas on 'em will help them construct an understanding... 'ow else do you think I should approach this?
-[choice=Build Understanding through Practice]You are right, springing new ideas won’t help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won’t have to pick up any slack.
-[choice=Learn Application in Context]True true, simply giving them a new model for work won’t help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won’t have to pick up any slack.
-[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won’t have to pick up any slack.
+speaker:[question=10x][expression=2]You 'ave to understand that I don't want to pick up their slack. I really doubt springing these new ideas on 'em will help them construct an understanding... 'ow else do you think I should approach this?
+[choice=Build Understanding through Practice]You are right, springing new ideas won't help them learn. Instead tell them that you are testing out new ideas. They will learn by trying out the ideas, and build understanding through practice. Then you won't have to pick up any slack.
+[choice=Learn Application in Context]True true, simply giving them a new model for work won't help. A better approach would have some of them work as your apprentice so that they could learn the application in the context of work. Then the others could learn from them, and you won't have to pick up any slack.
+[choice=Write a Manual for Storage]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won't have to pick up any slack.
 [title=10x-end]
 
 [title=win-start]
-speaker:Not bad, starting out as a test to let them build an understanding. There shouldn’t be too much push back on a short testing period... I think this could work!
-speaker:[expression=1]Thanks for the advice. It’s good to 'ave someone to share my woes with. I’ll come to whatever meeting you arrange with Rheegan and Simms. Just 'ave 'em let me know when it 'appens.
+speaker:Not bad, starting out as a test to let them build an understanding. There shouldn't be too much push back on a short testing period... I think this could work!
+speaker:[expression=1]Thanks for the advice. It's good to 'ave someone to share my woes with. I'll come to whatever meeting you arrange with Rheegan and Simms. Just 'ave 'em let me know when it 'appens.
 [title=win-end]
