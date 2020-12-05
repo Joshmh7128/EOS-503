@@ -67,6 +67,7 @@
     <Compile Include="Assets\Devin\NPCs\FlashForward.cs" />
     <Compile Include="Assets\Devin\NPCs\Hamadi_VS.cs" />
     <Compile Include="Assets\Devin\NPCs\Jan_Tutorial.cs" />
+    <Compile Include="Assets\Devin\NPCs\Stephen_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\TalkShow.cs" />
     <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Demo\Scripts\DemoScript.cs" />
@@ -113,6 +114,7 @@
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Argument 01.txt" />
+    <None Include="Assets\Devin\Talks\NE\Stephen_NE_Text.txt" />
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Talkshow.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />

@@ -32,7 +32,7 @@ speaker:[expression=3]I guess I need to start with fixing where your head's at!
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work inhere. I love my work here and I want to do it well. Give me the time or the information and I am all set!
+speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work in here. I love my work here and I want to do it well. Give me the time or the information and I am all set!
 speaker:[question=01x][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn't solve my problem of not knowing how to fix the stuff! I don't have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
 [choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
 [choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
@@ -48,7 +48,7 @@ speaker:[expression=3]While an incentive to find solutions would be wonderful I 
 [title=010-b-end]
 
 [title=1xx-start]
-speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work inhere. I love my work here and I want to do it well. Give me the time or the information and I am all set!
+speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work in here. I love my work here and I want to do it well. Give me the time or the information and I am all set!
 speaker:[question=1xx][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn't solve my problem of not knowing how to fix the stuff! I don't have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
 [choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
 [choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
