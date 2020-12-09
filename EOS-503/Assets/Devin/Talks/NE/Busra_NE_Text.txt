@@ -1,74 +1,75 @@
 [title=hello-start]
-speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
+speaker:[expression=2]Hmm... how to have you show me your skills at solving complex problems...
+speaker:[expression=2]<i>[Busra thinks for half a minute before she looks at you with a half-smile]</i>
+speaker:I've got it... ha, funny related to the negotiations as well. Anyway, I plan to retire soon, but with the heavy focus on efficiency from Simms, and my high workload, it has been... more than a little difficult to work towards retirement without any breaks.[newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=xxx][expression=2]I'm really not even sure how to start approaching this... I'm sure that in a few years I'll have enough money saved up, but with the move to EOS I'm not sure what retirement even looks like. Have any advice on how I should start planning for my retirement?
+[choice=Plan From Goal State]Since your goal is retirement you need to first define what that looks like then plan backwards from that goal state. Doing this you can recognize the smaller nested goals that will help you reach your goal. Then you can start applying your plan once negotiations are finished.
+[choice=Plan through Practice]A good place to start is to find examples of this situation. Once you have those examples, work through them yourself and build a plan through practice. Then you can start applying your plan once negotiations are finished.
+[choice=Discuss Plans with Others]A solid approach is to ask your peers for ideas and their plans. If you discuss your plan with others you can learn new information to guide and shape your plans. Then you can start applying your plan once negotiations are finished.
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:If I had the time to do all that I would have solved this myself. Besides I doubt there are many examples with how new this entire situation still is. That approach really won't work.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:Hmph, if I had peers to ask do you think I would be talking to you about this? If I could ask others I would be, so don't think this would help.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:Blah blah blah blah blah blah.
-speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=0xx][expression=2]You must understand I'm not sure how to approach this, and I'm not even sure what my goal of retirement even looks like. Do you have any other advice on how I should start planning for my retirement?
+[choice=Plan From Goal State]Since your goal is retirement you need to first define what that looks like then plan backwards from that goal state. Doing this you can recognize the smaller nested goals that will help you reach your goal. Then you can start applying your plan once negotiations are finished.
+[choice=Plan through Practice]A good place to start is to find examples of this situation. Once you have those examples, work through them yourself and build a plan through practice. Then you can start applying your plan once negotiations are finished.
+[choice=Discuss Plans with Others]A solid approach is to ask your peers for ideas and their plans. If you discuss your plan with others you can learn new information to guide and shape your plans. Then you can start applying your plan once negotiations are finished.
 [title=0xx-end]
 
 [title=lose-start]
-speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
+speaker:[expression=3]Well... not useful for me per se, but I can see that you have a lot of knowledge of problem solving. Fine, I'll be at this meeting you are trying to schedule, just be more helpful there.
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]Blah blah blah blah! Blah blah blah.
-speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:Hmm... while I was hoping for something more specific... I do see promise in this approach. Ha, one advantage of this new structure is I can define retirement for myself and work from there.
+speaker:[question=01x][expression=2]Hmm... well I know part of my ideal retirement would be living somewhere else. This city is too... work focused for retirement. That would mean selling my greenhouse, finding a new commune or city... quite a lot of steps that are new to me. What do you say DATA Agent, got any more advice to offer?
+[choice=Transfer Skills from Work]Well your experiences are a good place to start. As a farmer you have had to sell crops, think about how that transfers to selling your greenhouse. As the Farmers Union representative you have contacted other cities and Communes. If you transfer skills from your work, you may find the process easier!
+[choice=Build Understanding with Practice]The best way to approach this will be to test out the process, try selling your greenhouse and reading about other communes. Through that process you will build an understanding with practice. Through this you may find the process easier!
+[choice=Reach Out to Others]One way is to reach out to others to learn what they have done. While things might be different now, learning what others have done may help learn steps that you can take on EOS that may help guide selling your greenhouse and finding a new home. If you reach out to others, you may find the process easier!
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]All I am hearing you say is 'try it out and you'll get better at it'. Without any guidance I don't know where to start... I don't think this would work for me.[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]The rules, regulations, and requirements for retirement are very different now, I doubt others could tell me much that is useful... I really don't think this will help.[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
-speaker:[expression=1]Blah blah blah blah blah blah!
-speaker:[question=1xx][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=1xx][expression=2]Hmm... well I know part of my ideal retirement would be living somewhere else. This city is too... work focused for retirement. That would mean selling my greenhouse, finding a new commune or city... quite a lot of steps that are new to me. What do you say DATA Agent, got any more advice to offer?
+[choice=Transfer Skills from Work]Well your experiences are a good place to start. As a farmer you have had to sell crops, think about how that transfers to selling your greenhouse. As the Farmers Union representative you have contacted other cities and Communes. If you transfer skills from your work, you may find the process easier!
+[choice=Build Understanding with Practice]The best way to approach this will be to test out the process, try selling your greenhouse and reading about other communes. Through that process you will build an understanding with practice. Through this you may find the process easier!
+[choice=Reach Out to Others]One way is to reach out to others to learn what they have done. While things might be different now, learning what others have done may help learn steps that you can take on EOS that may help guide selling your greenhouse and finding a new home. If you reach out to others, you may find the process easier!
 [title=1xx-end]
 
 [title=10x-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]All I am hearing you say is 'try it out and you'll get better at it'. Without any guidance I don't know where to start... I don't think this would work for me.[newtalk start=10x-start break=10x-end]
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]The rules, regulations, and requirements for retirement are very different now, I doubt others could tell me much that is useful... I really don't think this will help.[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:[question=10x][expression=2]Blah blah blah blah blah blah?
-[choice=Preview 00]Blah blah blah blah blah blah.
-[choice=Preview 01]Blah blah blah blah blah blah.
-[choice=Preview 02]Blah blah blah blah blah blah.
+speaker:[question=10x][expression=2]I know part of my ideal retirement would be living somewhere else. Which means selling my greenhouse, finding a new commune or city... quite a lot of new smaller goals I don't have experience with. So what do you say DATA Agent, any useful advice to offer?
+[choice=Transfer Skills from Work]Well your experiences are a good place to start. As a farmer you have had to sell crops, think about how that transfers to selling your greenhouse. As the Farmers Union representative you have contacted other cities and Communes. If you transfer skills from your work, you may find the process easier!
+[choice=Build Understanding with Practice]The best way to approach this will be to test out the process, try selling your greenhouse and reading about other communes. Through that process you will build an understanding with practice. Through this you may find the process easier!
+[choice=Reach Out to Others]One way is to reach out to others to learn what they have done. While things might be different now, learning what others have done may help learn steps that you can take on EOS that may help guide selling your greenhouse and finding a new home. If you reach out to others, you may find the process easier!
 [title=10x-end]
 
 [title=win-start]
-speaker:[expression=1]Blah blah blah... blah blah blah!
+speaker:Interesting, not quite the same... but I get the principle. Hmm... now that you mention it there are more things that are similar than I recognized, thanks!
+speaker:[expression=1]Interesting, very interesting! Alright you got the skills, I'm confident you can help resolve all this with Simms. Let me know when the meeting is scheduled, and I'll be there. Thanks for the advice.
 [title=win-end]

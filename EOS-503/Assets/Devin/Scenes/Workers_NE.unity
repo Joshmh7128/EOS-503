@@ -2494,6 +2494,10 @@ MonoBehaviour:
     follow: {fileID: 0}
     followOffset: {x: 0, y: 0, z: 0}
     animatorOverwrite: {fileID: 0}
+  - character: {fileID: 11400000, guid: d8366b73ade592548bc59b5a2fd1cae5, type: 2}
+    follow: {fileID: 0}
+    followOffset: {x: 0, y: 0, z: 0}
+    animatorOverwrite: {fileID: 0}
   UIPhoto: {fileID: 6560416993714789031}
   PlayerPhoto: {fileID: 0}
   shouldStayOnScreen: 0
