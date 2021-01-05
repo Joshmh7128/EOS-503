@@ -20,11 +20,11 @@ MonoBehaviour:
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: f0078a8c0ee90ad4582ce93f8e0b3a55, type: 3}
+    photo: {fileID: 21300000, guid: 472f5e32d2c8a794fb41caef39135834, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: f0078a8c0ee90ad4582ce93f8e0b3a55, type: 3}
+    photo: {fileID: 21300000, guid: 0a4b711d9dc110e48ae1d9b994290e27, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
