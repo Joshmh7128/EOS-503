@@ -120,6 +120,7 @@
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Talkshow.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />
+    <None Include="Assets\Devin\Fonts\Roboto\LICENSE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Tutorial_NE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText_PT_BR.txt" />
