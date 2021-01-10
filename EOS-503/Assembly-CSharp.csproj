@@ -71,6 +71,7 @@
     <Compile Include="Assets\Devin\NPCs\Stephen_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\TalkShow.cs" />
     <Compile Include="Assets\Devin\NPCs\TestNPC.cs" />
+    <Compile Include="Assets\Devin\NPCs\Thandiwe_NE.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Demo\Scripts\DemoScript.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Helpers\RPGTalkCharacter.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Helpers\RPGTalkHelper.cs" />
@@ -119,6 +120,7 @@
     <None Include="Assets\Devin\Talks\NE\Stephen_NE_Text.txt" />
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Talkshow.txt" />
+    <None Include="Assets\Devin\Talks\NE\Thandiwe_NE.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />
     <None Include="Assets\Devin\Fonts\Roboto\LICENSE.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
