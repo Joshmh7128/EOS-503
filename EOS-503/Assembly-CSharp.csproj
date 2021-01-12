@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Devin\NPCs\Arbah_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\Argument01.cs" />
     <Compile Include="Assets\Devin\NPCs\Busra_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\Charvi_NE.cs" />
@@ -69,6 +70,8 @@
     <Compile Include="Assets\Devin\NPCs\FlashForward.cs" />
     <Compile Include="Assets\Devin\NPCs\Hamadi_VS.cs" />
     <Compile Include="Assets\Devin\NPCs\Jan_Tutorial.cs" />
+    <Compile Include="Assets\Devin\NPCs\Lisa_NE.cs" />
+    <Compile Include="Assets\Devin\NPCs\Pedro_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\Shiraishi_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\Stephen_NE.cs" />
     <Compile Include="Assets\Devin\NPCs\TalkShow.cs" />
@@ -117,14 +120,17 @@
     <None Include="Assets\Devin\Talks\NE\Busra_NE_Text.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Flashforward.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
+    <None Include="Assets\Devin\Talks\NE\Lisa_NE_Text.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Argument 01.txt" />
+    <None Include="Assets\Devin\Talks\NE\Arbah_NE_Text.txt" />
     <None Include="Assets\Devin\Talks\NE\Stephen_NE_Text.txt" />
     <None Include="Assets\Devin\RPGTALK\ReadMe.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Talkshow.txt" />
     <None Include="Assets\Devin\Talks\NE\Thandiwe_NE_Text.txt" />
     <None Include="Assets\Devin\Talks\Deprecated\TestEvent.txt" />
     <None Include="Assets\Devin\Fonts\Roboto\LICENSE.txt" />
+    <None Include="Assets\Devin\Talks\NE\Pedro_NE_Text.txt" />
     <None Include="Assets\Devin\Talks\NE\Charvi_NE_Text.txt" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemosText.txt" />
     <None Include="Assets\Devin\Talks\Scenes\Tutorial_NE.txt" />
