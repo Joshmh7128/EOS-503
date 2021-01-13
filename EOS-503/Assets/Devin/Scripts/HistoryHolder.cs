@@ -10,8 +10,7 @@ public class HistoryHolder : MonoBehaviour
     public Text spokeText;
     public Text saidText;
     public Text counter;
-    private Button thisButton;
-    private Text thisText;
+    public Button thisButton;
     public Button prevButton;
     public Button nextButton;
     public int index = 0;
@@ -21,7 +20,6 @@ public class HistoryHolder : MonoBehaviour
     {
         myTalk.myHistory = this;
         thisButton = this.GetComponent<Button>();
-        thisText = this.gameObject.transform.Find("Text").GetComponent<Text>();
         thisButton.onClick.AddListener(Toggle);
         prevButton.onClick.AddListener(Previous);
         nextButton.onClick.AddListener(Next);
@@ -59,8 +57,8 @@ public class HistoryHolder : MonoBehaviour
     private void OnDisable()
     {
         histories = new List<HistoryElement>();
+        thisButton.interactable = false;
         panel.SetActive(false);
-        thisText.text = "Show Conversation Log";
         index = 0;
     }
 
@@ -74,12 +72,10 @@ public class HistoryHolder : MonoBehaviour
         if(!panel.activeInHierarchy)
         {
             panel.SetActive(true);
-            thisText.text = "Hide Conversation Log";
         }
         else
         {
             panel.SetActive(false);
-            thisText.text = "Show Conversation Log";
         }
     }
 

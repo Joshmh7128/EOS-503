@@ -2371,6 +2371,7 @@ public class RPGTalk : MonoBehaviour
         HistoryElement he = new HistoryElement(myElement.speakerName, myElement.dialogText);
         myHistory.histories.Add(he);
         myHistory.index = myHistory.histories.Count - 1;
+        myHistory.thisButton.interactable = true;
 
         //If we had auto pass, cancel it
         if (autoPass)
