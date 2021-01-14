@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorSceneTransition : MonoBehaviour
 {
-    [SerializeField] private string scene;
+    [SerializeField] private string scene = null;
     [SerializeField] private bool sceneTransition = false;
     private bool interactable;
 
@@ -19,7 +19,6 @@ public class DoorSceneTransition : MonoBehaviour
         if (other.tag == "Player")
         {
             interactable = true;
-            // Debug.Log("very nice");
         }
     }
 
