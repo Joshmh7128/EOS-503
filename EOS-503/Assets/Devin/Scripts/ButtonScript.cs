@@ -24,11 +24,17 @@ public class ButtonScript : MonoBehaviour
 
     public void Expand()
     {
-        anim.Play("buttonExpand");
+        if(this.GetComponent<Button>().interactable)
+        {
+            anim.Play("buttonExpand");
+        }
     }
 
     public void Contract()
     {
-        anim.Play("buttonCollapse");
+        if (this.GetComponent<Button>().interactable)
+        {
+            anim.Play("buttonCollapse");
+        }
     }
 }

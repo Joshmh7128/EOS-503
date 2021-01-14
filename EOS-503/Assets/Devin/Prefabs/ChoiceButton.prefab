@@ -65,7 +65,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: f57a80dcc2f0a3e4eaece2fe4e15e7a3, type: 3}
+    m_Font: {fileID: 12800000, guid: 26455d4aa7e4c0f41b423484156a1371, type: 3}
     m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
@@ -180,9 +180,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.8196079, g: 0.909804, b: 0.882353, a: 1}
     m_HighlightedColor: {r: 0.2901961, g: 0.5803922, b: 0.54901963, a: 1}
-    m_PressedColor: {r: 0.18431373, g: 0.2392157, b: 0.37254903, a: 1}
+    m_PressedColor: {r: 0.19624421, g: 0.3962264, b: 0.37460673, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.8196079, g: 0.909804, b: 0.882353, a: 0.8627451}
+    m_DisabledColor: {r: 0.18431373, g: 0.2392157, b: 0.37254903, a: 0.98039216}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
