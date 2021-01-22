@@ -71,5 +71,5 @@ speaker:[question=10x][expression=2]I know part of my ideal retirement would be 
 
 [title=win-start]
 speaker:Interesting, not quite the same... but I get the principle. Hmm... now that you mention it there are more things that are similar than I recognized, thanks!
-speaker:[expression=1]Interesting, very interesting! Alright you got the skills, I'm confident you can help resolve all this with Simms. Let me know when the meeting is scheduled, and I'll be there. Thanks for the advice.
+speaker:[expression=1]Alright you got the skills, I'm confident you can help resolve all this with Simms. Let me know when the meeting is scheduled, and I'll be there. Thanks again for the advice.
 [title=win-end]
