@@ -93,6 +93,7 @@
     <Compile Include="Assets\Josh\Scripts\Characters\NPCActiveNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\NPCIdleNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\RandomNPCPartGen.cs" />
+    <Compile Include="Assets\Josh\Scripts\Door System\DoorScript.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraAutoSwitch.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraLerpScript.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraTrackingScript.cs" />
