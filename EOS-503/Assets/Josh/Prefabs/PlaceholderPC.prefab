@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 2647744320168214610}
   - component: {fileID: 2647744320168214611}
   - component: {fileID: 2647744320168214612}
+  - component: {fileID: 294501022448104925}
   m_Layer: 0
   m_Name: PlaceholderPC
   m_TagString: Player
@@ -561,6 +562,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.047309875}
   serializedVersion: 2
   m_Radius: 0.13
+--- !u!58 &294501022448104925
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647744320168214607}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.31999996}
+  serializedVersion: 2
+  m_Radius: 0.36
 --- !u!1 &3640661622401488074
 GameObject:
   m_ObjectHideFlags: 0
