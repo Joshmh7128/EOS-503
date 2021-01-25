@@ -105,6 +105,15 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\PlayerController2D.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
+    <Compile Include="Assets\Zack\Misc. Stuff\ZackTestNPC.cs" />
+    <Compile Include="Assets\Zack\Scripts\Argument02.cs" />
+    <Compile Include="Assets\Zack\Scripts\BodyPart.cs" />
+    <Compile Include="Assets\Zack\Scripts\ColorPicker.cs" />
+    <Compile Include="Assets\Zack\Scripts\CreatorManager.cs" />
+    <Compile Include="Assets\Zack\Scripts\CreatorSummoning.cs" />
+    <Compile Include="Assets\Zack\Scripts\CustomCharacter.cs" />
+    <Compile Include="Assets\Zack\Scripts\DoorSceneTransition.cs" />
+    <Compile Include="Assets\Zack\Scripts\PlayerImage.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
@@ -136,6 +145,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoSnippets.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Zack\Misc. Stuff\ZackTestDialogue.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">

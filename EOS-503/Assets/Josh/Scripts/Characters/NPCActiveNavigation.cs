@@ -8,15 +8,18 @@ public class NPCActiveNavigation : MonoBehaviour
     /// this script spawns NPCs at a rate, and has them follow a predetermined path throughout the environment
     /// </summary>
 
+    [Header("Original Path Nodes, Define In-Editor")]
     // the nodes that we will be working with to make our NPCs move
-    [SerializeField] Vector2[] PathNodes; // readonly so it doesn't get overwritten when defining randoms
-    [SerializeField] Vector2[] PathNodesR; // random list
+    [SerializeField] List<Vector2> PathNodes; // our original position list, do not overwrite
+    [Header("Randomized Path Nodes, Do Not Touch")]
+    [SerializeField] List<Vector2> PathNodesR; // our randomized node list
     // which node are we on?
     [SerializeField] int currentNode;
     // can we continue?
     [SerializeField] bool canAdd;
     // what is our current destination to move to?
     [SerializeField] Vector2 targetPosition;
+    [SerializeField] Vector2 startingPosition;
     // the radius of randomness applied to each node to make the NPCs look more natural
     [SerializeField] float radiusRandomness;
     // what is the micro-radius for pathwalking the random nodes?
@@ -33,31 +36,41 @@ public class NPCActiveNavigation : MonoBehaviour
     // start runs when the object 
     private void Start()
     {
+        // set our starting position
+        startingPosition = transform.position;
+
         // instantiate the walking NPC
         activeNPC = Instantiate(pathwalkerNPC, transform);
-        // copy our list to our randomized list
-        int i = 0;
 
+        // copy our list to our randomized list
+        // local counter
+        int x = 0;
+        // foreach copy
         foreach (Vector2 element in PathNodes)
         {
-
+            // testing output
+            // Debug.Log("Adding element " + x);
+            // copy
+            PathNodesR.Add(PathNodes[x]);
+            // add to counter
+            x++;
         }
-        // local counter
-        int i = 0;
+
         // make our first target position the first position in the coordinates list
         targetPosition = PathNodesR[0];
         // set our current node to 0
         currentNode = 0;
         // define our movement speed and truncate. it is imporant that we make sure this remains a float so that it can hit the targeted 2 dp rounded positions.
         movementSpeedlocal = (float)(Random.Range(movementSpeedlow, movementSpeedhigh)*100 ) /100f;
-
-        // randomize our node list
-        foreach (Vector2 position in PathNodesR)
-        {   
-            // then input the randomized values, create our randomized variables and round to the 2nd decimal point
-            PathNodesR[i] = new Vector2(position.x + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2), position.y + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2));
-            i++;
-        }
+        
+        // slightly randomize the nodes in our list to make the pathwalking appear more natural, and less calculated
+            // foreach loop to randomize each node within the degree of radiusRandomness
+            for (int i = 0; i < PathNodesR.Count; i++)
+            {   
+                // then input the randomized values, create our randomized variables and round to the 2nd decimal point
+                PathNodesR[i] = new Vector2(PathNodesR[i].x + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2), PathNodesR[i].y + (float)System.Math.Round(Random.Range(-radiusRandomness, radiusRandomness), 2));
+                // Debug.Log("Randomizing element " + i);
+            }
     }
 
     // update runs once per tick
@@ -92,7 +105,7 @@ public class NPCActiveNavigation : MonoBehaviour
             {
                 currentNode += 1;
                 // perform a check
-                if (currentNode >= PathNodes.Length)
+                if (currentNode >= PathNodes.Count)
                 {
                     ResetPathwalker();
                 }
@@ -104,7 +117,7 @@ public class NPCActiveNavigation : MonoBehaviour
         }
 
         // when we reach the end of our path, reset the node counter and reinstatiate the NPC
-        if (currentNode >= PathNodes.Length)
+        if (currentNode >= PathNodes.Count)
         {
             ResetPathwalker();
         }
@@ -113,22 +126,37 @@ public class NPCActiveNavigation : MonoBehaviour
     // pathwalking 
     private void ResetPathwalker()
     {
-        // destroy our current NPC
-        Destroy(activeNPC);
+        // instead of destroying NPC, reset their XY position to restart the path
+        activeNPC.transform.position = startingPosition;
         // reset our counter
         currentNode = 0;
+
         // copy our list to our randomized list
-        PathNodesR = PathNodes;
+        // local counter
+        int x = 0;
+
+        /*
+        // foreach copy
+        foreach (Vector2 element in PathNodes)
+        {
+            // testing output
+            Debug.Log("Randomizing element " + x);
+            // copy
+            PathNodesR.Add(PathNodes[x]);
+            // add to counter
+            x++;
+        }
+        */ 
         // local counter
         int i = 0;
+
+        /*
         // randomize our node list
         foreach (Vector2 position in PathNodesR)
         {
             PathNodesR[i] = new Vector2((float)position.x + (Random.Range(-radiusRandomness, radiusRandomness)), (float)position.y + (Random.Range(-radiusRandomness, radiusRandomness)));
             i++;
-        }
-        // spawn our new NPC
-        activeNPC = Instantiate(pathwalkerNPC, transform);
+        };*/
     }
 
     // draw gizmos
