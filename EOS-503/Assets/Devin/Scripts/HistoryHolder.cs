@@ -75,8 +75,15 @@ public class HistoryHolder : MonoBehaviour
         }
         else
         {
-            panel.SetActive(false);
+            StartCoroutine(ClosePanel());
         }
+    }
+
+    IEnumerator ClosePanel()
+    {
+        panel.GetComponent<Animator>().Play("historyClose");
+        yield return new WaitForSeconds(0.25f);
+        panel.SetActive(false);
     }
 
     public void Previous()
