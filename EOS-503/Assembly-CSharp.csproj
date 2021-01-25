@@ -105,6 +105,7 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\PlayerController2D.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
+    <Compile Include="Assets\Josh\Scripts\Scene Management\CustomSceneManager.cs" />
     <Compile Include="Assets\Josh\Scripts\Scene Management\DoorScript.cs" />
     <Compile Include="Assets\Zack\Misc. Stuff\ZackTestNPC.cs" />
     <Compile Include="Assets\Zack\Scripts\Argument02.cs" />
