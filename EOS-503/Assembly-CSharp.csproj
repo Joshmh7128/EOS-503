@@ -93,7 +93,6 @@
     <Compile Include="Assets\Josh\Scripts\Characters\NPCActiveNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\NPCIdleNavigation.cs" />
     <Compile Include="Assets\Josh\Scripts\Characters\RandomNPCPartGen.cs" />
-    <Compile Include="Assets\Josh\Scripts\Door System\DoorScript.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraAutoSwitch.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraLerpScript.cs" />
     <Compile Include="Assets\Josh\Scripts\Old\CameraTrackingScript.cs" />
@@ -106,6 +105,7 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\PlayerController2D.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
+    <Compile Include="Assets\Josh\Scripts\Scene Management\DoorScript.cs" />
     <Compile Include="Assets\Zack\Misc. Stuff\ZackTestNPC.cs" />
     <Compile Include="Assets\Zack\Scripts\Argument02.cs" />
     <Compile Include="Assets\Zack\Scripts\BodyPart.cs" />

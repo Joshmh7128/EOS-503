@@ -16,7 +16,7 @@ public class DoorScript : MonoBehaviour
         // can we change rooms?
         if (playerContact == true)
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.E))
             {
 
             }
@@ -26,7 +26,19 @@ public class DoorScript : MonoBehaviour
     // use on trigger enter to see if we are touching the player
     private void OnTriggerEnter2D(Collider2D col)
     {
-        
+        if (col.CompareTag("Player"))
+        {
+            playerContact = true;
+        }
+    }
+
+    // if the player leaves, reset bool
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            playerContact = false;
+        }
     }
 
 }
