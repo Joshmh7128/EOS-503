@@ -1,38 +1,36 @@
 [title=hello-start]
-speaker:Alright. The core of my issue is that recently I haven't been able to reconstruct much of anything my friends bring me.
-speaker:[expression=3]With the Secretaries' push for efficiency, everyone is experimenting in our Hold, trying to make things run better, faster, stronger, but without taking the time to record the process or write it down. I love trying to dismantle and repair all these new toys, but I'm worried that if I go back to work, this would bleed over quickly.[newtalk start=xxx-start break=xxx-end]
+speaker:Alright then, here’s my problem. Lately, I’ve struggled to keep up with my friends’ updates, and I have no clue how to repair their damaged tech.
+speaker:[expression=3]<i>*Scoffs*</i> The Secretary’s focus on efficiency has all my peers experimenting. They want our systems to run <i>better, faster, stronger--</i> but no one’s bothering to record what they’ve done! Now, I love reverse engineering new toys, but I don’t have time to troubleshoot every day![newtalk start=xxx-start break=xxx-end]
 [title=hello-end]
 
-
 [title=xxx-start]
-speaker:[question=xxx]Without videos, blueprints, or notes to review first, I am not sure that I'll be able to keep doing what I love. So, got any ideas for how to approach this?
-[choice=Find Other References]Creativity always has a foundation. You might want to try taking some time to find similar 'toys' that have these resources for review. After examining those you should have more knowledge stored to help you.
-[choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts and which are immobile. You know how to fix engines and transmissions. Using your knowledge of those, you can come to an understanding of a fix for the problem.
-[choice=Offer Rewards For Notes]But isn't it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Your environment would be more free of clutter therefore your life would be freer. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
+speaker:[question=xxx]<i>*Sigh*</i> Maintenance and tinkering are my passions, but I need blueprints, notes, or <i>some</i> kind of manual if I’m gonna keep doing this. Fixing problems is supposed to be your whole ‘thing,’ right?  Any ideas on how to crack this one?
+[choice=Reference and Respository]You mentioned reverse engineering new technology as it comes in... Why not lean on similar  tech equipped with official documentation? Catalog differences between the various items you tinker with, take notes to update their accompanying manuals, and build an unofficial ‘encyclopedia’  that can guide and speed up your problem solving down the road.
+[choice=Work From What You Know]You said it yourself: you’re a tinkerer. I’m sure you’ll get into a routine if you stay the course! Experiment with new technologies as they come your way,  and work from what you know to construct understanding through hands on experience. Repairs should become second nature once you’ve played around with enough new tech toys!
+[choice=Treat Yourself]Sounds like a motivation issue… Maybe you should focus on modifying your behavior with rewards whenever you repair something correctly! It’ll help you feel better about the added workload and give you a dopamine boost to boot!
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]It seems to me like you're describing jerry-rigging something together for a short term fix. It sounds like a waste of time and energy. That doesn't seem like a viable solution to the problem.[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]Hello?? <i>*Knocks on your head*</i> That’s what I have been doing, Fixer, and it isn’t working… Seems like a waste of time and energy to go that route. Not a viable solution. Not with my workload, anyway.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]I don't know how long you have been doing your job but here when one thing gets fixed another broken thing just replaces it. No matter how much work I do over 24 hours, there will always be more to do. Additionally, more work over too many hours leaves me unable to work efficiently. For example, during the 15th hour of the day, I am making as many mistakes as I have fixed. No, that won't do.[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]I don’t need a dopamine boost, I just need <i>less work</i>. Efficiency, Fixer! Something that consolidates all this information. That’s what I’m looking for.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
-speaker:I have only been given directions on how to fix some of the things given to me. If I have the information to fix it, I do it! The rest I really can't finish, so it doesn't get done.
-speaker:[question=0xx][expression=2]At one point they had given me all the books and blueprints I needed to get this work done. But recently there have been new problems and I have received no instruction on how to do it. I am also not going to spend my time off going and finding that information. That's how this clutter problem has developed really.
-[choice=Find Other References]I think that you can fix these things given you had time to do your research during the day. If I can convince Rheegan to give you time during hours to research the new issues and how to fix them would you work on the things in here? You would have the time and be able to put that information onto your hard drive or into your long term memory. You would even improve at your job!
-[choice=Build From What You Know]I think you have the ability to fix all of these things; you can construct your knowledge of the new problems through observing the old ones. You know which problems need moving parts, which need to stay still. You know how to fix engines and transmissions. Using your knowledge of those, why not build a fix for the problem?
-[choice=Offer Rewards For Notes]But isn't it rewarding to fix each of these machines? Every time you see something go from broken to functional again it must give you a sense of satisfaction. Having a clear room would make more space for you to live in. Your environment would be more free of clutter therefore your life would be freer for you to do the things you want. Working outside of hours may be annoying at first but the work will get done. After that, you can do what you want.
+speaker:[question=0xx][expression=2]<i>*Sigh*</i> Like I was saying, without blueprints or manuals to help me remember all the different makes and models and patch notes, it feels like my hobby has become a huge time sink, not a passion I love. Any other ideas?
+[choice=Reference and Respository]Creativity always has a foundation. You might want to try taking some time to find similar ‘toys’ that have these resources for review. After examining those you should have more knowledge stored to help you repair new things as you get them!
+[choice=Work From What You Know]I think you are on the right track! If you keep experimenting with these new ‘toys’; you can construct your knowledge of them. Taking your past experience, and experimenting with new objects, you should be able to fix new things as you get them!
+[choice=Treat Yourself]You just need to modify what you are doing now a little! Continuing to test is the right decision, just make sure that you reward yourself when you repair something correctly! Rewarding yourself may help you better fix new things as you get them!
 [title=0xx-end]
 
 [title=lose-start]
-speaker:[expression=3]I guess I need to start with fixing where your head's at!
+speaker:[expression=2]Hrmm. I dunno. You <i>have</i> given me much to think about, but I’m not convinced these paths are right for me. <i>*Shakes her head*</i> You tried. For that, I will attend your meeting. But ‘til then, leave me to my work.”
 [title=lose-end]
 
 [title=01x-start]
-speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work in here. I love my work here and I want to do it well. Give me the time or the information and I am all set!
+speaker:[expression=1]Hmm, that is true. I have seen similar ideas in other Communes... I’ll need to look into those and see where there is overlap.
 speaker:[question=01x][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn't solve my problem of not knowing how to fix the stuff! I don't have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
 [choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
 [choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
@@ -40,37 +38,37 @@ speaker:[question=01x][expression=2]I am glad to hear that ya want to help me ge
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]If I can't figure out how to fix these things on my own, being social won't be able to help me either. [newtalk start=lose-start break=lose-end]
+speaker:[expression=3]If I can't figure out how to fix these things on my own, being social won't be able to help me either.[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]While an incentive to find solutions would be wonderful I don't know where to find that information..[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]While an incentive to find solutions would be wonderful I don't know where to find that information...[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
-speaker:[expression=1]If I have time to do my research and learn how to do it I would be happy to finish my work in here. I love my work here and I want to do it well. Give me the time or the information and I am all set!
-speaker:[question=1xx][expression=2]I am glad to hear that ya want to help me get some time to do things but that doesn't solve my problem of not knowing how to fix the stuff! I don't have instructions on how to fix these things! I need to see directions and interpret them to be able to understand how to fix this stuff.
-[choice=Compile and Store Notes]Given that you had time to do the research you could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. You can consider taking notes on the subjects as a means of processing it!
-[choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
-[choice=Provide Incentives For Solutions]Perhaps you should seek out a reward system. Every time you find a solution to one of your problems you get to do a task of your choosing. This would make finding the solutions enjoyable!
+speaker:[expression=1]Huh. That’s a fair point, Fixer. I actually heard a rumor that some of the other Communes’ engineering teams have been keeping an unofficial log for their tech hobbying. Maybe I should look into what they’re up to during my next off-shift.
+speaker:[question=1xx][expression=2]Can’t force anyone to take notes, of course, but I guess it wouldn’t hurt to ask. How would you convince them, hm?
+[choice=Safe Storage]Persuasion might be possible if you press them on long-term value. Mention how a wiki of blueprints and patch notes will make refining their inventions easier, even if it means sacrificing a little bit of independence. It’ll also make your troubleshooting faster, so there’s a bonus for everyone involved!
+[choice=Notes Build Knowledge]You could try showing the other Repairers how a shared log of blueprints and manuals makes totally new and unique construction projects possible. A group that proactively collects, curates, and annotates is a group that ultimately spends more time building, less time taking notes, and makes fewer mistakes.
+[choice=Offer Incentives]If you’re not sure they’ll want to join just because you asked, you could try an incentive or two. Maybe offer a discount for every new blueprint they bring in or a small reward for each missing manual they locate—a kind of finder’s fee. Not only will it reinforce their assistance, it’ll reinforce your passion for tinkering.
 [title=1xx-end]
 
 [title=10x-a-start]
-speaker:[expression=3]If I can't figure out how to fix these things on my own, people out there won't be able to help me either. This is MY job. I'm the one who does it.[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]I understand what you’re saying, but I’m not sure that argument can gain traction if I don’t have a good example to point them to. And I keep tellin’ you, I don’t have time to make a whole presentation. I’ll keep it in mind, regardless.[newtalk start=10x-start break=10x-end]
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]While an incentive to find solutions would be wonderful I don't know where to find that information[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]Incentives might get me something, but maintaining a log of missing blueprints is just more work, so it kinda defeats the purpose. There’s gotta be a different way to bring them on board.[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:I have only been given directions on how to fix some of the things given to me. If I have the information to fix it, I do it!
-speaker:[question=10x][expression=2]At one point they had given me all the books and blueprints I needed to get the original work done. But recently there have been new problems and I have received no instruction on how to resolve them. I am also not going to spend my time off going and finding that information.
-[choice=Compile and Store Notes]You could always find the information on a computer or in a library. Then you could save it to a flash drive until it becomes part of your long term memory. All you have to do is find it then take notes!
-[choice=Consult With Others Online]The convenient part about living with the internet and computers is that you can ask people on online forums how to fix some of these things. Talk with others about your problems and they will help you understand how to fix these things!
-[choice=Provide Incentives For Solutions]Perhaps you should seek out a reward system. Every time you find a solution to one of your problems you get to do a task of your choosing. This would make finding the solutions enjoyable!
+speaker:[question=10x][expression=2]I need other inventors’ help because I can’t remember all the different ins and outs of their personal tools and software. I can’t very well force anyone to take notes, so I hope you have a trick up your sleeve.
+[choice=Safe Storage]One way might be to convince them of the importance! Talk with them about how creating blueprints will let them store information so that they can refine and remake their inventions. As well, make sure to tell them that giving you the blueprints will allow you to fix them faster so they can experiment more!
+[choice=Notes Build Knowledge]One way would be to tell them how note taking helps them build knowledge! If they understand that the process of taking notes can help them construct their understanding of the objects, then maybe they will start taking down notes!
+[choice=Offer Incentives]Well if you need notes, then just incentivise people for them. Maybe tell them that you will give them a discount if they give you blueprints, or you give them a small reward. Then you should be able to do all your work! As well you will then feel rewarded because you are able to fix new things as you get them!
 [title=10x-end]
 
 [title=win-start]
-speaker:[expression=1]Huh I hadn't considered notes...Alright, You get me the time, I'll take in the information and fix the issues we have built up!
+speaker:[expression=1]Y’know, that’s a solid answer. Help my comrades recognize this is more efficient in the long run. Not bad, Fixer, not bad.
+speaker:[expression=1]Thank you for these ideas—, I’ll keep mulling them over, but I think I see a path now. Have Rheegan reach out to me once the meeting is scheduled. I’ll be there for you!
 [title=win-end]
