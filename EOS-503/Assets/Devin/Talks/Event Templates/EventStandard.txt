@@ -4,7 +4,7 @@ speaker:Blah blah blah blah blah blah![newtalk start=xxx-start break=xxx-end]
 
 
 [title=xxx-start]
-speaker:[question=xxx][expression=2]Blah blah blah blah blah blah?
+speaker:[question=xxx][expression=2]This is the first question.
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
@@ -20,7 +20,7 @@ speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start b
 
 [title=0xx-start]
 speaker:Blah blah blah blah blah blah.
-speaker:[question=0xx][expression=2]Blah blah blah blah blah blah?
+speaker:[question=0xx][expression=2]This is the first question rephrased.
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
@@ -32,7 +32,7 @@ speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
 
 [title=01x-start]
 speaker:[expression=1]Blah blah blah blah! Blah blah blah.
-speaker:[question=01x][expression=2]Blah blah blah blah blah blah?
+speaker:[question=01x][expression=2]This is the second question.
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
@@ -48,7 +48,7 @@ speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start 
 
 [title=1xx-start]
 speaker:[expression=1]Blah blah blah blah blah blah!
-speaker:[question=1xx][expression=2]Blah blah blah blah blah blah?
+speaker:[question=1xx][expression=2]This is the second question.
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
@@ -63,7 +63,7 @@ speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start b
 [title=10x-b-end]
 
 [title=10x-start]
-speaker:[question=10x][expression=2]Blah blah blah blah blah blah?
+speaker:[question=10x][expression=2]This is the second question rephrased.
 [choice=Preview 00]Blah blah blah blah blah blah.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
