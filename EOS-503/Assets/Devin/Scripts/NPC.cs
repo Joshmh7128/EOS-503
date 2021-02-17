@@ -55,7 +55,14 @@ public class NPC : MonoBehaviour
                 else
                 {
                     myTalk.buttonDisabled = -1;
-                    myTalk.NewTalk("lose-start", "lose-end");
+                    if (num == 1)
+                    {
+                        myTalk.NewTalk("100-a-start", "100-a-end");
+                    }
+                    else if (num == 2)
+                    {
+                        myTalk.NewTalk("100-b-start", "100-b-end");
+                    }
                 }
                 break;
             case "0xx":
@@ -66,7 +73,14 @@ public class NPC : MonoBehaviour
                 else
                 {
                     myTalk.buttonDisabled = -1;
-                    myTalk.NewTalk("lose-start", "lose-end");
+                    if (num == 1)
+                    {
+                        myTalk.NewTalk("00x-a-start", "00x-a-end");
+                    }
+                    else if (num == 2)
+                    {
+                        myTalk.NewTalk("00x-b-start", "00x-b-end");
+                    }
                 }
                 break;
             case "01x":
@@ -77,7 +91,14 @@ public class NPC : MonoBehaviour
                 else
                 {
                     myTalk.buttonDisabled = -1;
-                    myTalk.NewTalk("lose-start", "lose-end");
+                    if (num == 1)
+                    {
+                        myTalk.NewTalk("010-a-start", "010-a-end");
+                    }
+                    else if (num == 2)
+                    {
+                        myTalk.NewTalk("010-b-start", "010-b-end");
+                    }
                 }
                 break;
         }

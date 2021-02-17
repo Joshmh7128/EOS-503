@@ -25,11 +25,11 @@ speaker:[question=0xx][expression=2]I told ya, cleanin' and organizin' is time c
 [title=0xx-end]
 
 [title=00x-a-start]
-speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]Hmm, probably couldn't 'urt, but not sure that'll 'elp either. Jus' seein' an' rememberin' what other folks do won't necessarily 'elp me do it meself.[newtalk start=lose-start break=lose-end]
 [title=00x-a-end]
 
 [title=00x-b-start]
-speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I'm not opposed to experimentin', mind ya, but that can be as frustratin' an' tedious an' borin' as doin' what I'm accustomed to. Really not sure it's worth all that effort.[newtalk start=lose-start break=lose-end]
 [title=00x-b-end]
 
 [title=lose-start]
@@ -76,11 +76,11 @@ speaker:[question=10x][expression=2]Ya 'ave ta understand that I don' want to ge
 [title=10x-end]
 
 [title=100-a-start]
-speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]Huh. Sounds promisin', I'll give ya that. But I'll still need to cover fer 'em till a few 'ave been through the process. Gonna need somethin' a wee bit quicker first.[newtalk start=lose-start break=lose-end]
 [title=100-a-end]
 
 [title=100-b-start]
-speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I'm not sure that is all that different, I will still need to cover for them while writing the manual. I need something that can be done faster.[newtalk start=lose-start break=lose-end]
 [title=100-b-end]
 
 [title=win-start]

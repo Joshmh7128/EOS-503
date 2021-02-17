@@ -26,11 +26,11 @@ speaker:[question=0xx][expression=2]<i>*Sigh*</i> Like I was saying, without sch
 [title=0xx-end]
 
 [title=00x-a-start]
-speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]That's what I <i>have</i> been doing, and it isn't working... Seems like a waste of time and energy to go that route. <i>Not</i> a viable solution.[newtalk start=lose-start break=lose-end]
 [title=00x-a-end]
 
 [title=00x-b-start]
-speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]And where am I supposed to get a bunch of 'treats,' eh? Provide them myself? I'm not made of candy bars and trophies! That's <i>not</i> a viable solution.[newtalk start=lose-start break=lose-end]
 [title=00x-b-end]
 
 [title=lose-start]
@@ -78,11 +78,11 @@ speaker:[question=10x][expression=2]I need other inventors' help to store this i
 [title=10x-end]
 
 [title=100-a-start]
-speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I understand what you're saying, and that might work for some, but is that tangible enough for them  to do a bunch of extra work? I'll keep it in mind, regardless.[newtalk start=lose-start break=lose-end]
 [title=100-a-end]
 
 [title=100-b-start]
-speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]I'm no Fixer, but it seems pretty likely that punishing people will just make them more upset. Sure, one or two might take notes, but is it really worth turning everyone else away?[newtalk start=lose-start break=lose-end]
 [title=100-b-end]
 
 [title=win-start]
