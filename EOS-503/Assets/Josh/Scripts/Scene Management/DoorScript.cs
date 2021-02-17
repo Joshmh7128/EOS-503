@@ -5,11 +5,28 @@ using UnityEngine;
 public class DoorScript : MonoBehaviour
 {
     // variables
-    [SerializeField] GameObject playerObject; // get our player
+    [SerializeField] Transform playerTransform; // get our player
     [SerializeField] string targetScene; // which scene are we going to?
     [SerializeField] Vector2 targetCoords; // what coordinates are we landing at?
     [SerializeField] bool playerContact; // are we touching the player right now?
-    CustomSceneManager customSceneManager; // our custom scene manager
+    [SerializeField] CustomSceneManager customSceneManager; // our custom scene manager
+
+    // find the custom scene manager
+    private void Start()
+    {
+        // if we don't have a scene manager...
+        if (customSceneManager == null)
+        {   // ...find it, and use it
+            customSceneManager = GameObject.Find("SceneManager").GetComponent<CustomSceneManager>();
+        }
+
+        // if we don't have a player character...
+        if (playerTransform == null)
+        {   // ...find it, and use it
+            playerTransform = GameObject.Find("PlaceholderPC").GetComponent<Transform>();
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -17,8 +34,10 @@ public class DoorScript : MonoBehaviour
         // can we change rooms?
         if (playerContact == true)
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
+                // move player in same frame as scene load
+                playerTransform.position = targetCoords;
                 // request scene load, targetscene is string
                 customSceneManager.LoadSingleScene(targetScene);
             }
