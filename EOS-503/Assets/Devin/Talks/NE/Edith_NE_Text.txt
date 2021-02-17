@@ -25,6 +25,14 @@ speaker:[question=0xx][expression=2]<i>*Sigh*</i> Like I was saying, without sch
 [choice=Rewards for Documentation]Maybe you can modify their behavior using rewards for documentation. Whenever someone brings you something new, give them a treat as long as it comes with a manual! Then you'll have the resources you need to avoid being bogged down.
 [title=0xx-end]
 
+[title=00x-a-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-a-end]
+
+[title=00x-b-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-b-end]
+
 [title=lose-start]
 speaker:[expression=2]Hrmm. I dunno. You <i>have</i> given me much to think about, but I'm not convinced these paths are right for me. 
 speaker:<i>*Shakes her head*</i> You tried. For that, I will attend your meeting. But 'til then, leave me to my work.
@@ -68,6 +76,14 @@ speaker:[question=10x][expression=2]I need other inventors' help to store this i
 [choice=Creating Notes Builds Knowledge]Try showing other repairers how creating blueprints and schematics builds <i>their</i> knowledge, too, which  will make new and unique projects possible. It could be enough to win them over, and you can use their notes for your repairs.
 [choice=Punish Lack of Notes]If you're not sure they'll want to join the effort, you could punish anyone who fails to bring you notes with their technology. Tell them their repairs will get lower priority, or maybe suggest you won't repair their tech at all. Condition their note-taking behavior by giving a tangible reason to save blueprints and share notes.
 [title=10x-end]
+
+[title=100-a-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-a-end]
+
+[title=100-b-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-b-end]
 
 [title=win-start]
 speaker:[expression=1]Y'know, that's a solid answer. Help my comrades recognize this is more efficient, which they love. Not bad, Fixer, not bad.

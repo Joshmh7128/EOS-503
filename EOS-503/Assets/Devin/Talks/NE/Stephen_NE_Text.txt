@@ -24,6 +24,14 @@ speaker:[question=0xx][expression=2]I told ya, cleanin' and organizin' is time c
 [choice=Identify Invariance]If the goal is to make cleaning and organizing faster, and more fun and efficient, you should experiment with different techniques to track similarities and differences in process and outcome. Once you identify invariance between strategies, you'll be able to work better in unique and complex situations!
 [title=0xx-end]
 
+[title=00x-a-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-a-end]
+
+[title=00x-b-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-b-end]
+
 [title=lose-start]
 speaker:[expression=3]I'll jus' 'ave to keep thinkin' about all this meself. Still, it's nice 'avin someone like you around ta talk through it. Fer takin' the time, I'll come to whatever meetin' ya arrange with Rheegan and Simm. Just tell 'em ta let me know when it 'appens.
 [title=lose-end]
@@ -66,6 +74,14 @@ speaker:[question=10x][expression=2]Ya 'ave ta understand that I don' want to ge
 [choice=Application in Context]Simply giving everyone a new model won't be enough on its own. You should consider taking apprentices who can shadow you to learn skills in the context you want them applied. Eventually, you'll have a whole community of practitioners to experiment, teach, and work without your personal supervision.
 [choice=Write a Manual]That would be startling! A better approach might be to write up a manual for storage first! Then you can give the manual to everyone else to read, they can then store that information in their long term memory. After that you won't have to pick up any slack.
 [title=10x-end]
+
+[title=100-a-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-a-end]
+
+[title=100-b-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-b-end]
 
 [title=win-start]
 speaker:Ay, not bad... If I explain it that way, and start with a group trial, it could work. Shouldn't be too much push back this way. I think you may be onto somethin'!

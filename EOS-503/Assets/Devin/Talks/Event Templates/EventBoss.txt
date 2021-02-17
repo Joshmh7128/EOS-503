@@ -9,6 +9,14 @@ speaker:[question=xxxx][expression=2]This is the first question.
 [choice=Preview 02]Choice text.
 [title=xxxx-end]
 
+[title=0xxx-a-start]
+speaker:[expression=3]You answered P1 wrong.[newtalk start=0xxx-start break=0xxx-end]
+[title=0xxx-a-end]
+
+[title=0xxx-b-start]
+speaker:[expression=3]You answered P1 wrong.[newtalk start=0xxx-start break=0xxx-end]
+[title=0xxx-b-end]
+
 [title=0xxx-start]
 speaker:[question=0xxx][expression=2]This is the first question, secondary phrasing.
 [choice=Preview 00]Choice text.
@@ -16,12 +24,28 @@ speaker:[question=0xxx][expression=2]This is the first question, secondary phras
 [choice=Preview 02]Choice text.
 [title=0xxx-end]
 
+[title=00xx-a-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=00xx-start break=00xx-end]
+[title=00xx-a-end]
+
+[title=00xx-b-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=00xx-start break=00xx-end]
+[title=00xx-b-end]
+
 [title=00xx-start]
 speaker:[question=00xx][expression=2]This is the first question, tertiary phrasing.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=00xx-end]
+
+[title=000x-a-start]
+speaker:[expression=3]You answered TP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=000x-a-end]
+
+[title=000x-b-start]
+speaker:[expression=3]You answered TP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=000x-b-end]
 
 [title=1xxx-start]
 speaker:[question=1xxx][expression=2]This is the second question.

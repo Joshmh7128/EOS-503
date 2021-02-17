@@ -11,11 +11,11 @@ speaker:[question=xxx][expression=2]This is the first question.
 [title=xxx-end]
 
 [title=0xx-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]You answered P1 wrong.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-a-end]
 
 [title=0xx-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=0xx-start break=0xx-end]
+speaker:[expression=3]You answered P1 wrong.[newtalk start=0xx-start break=0xx-end]
 [title=0xx-b-end]
 
 [title=0xx-start]
@@ -25,6 +25,14 @@ speaker:[question=0xx][expression=2]This is the first question rephrased.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
 [title=0xx-end]
+
+[title=00x-a-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-a-end]
+
+[title=00x-b-start]
+speaker:[expression=3]You answered SP1 wrong.[newtalk start=lose-start break=lose-end]
+[title=00x-b-end]
 
 [title=lose-start]
 speaker:[expression=3]Blah blah blah blah blah! Blah blah blah.
@@ -39,11 +47,11 @@ speaker:[question=01x][expression=2]This is the second question.
 [title=01x-end]
 
 [title=010-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=lose-start break=lose-end]
 [title=010-a-end]
 
 [title=010-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=lose-start break=lose-end]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=lose-start break=lose-end]
 [title=010-b-end]
 
 [title=1xx-start]
@@ -55,11 +63,11 @@ speaker:[question=1xx][expression=2]This is the second question.
 [title=1xx-end]
 
 [title=10x-a-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=10x-start break=10x-end]
 [title=10x-a-end]
 
 [title=10x-b-start]
-speaker:[expression=3]Blah blah blah blah blah blah...[newtalk start=10x-start break=10x-end]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=10x-start break=10x-end]
 [title=10x-b-end]
 
 [title=10x-start]
@@ -68,6 +76,14 @@ speaker:[question=10x][expression=2]This is the second question rephrased.
 [choice=Preview 01]Blah blah blah blah blah blah.
 [choice=Preview 02]Blah blah blah blah blah blah.
 [title=10x-end]
+
+[title=100-a-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-a-end]
+
+[title=100-b-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=100-b-end]
 
 [title=win-start]
 speaker:[expression=1]Blah blah blah... blah blah blah!
