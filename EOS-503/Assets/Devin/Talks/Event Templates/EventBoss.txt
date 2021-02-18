@@ -54,12 +54,28 @@ speaker:[question=1xxx][expression=2]This is the second question.
 [choice=Preview 02]Choice text.
 [title=1xxx-end]
 
+[title=10xx-a-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=10xx-start break=10xx-end]
+[title=10xx-a-end]
+
+[title=10xx-b-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=10xx-start break=10xx-end]
+[title=10xx-b-end]
+
 [title=01xx-start]
 speaker:[question=01xx][expression=2]This is the second question.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=01xx-end]
+
+[title=010x-a-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=010x-start break=010x-end]
+[title=010x-a-end]
+
+[title=010x-b-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=010x-start break=010x-end]
+[title=010x-b-end]
 
 [title=001x-start]
 speaker:[question=001x][expression=2]This is the second question.
@@ -68,12 +84,28 @@ speaker:[question=001x][expression=2]This is the second question.
 [choice=Preview 02]Choice text.
 [title=001x-end]
 
+[title=0010-a-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=lose-start break=lose-end]
+[title=0010-a-end]
+
+[title=0010-b-start]
+speaker:[expression=3]You answered P2 wrong.[newtalk start=lose-start break=lose-end]
+[title=0010-b-end]
+
 [title=10xx-start]
 speaker:[question=10xx][expression=2]This is the second question, secondary phrasing.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=10xx-end]
+
+[title=100x-a-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=100x-start break=100x-end]
+[title=100x-a-end]
+
+[title=100x-b-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=100x-start break=100x-end]
+[title=100x-b-end]
 
 [title=010x-start]
 speaker:[question=010x][expression=2]This is the second question, secondary phrasing.
@@ -82,12 +114,28 @@ speaker:[question=010x][expression=2]This is the second question, secondary phra
 [choice=Preview 02]Choice text.
 [title=010x-end]
 
+[title=0100-a-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=0100-a-end]
+
+[title=0100-b-start]
+speaker:[expression=3]You answered SP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=0100-b-end]
+
 [title=100x-start]
 speaker:[question=100x][expression=2]This is the second question, tertiary phrasing.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=100x-end]
+
+[title=1000-a-start]
+speaker:[expression=3]You answered TP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=1000-a-end]
+
+[title=1000-b-start]
+speaker:[expression=3]You answered TP2 wrong.[newtalk start=lose-start break=lose-end]
+[title=1000-b-end]
 
 [title=11xx-start]
 speaker:[question=11xx][expression=2]This is the third question.
@@ -96,12 +144,28 @@ speaker:[question=11xx][expression=2]This is the third question.
 [choice=Preview 02]Choice text.
 [title=11xx-end]
 
+[title=110x-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=110x-start break=110x-end]
+[title=110x-a-end]
+
+[title=110x-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=110x-start break=110x-end]
+[title=110x-b-end]
+
 [title=101x-start]
 speaker:[question=101x][expression=2]This is the third question.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=101x-end]
+
+[title=1010-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=1010-start break=1010-end]
+[title=1010-a-end]
+
+[title=1010-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=1010-start break=1010-end]
+[title=1010-b-end]
 
 [title=1001-start]
 speaker:[question=1001][expression=2]This is the third question.
@@ -110,12 +174,28 @@ speaker:[question=1001][expression=2]This is the third question.
 [choice=Preview 02]Choice text.
 [title=1001-end]
 
+[title=10010-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=10010-a-end]
+
+[title=10010-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=10010-b-end]
+
 [title=011x-start]
 speaker:[question=011x][expression=2]This is the third question.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=011x-end]
+
+[title=0110-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=0110-start break=0110-end]
+[title=0110-a-end]
+
+[title=0110-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=0110-start break=0110-end]
+[title=0110-b-end]
 
 [title=0101-start]
 speaker:[question=0101][expression=2]This is the third question.
@@ -124,12 +204,28 @@ speaker:[question=0101][expression=2]This is the third question.
 [choice=Preview 02]Choice text.
 [title=0101-end]
 
+[title=01010-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=01010-a-end]
+
+[title=01010-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=01010-b-end]
+
 [title=0011-start]
 speaker:[question=0011][expression=2]This is the third question.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=0011-end]
+
+[title=00110-a-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=00110-a-end]
+
+[title=00110-b-start]
+speaker:[expression=3]You answered P3 wrong.[newtalk start=lose-start break=lose-end]
+[title=00110-b-end]
 
 [title=110x-start]
 speaker:[question=110x][expression=2]This is the third question, secondary phrasing.
@@ -138,12 +234,28 @@ speaker:[question=110x][expression=2]This is the third question, secondary phras
 [choice=Preview 02]Choice text.
 [title=110x-end]
 
+[title=1100-a-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=1100-start break=1100-end]
+[title=1100-a-end]
+
+[title=1100-b-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=1100-start break=1100-end]
+[title=1100-b-end]
+
 [title=1010-start]
 speaker:[question=1010][expression=2]This is the third question, secondary phrasing.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=1010-end]
+
+[title=10100-a-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=10100-a-end]
+
+[title=10100-b-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=10100-b-end]
 
 [title=0110-start]
 speaker:[question=0110][expression=2]This is the third question, secondary phrasing.
@@ -152,12 +264,28 @@ speaker:[question=0110][expression=2]This is the third question, secondary phras
 [choice=Preview 02]Choice text.
 [title=0110-end]
 
+[title=01100-a-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=01100-a-end]
+
+[title=01100-b-start]
+speaker:[expression=3]You answered SP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=01100-b-end]
+
 [title=1100-start]
 speaker:[question=1100][expression=2]This is the third question, tertiary phrasing.
 [choice=Preview 00]Choice text.
 [choice=Preview 01]Choice text.
 [choice=Preview 02]Choice text.
 [title=1100-end]
+
+[title=11000-a-start]
+speaker:[expression=3]You answered TP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=11000-a-end]
+
+[title=11000-b-start]
+speaker:[expression=3]You answered TP3 wrong.[newtalk start=lose-start break=lose-end]
+[title=11000-b-end]
 
 [title=win-start]
 speaker:[expression=1]Win state!
