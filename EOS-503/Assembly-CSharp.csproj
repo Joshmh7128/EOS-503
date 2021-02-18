@@ -99,6 +99,7 @@
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSimpleAnimation.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSkipCutscene.cs" />
     <Compile Include="Assets\Devin\RPGTALK\Scripts\Snippets\RPGTalkSmartPointer.cs" />
+    <Compile Include="Assets\Devin\Scripts\Boss.cs" />
     <Compile Include="Assets\Devin\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Devin\Scripts\HistoryElement.cs" />
     <Compile Include="Assets\Devin\Scripts\HistoryHolder.cs" />
