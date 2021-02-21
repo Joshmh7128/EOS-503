@@ -114,12 +114,14 @@
     <Compile Include="Assets\Zack\Scripts\CustomCharacter.cs" />
     <Compile Include="Assets\Zack\Scripts\DoorSceneTransition.cs" />
     <Compile Include="Assets\Zack\Scripts\PlayerImage.cs" />
+    <Compile Include="Assets\Zack\Shader Stuff\ShaderCameraScript.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTimeline.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Zack\Shader Stuff\HighlightShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Devin\Talks\Scenes\Argument 01.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
