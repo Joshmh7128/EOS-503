@@ -69,6 +69,12 @@ public class PlayerController2D : MonoBehaviour
         /// 
 
         // up 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Debug.Log("Space Pressed");
+        }
+
+        // up 
         if (Input.GetKey(KeyCode.W))
         {
             playerSpriteRenderer.sprite = playerSprites[2];

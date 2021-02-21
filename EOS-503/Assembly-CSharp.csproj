@@ -105,6 +105,8 @@
     <Compile Include="Assets\Josh\Scripts\Player and Camera\PlayerController2D.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneDoor.cs" />
     <Compile Include="Assets\Josh\Scripts\Player and Camera\SceneTracking.cs" />
+    <Compile Include="Assets\Josh\Scripts\Scene Management\CustomSceneManager.cs" />
+    <Compile Include="Assets\Josh\Scripts\Scene Management\DoorScript.cs" />
     <Compile Include="Assets\Zack\Misc. Stuff\ZackTestNPC.cs" />
     <Compile Include="Assets\Zack\Scripts\Argument02.cs" />
     <Compile Include="Assets\Zack\Scripts\BodyPart.cs" />
@@ -113,9 +115,7 @@
     <Compile Include="Assets\Zack\Scripts\CreatorSummoning.cs" />
     <Compile Include="Assets\Zack\Scripts\CustomCharacter.cs" />
     <Compile Include="Assets\Zack\Scripts\DoorSceneTransition.cs" />
-    <Compile Include="Assets\Zack\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Zack\Scripts\PlayerImage.cs" />
-    <Compile Include="Assets\Zack\Shader Stuff\ShaderCameraScript.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Devin\RPGTALK\Demo\Talks\DemoTagsText.txt" />
@@ -689,55 +689,55 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/minec/Documents/EOS-503/EOS-503/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/meagh/Documents/GitHub/EOS-503/EOS-503/EOS-503/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
