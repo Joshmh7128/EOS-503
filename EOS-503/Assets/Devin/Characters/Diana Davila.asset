@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46921e71e9f04ccb83ec685be24573c, type: 3}
+  m_Name: Diana Davila
+  m_EditorClassIdentifier: 
+  dialoger: Diana Davila
+  photo: {fileID: 21300000, guid: 21fb40e82d7b6ae4584d5fbfbddaa996, type: 3}
+  expressions:
+  - name: 1
+    photo: {fileID: 21300000, guid: 1a0d922ab10f8b84d8e4bb3837e4febf, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 2
+    photo: {fileID: 21300000, guid: cd54376ba4fc4054fafffb641d102a15, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 3
+    photo: {fileID: 21300000, guid: 14e2c380f267ad44eaf030ca70327010, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}
+  - name: 4
+    photo: {fileID: 21300000, guid: 14e2c380f267ad44eaf030ca70327010, type: 3}
+    boolInAnimator: 
+    audio: {fileID: 0}

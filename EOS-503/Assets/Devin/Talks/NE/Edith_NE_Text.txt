@@ -1,0 +1,91 @@
+[title=hello-start]
+speaker:Alright then, here's my problem. Lately, I've struggled to keep up with my friends' updates, and I have no clue how to repair their damaged tech.
+speaker:[expression=3]<i>*Scoffs*</i> The Secretary's focus on efficiency has all my peers experimenting. They want our systems to run <i>better, faster, stronger--</i> but no one's bothering to record what they've done! Now, I love reverse engineering new toys, but I don't have time to troubleshoot every day![newtalk start=xxx-start break=xxx-end]
+[title=hello-end]
+
+[title=xxx-start]
+speaker:[question=xxx]<i>*Sigh*</i> Maintenance and tinkering are my passions, but I need blueprints, notes, or <i>some</i> kind of manual if I'm gonna keep doing this. Fixing problems is supposed to be your whole 'thing,' right? Any ideas on how to crack this one?
+[choice=Reference Similar Tech]You mentioned reverse engineering new technology as it comes in... Why not reference similar tech that has documentation? Catalog differences between the tech, take notes on each, and build your own 'encyclopedia' that guides and speeds up your repairs.
+[choice=Experiment With New Tech]I believe you'll work it out if you stay the course. Experiment with new tech as it comes, and through hands-on experience, you'll learn the nuances of each piece. Repairs should be easier once you play with enough new toys!
+[choice=Rewards for Documentation]Maybe you can modify their behavior using rewards for documentation. Whenever someone brings you something new, give them a treat as long as it comes with a manual! Then you'll have the resources you need to avoid being bogged down.
+[title=xxx-end]
+
+[title=0xx-a-start]
+speaker:[expression=3]That's what I <i>have</i> been doing, and it isn't working... Seems like a waste of time and energy to go that route. <i>Not</i> a viable solution.[newtalk start=0xx-start break=0xx-end]
+[title=0xx-a-end]
+
+[title=0xx-b-start]
+speaker:[expression=3]And where am I supposed to get a bunch of 'treats,' eh? Provide them myself? I'm not made of candy bars and trophies! That's <i>not</i> a viable solution.[newtalk start=0xx-start break=0xx-end]
+[title=0xx-b-end]
+
+[title=0xx-start]
+speaker:[question=0xx][expression=2]<i>*Sigh*</i> Like I was saying, without schematics to help me keep track of all the different technologies and version changes, repairing has turned into a huge time sink, not something I love. Any other ideas?
+[choice=Reference Similar Tech]You mentioned reverse engineering new technology as it comes in... Why not reference similar tech that has documentation? Catalog differences between the tech, take notes on each, and build your own 'encyclopedia' that guides and speeds up your repairs.
+[choice=Experiment With New Tech]I believe you'll work it out if you stay the course. Experiment with new tech as it comes, and through hands-on experience, you'll learn the nuances of each piece. Repairs should be easier once you play with enough new toys!
+[choice=Rewards for Documentation]Maybe you can modify their behavior using rewards for documentation. Whenever someone brings you something new, give them a treat as long as it comes with a manual! Then you'll have the resources you need to avoid being bogged down.
+[title=0xx-end]
+
+[title=00x-a-start]
+speaker:[expression=3]That's what I <i>have</i> been doing, and it isn't working... Seems like a waste of time and energy to go that route. <i>Not</i> a viable solution.[newtalk start=lose-start break=lose-end]
+[title=00x-a-end]
+
+[title=00x-b-start]
+speaker:[expression=3]And where am I supposed to get a bunch of 'treats,' eh? Provide them myself? I'm not made of candy bars and trophies! That's <i>not</i> a viable solution.[newtalk start=lose-start break=lose-end]
+[title=00x-b-end]
+
+[title=lose-start]
+speaker:[expression=2]Hrmm. I dunno. You <i>have</i> given me much to think about, but I'm not convinced these paths are right for me. 
+speaker:<i>*Shakes her head*</i> You tried. For that, I will attend your meeting. But 'til then, leave me to my work.
+[title=lose-end]
+
+[title=01x-start]
+speaker:An interesting idea, I'll give you that. <i>*Sigh*</i> Still one problem. References are helpful, but there are a bunch of details that only the inventors themselves would know.
+speaker:[question=01x][expression=2]Can't force anyone to take notes, of course, but it wouldn't hurt to ask. How do you think I should try to convince them?
+[choice=Wiki of Blueprints]What if you tried convincing them with an 'encyclopedia'? Talk about how a wiki of blueprints and patch notes could potentially help <i>everyone</i> refine their inventions more efficiently. Then, once you've piqued their interest and engagement, you'll be able to reference all inventors' notes on an as-needed basis!
+[choice=Creating Notes Builds Knowledge]Try showing other repairers how creating blueprints and schematics builds <i>their</i> knowledge, too, which  will make new and unique projects possible. It could be enough to win them over, and you can use their notes for your repairs.
+[choice=Punish Lack of Notes]If you're not sure they'll want to join the effort, you could punish anyone who fails to bring you notes with their technology. Tell them their repairs will get lower priority, or maybe suggest you won't repair their tech at all. Condition their note-taking behavior by giving a tangible reason to save blueprints and share notes.
+[title=01x-end]
+
+[title=010-a-start]
+speaker:[expression=3]If I can't figure out how to fix these things on my own, being social won't be able to help me either.[newtalk start=lose-start break=lose-end]
+[title=010-a-end]
+
+[title=010-b-start]
+speaker:[expression=3]While an incentive to find solutions would be wonderful I don't know where to find that information...[newtalk start=lose-start break=lose-end]
+[title=010-b-end]
+
+[title=1xx-start]
+speaker:An interesting idea, I'll give you that. <i>*Sigh*</i> Still one problem. References are helpful, but there are a bunch of details that only the inventors themselves would know.
+speaker:[question=1xx][expression=2]Can't force anyone to take notes, of course, but it wouldn't hurt to ask. How do you think I should try to convince them?
+[choice=Wiki of Blueprints]What if you tried convincing them with an 'encyclopedia'? Talk about how a wiki of blueprints and patch notes could potentially help <i>everyone</i> refine their inventions more efficiently. Then, once you've piqued their interest and engagement, you'll be able to reference all inventors' notes on an as-needed basis!
+[choice=Creating Notes Builds Knowledge]Try showing other repairers how creating blueprints and schematics builds <i>their</i> knowledge, too, which  will make new and unique projects possible. It could be enough to win them over, and you can use their notes for your repairs.
+[choice=Punish Lack of Notes]If you're not sure they'll want to join the effort, you could punish anyone who fails to bring you notes with their technology. Tell them their repairs will get lower priority, or maybe suggest you won't repair their tech at all. Condition their note-taking behavior by giving a tangible reason to save blueprints and share notes.
+[title=1xx-end]
+
+[title=10x-a-start]
+speaker:[expression=3]I understand what you're saying, and that might work for some, but is that tangible enough for them  to do a bunch of extra work? I'll keep it in mind, regardless.[newtalk start=10x-start break=10x-end]
+[title=10x-a-end]
+
+[title=10x-b-start]
+speaker:[expression=3]I'm no Fixer, but it seems pretty likely that punishing people will just make them more upset. Sure, one or two might take notes, but is it really worth turning everyone else away?[newtalk start=10x-start break=10x-end]
+[title=10x-b-end]
+
+[title=10x-start]
+speaker:[question=10x][expression=2]I need other inventors' help to store this information since I don't know the ins and outs of their personal tools and software. I can't force anyone to take notes, so I hope you have a trick up your sleeve.
+[choice=Wiki of Blueprints]What if you tried convincing them with an 'encyclopedia'? Talk about how a wiki of blueprints and patch notes could potentially help <i>everyone</i> refine their inventions more efficiently. Then, once you've piqued their interest and engagement, you'll be able to reference all inventors' notes on an as-needed basis!
+[choice=Creating Notes Builds Knowledge]Try showing other repairers how creating blueprints and schematics builds <i>their</i> knowledge, too, which  will make new and unique projects possible. It could be enough to win them over, and you can use their notes for your repairs.
+[choice=Punish Lack of Notes]If you're not sure they'll want to join the effort, you could punish anyone who fails to bring you notes with their technology. Tell them their repairs will get lower priority, or maybe suggest you won't repair their tech at all. Condition their note-taking behavior by giving a tangible reason to save blueprints and share notes.
+[title=10x-end]
+
+[title=100-a-start]
+speaker:[expression=3]I understand what you're saying, and that might work for some, but is that tangible enough for them  to do a bunch of extra work? I'll keep it in mind, regardless.[newtalk start=lose-start break=lose-end]
+[title=100-a-end]
+
+[title=100-b-start]
+speaker:[expression=3]I'm no Fixer, but it seems pretty likely that punishing people will just make them more upset. Sure, one or two might take notes, but is it really worth turning everyone else away?[newtalk start=lose-start break=lose-end]
+[title=100-b-end]
+
+[title=win-start]
+speaker:[expression=1]Y'know, that's a solid answer. Help my comrades recognize this is more efficient, which they love. Not bad, Fixer, not bad.
+speaker:[expression=1]Thank you for these ideas! I'll keep mulling them over, but I think I see a path now. Have Rheegan reach out to me once the meeting is scheduled. I'll be there!
+[title=win-end]

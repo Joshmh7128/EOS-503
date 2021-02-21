@@ -1,0 +1,44 @@
+[title=hello-start]
+Xavier Senecal:[expression=1]Bonjour, folks! Tonight on <b>Constellation Conversation</b>, we have the space station's very own Captain Sam Hawkins, spilling the beans on the good, bad, and ugly of our quirky little vessel EOS-503. Captain Hawkins, it's a pleasure to have you with us again!
+Sam Hawkins:[expression=1]Pleasure to be here. You know me, always excited to come when I can!
+Xavier Senecal:[expression=4]Hahaha! I'm just glad you had an opening in your busy schedule!
+Sam Hawkins:[expression=1]Ha, well, guess you just got lucky this--
+Xavier Senecal:Captain, if you don't mind, I'd like to touch on the news of the day.
+Sam Hawkins:Sure thing.
+Xavier Senecal:As you're aware, we're nearing the tenth anniversary of our departure on EOS. What do you have to say to the folks listening at home about the state of things? Any reflections you'd like to share with us?
+Sam Hawkins:Since leaving Earth, we've successfully relocated seventy-two percent of evacuees to one of the station's many communes. With the advent of automatic language translation tools and resident-matching programs, it's gotten easier. Though we had a few hiccups, I'm proud of how each community has self-organized around its members' shared values.
+Sam Hawkins:[expression=1]By and large, we've seen an improvement in people's lives. Their attitudes are better. They've been more productive. Maybe most important,  they've been acting with a newfound sense of belonging.
+Sam Hawkins:[expression=1]Some are producing great art and literature. More than a few are making strides in biomedical research. And those doing the hard work of keeping us fed and hydrated and breathing clean air, too.
+Sam Hawkins:Obviously we're still working to help those who've struggled to find a place for themselves, but the state of things is... good. Certainly getting better.
+Xavier Senecal:[expression=1]Oh see now <i>THAT'S</i> interesting, captain, because word on the street is that things are a bit rougher than the High Council has cared to admit. Anything you'd like to share? Maybe just a few tidbits for your old pal Xavier? <i>And a few of his closest friends?</i>
+Xavier Senecal:[expression=4]<i>*Winks directly at camera*</i>
+[The EOS security system sounds overhead]
+EOS Security System:[question=continue]Please advance to the Commune Transportation Network. Present your EOS ID for verification.
+[choice=Play]Continue Playing Video
+[choice=Exit]Close and Proceed to Character Creation
+[ROUTES TO CHARACTER CUSTOMIZATION]
+[title=hello-end]
+
+[title=continued-start]
+Sam Hawkins:*Sigh* No, no, nothing of immediate concern. The most consequential thing we've run into wasn't even a big deal, just a commune burning through its resources faster than expected. Everything is under control.
+Xavier Senecal:[expression=1][Xavier's eyes grow wide with expectation; sighing, Captain Hawkins relents]
+Sam Hawkins:Once DATA opened a case, we discovered an underground pet show ring... a bunch of people training exotic animals for performance on a stage, awarding ribbons for victory, combining weird berries into cubes to feed them...
+Sam Hawkins: A bit concerning, but we resolved the problem-- transferred the animals to communes matching their natural habitat, fined the perpetrators, and rebalanced resource consumption for the commune. As I said, everything is under control.
+Xavier Senecal:[expression=4][Xavier breaks into uproarious laughter, and the live studio audience follows suit]
+Xavier Senecal:[expression=4]Can't argue with that, Captain! Sounds like you're keeping this place from falling apart at the seams, eh?
+Sam Hawkins:[expression=1][Captain Sam Hawkins half-smiles as everyone laughs]
+Xavier Senecal:[expression=1]Okay Captain, the viewers all know what an investigative journalism aficionado I am! I have to ask about an interesting little statistic I came across before taping. In your time piloting the station, you've made a point to push for, uh... let me check my notes... ah, new leadership for the Bureau of Governance, and increased funding for the Coalition of Record Explorers.
+Xavier Senecal:[expression=2]But according to the Bureau of Late Night Television fact-checkers, the Department for Analyzing Terrestrial Associations, popularly known as DATA, has actually experienced the most growth under your watch. Do you have any comments on that?
+Sam Hawkins:[expression=4][Captain Sam Hawkins gazes down at the floor]
+Sam Hawkins:[expression=4]Ah. You see, DATA has existed since before the evacuation. Growing its ranks was always one of Captain Ferlong's passion projects. He thought their mission was central to our continued existence, to ensure we could always properly feed, shelter, and care for our people...
+Sam Hawkins:[expression=2][Captain Sam Hawkins pauses to reminisce for a moment]
+Sam Hawkins:[expression=4]Captain Ferlong was a visionary. Who would I be if I abandoned his vision after... Well, you know.
+Xavier Senecal:You honor him well, Captain Hawkins.
+Xavier Senecal:Now, as I was saying... DATA has expanded greatly during your tenure. Most viewers probably haven't had the chance to meet a real-life DATA Agent, but these are some of EOS's best and brightest, is that correct?
+Sam Hawkins:[expression=1]Yes, well, Director Davila has done a wonderful job recruiting and training them. DATA Agents move into the communes, learn about their people and goings-on, and work out tensions at all levels.
+Sam Hawkins:[expression=1]They're highly educated about multiple topics, and each specializes in a different subfield... medicine, sociology, education-- that sort of thing. They're trained to recognize different ways people see the world and meet them where they are, facilitating transitions to personal and social achievement.
+Xavier Senecal:[expression=1]Indeed, indeed, sounds like a capable group! Now, as much as I'd <i>love</i> to keep chatting politics, a little birdie told me you've taken up singing again, can you <i>BELIEVE</i> it? I'm sure our viewers can’t wait to hear you belt out a few of your favorite 21st-century classics after this commercial break!
+Sam Hawkins:[expression=2][Captain Sam Hawkins groans as the color leaves their face.]
+EOS Security System:[The EOS security system sends a message to your display console]
+EOS Security System:To not hold up others, you MUST move forward to the Commune Transportation Network and present your EOS ID for verification.
+[title=continued-end]

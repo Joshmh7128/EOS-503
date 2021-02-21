@@ -29,6 +29,14 @@ speaker:[question=0xx][expression=2]I'm not sure you really understand. I have n
 [choice=Search your Memory for Similar Experiences]While you say that you have no experience with this, try to search your memories for anything that might be related. You might find that experiences you have had can actually help you to solve this problem more than you might think!
 [title=0xx-end]
 
+[title=00x-a-start]
+speaker:[expression=3]I understand what you are trying to say, but again, I have never trained for this kind of work. I sincerely worry that my fiddling will do more harm than good.[newtalk start=lose-start break=lose-end]
+[title=00x-a-end]
+
+[title=00x-b-start]
+speaker:[expression=3]You trust that I know my own experiences, yes? Believe me, if I had relevant memories to draw on, I would not be in this situation.[newtalk start=lose-start break=lose-end]
+[title=00x-b-end]
+
 [title=lose-start]
 speaker:[expression=3]I thank you for trying to help, but I don't think your suggestions will be of much use for me. 
 speaker:I'll keep working on it, but while you are visiting the other Factions, see if you can find people with some experience who can actually help me.
@@ -69,10 +77,18 @@ speaker:[expression=3]Even if I practiced for years I don't think I would be abl
 
 [title=10x-start]
 speaker:[question=10x][expression=2]Since I have never solved a problem related to repair, and I don't have the staff on hand, I am unsure how to solve this urgent problem.
+[choice=Work With People from Other Factions]If you don't have the people then maybe I can help find them in other factions. Part of solving problems is identifying skills, and what each person brings to a team. If you do not have the skills, and it needs to be solved quickly, finding people with those skills is necessary!
 [choice=Learn from Others and Store Memories]If you learn about repairing this model of elevator from others then you can store that information in your memory and then use that to fix the elevator. Then whenever you need to fix this elevator again, you will be able to fix it easily.
 [choice=Learn to Repair it Yourself]You need to practice repairing the elevator yourself to know how to fix it. Through continuous repair and practice you will know how the elevator works, and can just fix it whenever it is necessary!
-[choice=Work With People from Other Factions]If you don't have the people then maybe I can help find them in other factions. Part of solving problems is identifying skills, and what each person brings to a team. If you do not have the skills, and it needs to be solved quickly, finding people with those skills is necessary!
 [title=10x-end]
+
+[title=100-a-start]
+speaker:[expression=3]Even if I store that knowledge away I don't think I would be able to fix this elevator. There must be a better solution to get this done quickly.[newtalk start=lose-start break=lose-end]
+[title=100-a-end]
+
+[title=100-b-start]
+speaker:[expression=3]Even if I practiced for years I don't think I would be able to fix this elevator. There must be a better solution to get this done quickly.[newtalk start=lose-start break=lose-end]
+[title=100-b-end]
 
 [title=win-start]
 speaker:[expression=1]Interesting! I think that may actually work!

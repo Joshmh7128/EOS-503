@@ -23,13 +23,16 @@ public class Jan_Tutorial : NPC
     {
         tutorialText.text = tutText;
         tutorialPopup.SetActive(true);
-        myTalk.passWithMouse = false;
+        myTalk.enablePass = false;
     }
 
     public void CloseTutorial()
     {
         tutorialPopup.SetActive(false);
-        myTalk.passWithMouse = true;
+        if(myTalk.choicesParent.transform.childCount == 0)
+        {
+            myTalk.enablePass = true;
+        }
     }
 
     public override void StartConversation()

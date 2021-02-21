@@ -24,6 +24,12 @@ namespace RPGTALK.Snippets
 
         void CanPass()
         {
+            StartCoroutine(CheckPass());
+        }
+
+        IEnumerator CheckPass()
+        {
+            yield return new WaitForEndOfFrame();
             if (rpgtalk.enablePass)
             {
                 OnCanPass.Invoke();

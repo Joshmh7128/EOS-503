@@ -146,6 +146,7 @@ public class RPGTalk : MonoBehaviour
     private int topButton;
     public bool scrambleButtons = true;
     public NPC currentNPC;
+    public HistoryHolder myHistory;
 
     /// <summary>
     /// Should there be photos of the dialogers?
@@ -322,9 +323,6 @@ public class RPGTalk : MonoBehaviour
     //Event to be called when a it play next line in the talk
     public delegate void MadeAChoiceAction(string questionID, int choiceNumber);
     public event MadeAChoiceAction OnMadeChoice;
-
-    //holds choice events
-    public UnityEvent[] ChoiceEvents = new UnityEvent[5];
 
     /// <summary>
     /// The Expression that this character is expressing
@@ -1993,6 +1991,7 @@ public class RPGTalk : MonoBehaviour
                                 }
                                 int choiceNumber = i;
                                 newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
+                                newChoiceBtn.GetComponent<ButtonScript>().myHistory = this.myHistory;
                                 if (i == 0)
                                 {
                                     //StartCoroutine(SelectButton(newChoiceBtn));
@@ -2078,10 +2077,6 @@ public class RPGTalk : MonoBehaviour
         StartCoroutine(ReenableSkip(enableQuickSkip));
 
         PlayNext();
-        if(ChoiceEvents[choiceNumber] != null)
-        {
-            ChoiceEvents[choiceNumber].Invoke();
-        }
         
         if(choiceNumber == 0)
         {
@@ -2372,6 +2367,11 @@ public class RPGTalk : MonoBehaviour
         {
             OnPlayNext();
         }
+        RpgtalkElement myElement = rpgtalkElements[cutscenePosition - 1];
+        HistoryElement he = new HistoryElement(myElement.speakerName, myElement.dialogText);
+        myHistory.histories.Add(he);
+        myHistory.index = myHistory.histories.Count - 1;
+        myHistory.thisButton.interactable = true;
 
         //If we had auto pass, cancel it
         if (autoPass)
@@ -2498,10 +2498,11 @@ public class RPGTalk : MonoBehaviour
             }
 
             //added by devin
-            if(questions.Count > 0)
+            if(choicesParent.childCount > 0)
             {
                 return;
             }
+            
 
             else
             {
