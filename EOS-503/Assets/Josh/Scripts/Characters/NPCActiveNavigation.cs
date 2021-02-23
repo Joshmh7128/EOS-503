@@ -43,7 +43,7 @@ public class NPCActiveNavigation : MonoBehaviour
         activeNPC = Instantiate(pathwalkerNPC, transform);
 
         // copy our list to our randomized list
-        // int i = 0;
+        int x = 0;
 
         foreach (Vector2 element in PathNodes)
         {

@@ -10,10 +10,14 @@ public class SceneDoor : MonoBehaviour
     /// the fading in and out of scenes, loading and unloading scenes, 
     /// and moving the player package & camera package to a 
     /// new transform spot throughout the game and in between scenes.
+    /// 
+    /// this script was rewritten by Josh on 02/23/21
 
-    [SerializeField] Transform destinationTransform; // where is our player going?
+    [SerializeField] Vector3 destinationVector3; // where is our player going?
     [SerializeField] string destinationScene; // which scene are we going to?
     [SerializeField] string currentScene; // which scene is this?
+    [SerializeField] string playerPackageName = "PlaceholderPC"; // what is the name of the player package? 
+    [SerializeField] string cameraPackageName = ""; // what is the name of the camera package? as of 02/23/21 the camera package is in the player prefab
     [SerializeField] GameObject playerPackage; // what is the player package?
     [SerializeField] GameObject cameraPackage; // what is the camera package?
     [SerializeField] bool isLoading; // are we loading?
@@ -27,8 +31,8 @@ public class SceneDoor : MonoBehaviour
     private void Start()
     {
         // find the player object, camera, and fade canvas & tracker
-        playerPackage = GameObject.Find("Player Controller Package");
-        cameraPackage = GameObject.Find("Camera Package");
+        playerPackage = GameObject.Find(playerPackageName);
+        cameraPackage = GameObject.Find(cameraPackageName);
         fadeCanvasGroup = GameObject.Find("FadeCanvas").GetComponent<CanvasGroup>();
         fadeTracker = fadeCanvasGroup.gameObject.GetComponent<FadeTracker>();
     }
