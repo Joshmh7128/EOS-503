@@ -16,6 +16,18 @@ public class FadeTracker : MonoBehaviour
         {
             gameObject.GetComponent<CanvasGroup>().alpha -= 0.05f;
         }
+
+        // safety unfade in case we double load the package
+        if (fadeState == true)
+        {
+            gameObject.GetComponent<CanvasGroup>().alpha += 0.05f;
+        }
+    }
+
+    public IEnumerator TripFade()
+    {
+        yield return new WaitForSeconds(1f);
+        fadeState = false;
     }
 
 }

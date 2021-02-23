@@ -13,15 +13,18 @@ public class SceneDoor : MonoBehaviour
     /// 
     /// this script was rewritten by Josh on 02/23/21
 
+    [Header("Set the position the player will be moved to in the destination scene")]
     [SerializeField] Vector3 destinationVector3; // where is our player going?
+    [Header("Write as String of Name. Make sure Scene is loaded in build settings")]
     [SerializeField] string destinationScene; // which scene are we going to?
+    [Header("Determined at Runtime")]
     [SerializeField] string currentScene; // which scene is this?
     [SerializeField] string playerPackageName = "PlaceholderPC"; // what is the name of the player package?
-    [SerializeField] string fadeCanvasPackageName = ""; // what is the name of the fade canvas package? This will be under the player prefab
+    [SerializeField] string fadeCanvasPackageName = "FadeCanvasPackage"; // what is the name of the fade canvas package? This will be under the player prefab
     [SerializeField] GameObject playerPackage; // what is the player package?
     [SerializeField] GameObject cameraPackage; // what is the camera package?
+    [SerializeField] CanvasGroup fadeCanvasGroup; // what is our canvas group? can manually set
     [SerializeField] bool isLoading; // are we loading?
-    [SerializeField] CanvasGroup fadeCanvasGroup; // what is our canvas group?
     [SerializeField] bool fadeState; // true is increase alpha, false is decrease
     [SerializeField] FadeTracker fadeTracker; // tracks whether or not we're fading
     [Header("Fade Transition Speed (0 is slow, 1 is instant)")]
@@ -32,7 +35,12 @@ public class SceneDoor : MonoBehaviour
     {
         // find the player object, camera, and fade canvas & tracker
         playerPackage = GameObject.Find(playerPackageName);
-        fadeCanvasGroup = GameObject.Find("FadeCanvas").GetComponent<CanvasGroup>();
+
+        if (fadeCanvasGroup == null)
+        {
+            fadeCanvasGroup = playerPackage.GetComponentInChildren<CanvasGroup>();
+        }
+
         fadeTracker = fadeCanvasGroup.gameObject.GetComponent<FadeTracker>();
     }
 
@@ -72,8 +80,8 @@ public class SceneDoor : MonoBehaviour
         Debug.Log("Fading to 1");
         // wait
         yield return new WaitForSeconds(1f);
-        // load the new scene
-        SceneManager.LoadScene(destinationScene, LoadSceneMode.Additive);
+        // load the new scene single as we're transitioning
+        SceneManager.LoadScene(destinationScene, LoadSceneMode.Single);
         Debug.Log("Scene Loaded: " + destinationScene);
 
         #region Depricated Player Tracking
@@ -88,18 +96,21 @@ public class SceneDoor : MonoBehaviour
         playerPackage.transform.position = destinationVector3;
         // wait
         Debug.Log("Fading to 0");
+        // trip the fade
+        fadeTracker.StartCoroutine(fadeTracker.TripFade());
         yield return new WaitForSeconds(1f);
-        // remove fade
-        fadeState = false; fadeTracker.fadeState = fadeState;
-        // unload the old scene
-        SceneManager.UnloadSceneAsync(currentScene);
+
+        // unload the old scene if needed
+        // SceneManager.UnloadSceneAsync(currentScene);
     }
 
-    private void OnTriggerEnter(Collider col)
+    private void OnTriggerStay2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
-            if (isLoading == false)
+            Debug.Log("Player Overlapping Door");
+
+            if ((isLoading == false))
             {
                 Debug.Log("loading...");
                 StartCoroutine(LoadLocalScene());

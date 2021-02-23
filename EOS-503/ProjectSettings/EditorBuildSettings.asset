@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Josh/Scenes/Testing/WorkersTestingEnvironmentNoPlayer.unity
     guid: 01510c497472a044aabcedf143aa03c6
+  - enabled: 1
+    path: Assets/Josh/Scenes/Testing/HubTestingEnvironment.unity
+    guid: 1ae24f95f2eb48b4781d71ca0ecbdd74
   m_configObjects: {}
