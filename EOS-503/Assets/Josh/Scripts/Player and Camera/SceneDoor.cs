@@ -16,8 +16,8 @@ public class SceneDoor : MonoBehaviour
     [SerializeField] Vector3 destinationVector3; // where is our player going?
     [SerializeField] string destinationScene; // which scene are we going to?
     [SerializeField] string currentScene; // which scene is this?
-    [SerializeField] string playerPackageName = "PlaceholderPC"; // what is the name of the player package? 
-    [SerializeField] string cameraPackageName = ""; // what is the name of the camera package? as of 02/23/21 the camera package is in the player prefab
+    [SerializeField] string playerPackageName = "PlaceholderPC"; // what is the name of the player package?
+    [SerializeField] string fadeCanvasPackageName = ""; // what is the name of the fade canvas package? This will be under the player prefab
     [SerializeField] GameObject playerPackage; // what is the player package?
     [SerializeField] GameObject cameraPackage; // what is the camera package?
     [SerializeField] bool isLoading; // are we loading?
@@ -32,7 +32,6 @@ public class SceneDoor : MonoBehaviour
     {
         // find the player object, camera, and fade canvas & tracker
         playerPackage = GameObject.Find(playerPackageName);
-        cameraPackage = GameObject.Find(cameraPackageName);
         fadeCanvasGroup = GameObject.Find("FadeCanvas").GetComponent<CanvasGroup>();
         fadeTracker = fadeCanvasGroup.gameObject.GetComponent<FadeTracker>();
     }
@@ -76,12 +75,17 @@ public class SceneDoor : MonoBehaviour
         // load the new scene
         SceneManager.LoadScene(destinationScene, LoadSceneMode.Additive);
         Debug.Log("Scene Loaded: " + destinationScene);
+
+        #region Depricated Player Tracking
+        /*
         // make the one true player
         playerPackage.GetComponent<PlayerController>().isRealPlayer = true;
         cameraPackage.GetComponent<CameraTrackingScript>().isRealCamera = true;
+        */
+        #endregion
 
         // move the player
-        playerPackage.transform.position = destinationTransform.position;
+        playerPackage.transform.position = destinationVector3;
         // wait
         Debug.Log("Fading to 0");
         yield return new WaitForSeconds(1f);

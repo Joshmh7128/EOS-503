@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FadeTracker : MonoBehaviour
 {
+    // script manages the fading of the canvas for smoother transitions between scenes
+
     // tracks fade state
     public bool fadeState;
 
