@@ -13,6 +13,7 @@ public class PlayerController2D : MonoBehaviour
     public bool canMove;
     [SerializeField] protected Sprite[] playerSprites;
     [SerializeField] protected SpriteRenderer playerSpriteRenderer;
+    public NPC partnerNPC;
 
     // the awake function is called before anything else
     private void Awake()
@@ -23,6 +24,7 @@ public class PlayerController2D : MonoBehaviour
 
     private void Start()
     {
+        #region // old real player detection
         // check to see if player is the real player, if not, destroy it
         /*if (isRealPlayer == false)
         {
@@ -37,6 +39,7 @@ public class PlayerController2D : MonoBehaviour
                 Destroy(gameObject);
             }
         }*/
+        #endregion
     }
 
     // Fixed Update is called 60 times per second
@@ -46,6 +49,41 @@ public class PlayerController2D : MonoBehaviour
         if (canMove == true)
         {
             PlayerMove();
+        }
+
+    }
+
+    // update runs like there's not tomorrow
+    private void Update()
+    {
+        // did we press e while we can talk to someone?
+        if (Input.GetKeyDown(KeyCode.E) && (partnerNPC != null))
+        {
+            // start our conversation from the partnerNPC
+            partnerNPC.StartConversation();
+        }
+    }
+
+    // checking for talkable NPCs
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("touch");
+        // do they have a talkable tag?
+        if (col.CompareTag("Talkable"))
+        {
+            // set "partnerNPC" to the person we're able to talk to, set to null if we're not talking to anyone
+            partnerNPC = col.gameObject.GetComponent<NPC>();
+        }
+    }
+
+    // check for leaving a talkable's NPC trigger range
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        // do they have a talkable tag?
+        if (col.CompareTag("Talkable"))
+        {
+            // set "partnerNPC" to the person we're able to talk to, set to null if we're not talking to anyone
+            partnerNPC = null;
         }
     }
 
