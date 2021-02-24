@@ -10,9 +10,12 @@ public class NPC : MonoBehaviour
 
     public virtual void StartConversation()
     {
-        myTalk.speaker = myName;
-        myTalk.currentNPC = this;
-        myTalk.NewTalk("hello-start", "hello-end");
+        if(myTalk.currentNPC != this)
+        {
+            myTalk.speaker = myName;
+            myTalk.currentNPC = this;
+            myTalk.NewTalk("hello-start", "hello-end");
+        }
     }
 
     public virtual void OnMadeChoice(string id, int num)

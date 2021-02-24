@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Busra Unal
   m_EditorClassIdentifier: 
   dialoger: Busra Unal
-  photo: {fileID: 21300000, guid: 17565a1c7624b214285efe04da7bfa8b, type: 3}
+  photo: {fileID: 21300000, guid: c0599f708b0ed1f40871a97bc6f7369a, type: 3}
   expressions:
   - name: 1
-    photo: {fileID: 21300000, guid: 5a4a35fbeaf277b4893c4693d679758d, type: 3}
+    photo: {fileID: 21300000, guid: 2784223eb25da1247972fa7b6dae2060, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 2
-    photo: {fileID: 21300000, guid: cb4c6d907bb2dbf48a7ffb2d1c9395b7, type: 3}
+    photo: {fileID: 21300000, guid: 3dc41d2c62196e245b640e413d56a289, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 3
-    photo: {fileID: 21300000, guid: 7eccbd6df6ffcc6419321b20adabb926, type: 3}
+    photo: {fileID: 21300000, guid: 4b0cb208e76b13146aa9ce87d26fd362, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
   - name: 4
-    photo: {fileID: 21300000, guid: b656068871df39f44b7e60f18d32758b, type: 3}
+    photo: {fileID: 21300000, guid: 15b0cb6b7f1761a4299b4e37bc1c137d, type: 3}
     boolInAnimator: 
     audio: {fileID: 0}
