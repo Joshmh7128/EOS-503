@@ -12,15 +12,13 @@ public class NPC : MonoBehaviour
 
     public virtual void StartConversation()
     {
-        if(myTalk.currentNPC != this)
-        {
-            myTalk.speaker = myName;
-            myTalk.currentNPC = this;
-            myTalk.NewTalk("hello-start", "hello-end");
-            UnityEvent myEvent = new UnityEvent();
-            myEvent.AddListener(EnablePlayerMovement);
-            myTalk.callback = myEvent;
-        }
+        myTalk.speaker = myName;
+        myTalk.currentNPC = this;
+        myTalk.NewTalk("hello-start", "hello-end");
+        UnityEvent myEvent = new UnityEvent();
+        myEvent.AddListener(EnablePlayerMovement);
+        myTalk.callback = myEvent;
+        myTalk.speaker = myName;
     }
 
     public void EnablePlayerMovement()

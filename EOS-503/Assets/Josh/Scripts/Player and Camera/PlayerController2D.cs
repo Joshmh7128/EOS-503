@@ -57,7 +57,7 @@ public class PlayerController2D : MonoBehaviour
     private void Update()
     {
         // did we press e while we can talk to someone?
-        if (Input.GetKeyDown(KeyCode.E) && (partnerNPC != null))
+        if (Input.GetKeyDown(KeyCode.E) && (partnerNPC != null) && !partnerNPC.myTalk.textUIObj.activeInHierarchy)
         {
             // start our conversation from the partnerNPC
             partnerNPC.StartConversation();
@@ -70,7 +70,6 @@ public class PlayerController2D : MonoBehaviour
     // checking for talkable NPCs
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("touch");
         // do they have a talkable tag?
         if (col.CompareTag("Talkable"))
         {
