@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPC : MonoBehaviour
 {
     public string myName;
     public RPGTalk myTalk;
     public TextAsset[] myLines;
+    public PlayerController2D myPlayer;
 
     public virtual void StartConversation()
     {
@@ -15,6 +17,17 @@ public class NPC : MonoBehaviour
             myTalk.speaker = myName;
             myTalk.currentNPC = this;
             myTalk.NewTalk("hello-start", "hello-end");
+            UnityEvent myEvent = new UnityEvent();
+            myEvent.AddListener(EnablePlayerMovement);
+            myTalk.callback = myEvent;
+        }
+    }
+
+    public void EnablePlayerMovement()
+    {
+        if(myPlayer != null)
+        {
+            myPlayer.canMove = true;
         }
     }
 

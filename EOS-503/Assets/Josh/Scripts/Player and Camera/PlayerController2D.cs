@@ -61,6 +61,9 @@ public class PlayerController2D : MonoBehaviour
         {
             // start our conversation from the partnerNPC
             partnerNPC.StartConversation();
+            partnerNPC.myPlayer = this;
+            canMove = false;
+            playerRigidbody.velocity = Vector3.zero;
         }
     }
 
