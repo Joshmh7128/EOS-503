@@ -73,6 +73,7 @@ public class PlayerController2D : MonoBehaviour
         // do they have a talkable tag?
         if (col.CompareTag("Talkable"))
         {
+            col.transform.Find("Prompt").gameObject.SetActive(true);
             // set "partnerNPC" to the person we're able to talk to, set to null if we're not talking to anyone
             partnerNPC = col.gameObject.GetComponent<NPC>();
         }
@@ -84,6 +85,7 @@ public class PlayerController2D : MonoBehaviour
         // do they have a talkable tag?
         if (col.CompareTag("Talkable"))
         {
+            col.transform.Find("Prompt").gameObject.SetActive(false);
             // set "partnerNPC" to the person we're able to talk to, set to null if we're not talking to anyone
             partnerNPC = null;
         }
