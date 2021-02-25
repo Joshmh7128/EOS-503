@@ -64,6 +64,7 @@ public class PlayerController2D : MonoBehaviour
             partnerNPC.myPlayer = this;
             canMove = false;
             playerRigidbody.velocity = Vector3.zero;
+            partnerNPC.transform.Find("Prompt").gameObject.SetActive(false);
         }
     }
 
