@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RoomGenDoorInstantiator : MonoBehaviour
 {
-    [SerializeField] Transform doorSpawnPoint; // where the door?
+    [SerializeField] Transform[] doorSpawnPoints; // where the door?
     [SerializeField] GameObject doorPrefab; // what the door?
     [SerializeField] GenerationManager generationManager; // our generation manager
     [SerializeField] bool tripped; // tripped yet?
@@ -24,10 +24,13 @@ public class RoomGenDoorInstantiator : MonoBehaviour
             // if our room amount is less than the max, spawn a new door
             if (generationManager.activeRooms < generationManager.maxRoomSpawn)
             {
-                // make the door
-                Instantiate(doorPrefab, doorSpawnPoint.position, transform.rotation, null);
-                // incriment, swine.
-                generationManager.activeRooms++;
+                foreach (Transform spawnPoint in doorSpawnPoints)
+                {
+                    // make the door
+                    Instantiate(doorPrefab, spawnPoint.position, spawnPoint.transform.rotation, null);
+                    // incriment, swine.
+                    generationManager.activeRooms++;
+                }
             }
 
             // trip the singleton
