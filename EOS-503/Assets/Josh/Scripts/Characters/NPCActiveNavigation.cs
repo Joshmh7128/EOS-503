@@ -45,7 +45,7 @@ public class NPCActiveNavigation : MonoBehaviour
         // copy our list to our randomized list
         // int i = 0;
 
-        foreach (Vector2 element in PathNodes)
+        /*foreach (Vector2 element in PathNodes)
         {
             // testing output
             // Debug.Log("Adding element " + x);
@@ -53,7 +53,7 @@ public class NPCActiveNavigation : MonoBehaviour
             PathNodesR.Add(PathNodes[x]);
             // add to counter
             x++;
-        }
+        }*/
 
         // make our first target position the first position in the coordinates list
         targetPosition = PathNodesR[0];
