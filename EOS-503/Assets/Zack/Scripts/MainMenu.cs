@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.IO;
 
 public class MainMenu : MonoBehaviour
 {
@@ -15,7 +16,9 @@ public class MainMenu : MonoBehaviour
 
     Resolution[] resolutions;
 
-    private int currentScene = 2;
+    private string currentScene;
+
+    List<string> listOfScenes = new List<string>();
 
     private void Start()
     {
@@ -45,9 +48,22 @@ public class MainMenu : MonoBehaviour
 
         qualityDropdown.value = QualitySettings.GetQualityLevel();
         qualityDropdown.RefreshShownValue();
+        
+        int sceneNumber = SceneManager.sceneCountInBuildSettings;
 
-        sceneDropdown.value = currentScene - 1;
-        sceneDropdown.RefreshShownValue();
+        for (int i = 0; i < sceneNumber; i++)
+        {
+            string sceneName = Path.GetFileNameWithoutExtension(SceneUtility.GetScenePathByBuildIndex(i));
+            if (sceneName != "MainMenu")
+            {
+                listOfScenes.Add(sceneName);
+            }
+        }
+
+        sceneDropdown.ClearOptions();
+        sceneDropdown.AddOptions(listOfScenes);
+        sceneDropdown.SetValueWithoutNotify(0);
+        currentScene = listOfScenes[0];
     }
 
     public void PlayGame()
@@ -84,6 +100,6 @@ public class MainMenu : MonoBehaviour
 
     public void SetScene(int sceneIndex)
     {
-        currentScene = sceneIndex + 1;
+        currentScene = listOfScenes[sceneIndex];
     }
 }
