@@ -4,7 +4,8 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
 		_AddTex("Added Texture", 2D) = "white" {}
-		_Multiplier ("Lighting Multiplier", float) = 10
+		_BaseMult ("Base Lighting Multiplier", float) = 0.25
+		_AddMult ("Added Lighting Multiplier", float) = 4
     }
     SubShader
     {
@@ -41,7 +42,8 @@
 
             sampler2D _MainTex;
 			sampler2D _AddTex;
-			float _Multiplier;
+			float _BaseMult;
+			float _AddMult;
 
             fixed4 frag (v2f i) : SV_Target
             {
@@ -50,7 +52,8 @@
 
 				fixed4 changeCol = fixed4(col.r * addCol.r, col.g * addCol.g, col.b * addCol.b, 1);
 
-				col += changeCol * _Multiplier;
+				col = (col * _BaseMult) + (changeCol * _AddMult);
+				
                 return col;
             }
             ENDCG

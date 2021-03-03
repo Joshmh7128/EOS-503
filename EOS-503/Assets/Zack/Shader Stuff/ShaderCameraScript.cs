@@ -6,14 +6,16 @@ using UnityEngine;
 public class ShaderCameraScript : MonoBehaviour
 {
     // public RenderTexture texture;
-    public float multiplier = 10;
+    public float baseMultiplier = 0.25f;
+    public float addMultiplier = 4f;
     //public Material effectMaterial;
     private Material effectMaterial;
 
     private void Awake()
     {
         effectMaterial = new Material(Shader.Find("Hidden/HighlightShader"));
-        effectMaterial.SetFloat("_Multiplier", multiplier);
+        effectMaterial.SetFloat("_BaseMult", baseMultiplier);
+        effectMaterial.SetFloat("_AddMult", addMultiplier);
     }
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
