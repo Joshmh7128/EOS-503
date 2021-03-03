@@ -1,0 +1,1700 @@
+fileFormatVersion: 2
+guid: bf67c6c669a240e4e995ff0cf84a0c33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5938500873781818806
+    second: WorkersTileset_v4_0
+  - first:
+      213: -7449150027732247358
+    second: WorkersTileset_v4_1
+  - first:
+      213: 1797915630899814963
+    second: WorkersTileset_v4_2
+  - first:
+      213: 3945287856010300153
+    second: WorkersTileset_v4_3
+  - first:
+      213: -4381563092983723041
+    second: WorkersTileset_v4_4
+  - first:
+      213: 1359378059526976134
+    second: WorkersTileset_v4_5
+  - first:
+      213: -4975138970841741641
+    second: WorkersTileset_v4_6
+  - first:
+      213: 6577022238920087634
+    second: WorkersTileset_v4_7
+  - first:
+      213: -1918958259531696192
+    second: WorkersTileset_v4_8
+  - first:
+      213: 3811645624540766864
+    second: WorkersTileset_v4_9
+  - first:
+      213: 8007896735149197523
+    second: WorkersTileset_v4_10
+  - first:
+      213: -142327995324392286
+    second: WorkersTileset_v4_11
+  - first:
+      213: 5533236043524325473
+    second: WorkersTileset_v4_12
+  - first:
+      213: -2118484886393256046
+    second: WorkersTileset_v4_13
+  - first:
+      213: 3253572552074161017
+    second: WorkersTileset_v4_14
+  - first:
+      213: 8371206761512639547
+    second: WorkersTileset_v4_15
+  - first:
+      213: 451948096785362962
+    second: WorkersTileset_v4_16
+  - first:
+      213: -3773705385798253148
+    second: WorkersTileset_v4_17
+  - first:
+      213: 9100251757908859381
+    second: WorkersTileset_v4_18
+  - first:
+      213: 6974542606406410600
+    second: WorkersTileset_v4_19
+  - first:
+      213: 1288478889465640168
+    second: WorkersTileset_v4_20
+  - first:
+      213: -260891546065867409
+    second: WorkersTileset_v4_21
+  - first:
+      213: -6417903919839224754
+    second: WorkersTileset_v4_22
+  - first:
+      213: 3379943252802064829
+    second: WorkersTileset_v4_23
+  - first:
+      213: 2775243632723590482
+    second: WorkersTileset_v4_24
+  - first:
+      213: -2686715676817117765
+    second: WorkersTileset_v4_25
+  - first:
+      213: 1627602645202429299
+    second: WorkersTileset_v4_26
+  - first:
+      213: -957540451387869649
+    second: WorkersTileset_v4_27
+  - first:
+      213: 168995182486448515
+    second: WorkersTileset_v4_28
+  - first:
+      213: -3601863162329692883
+    second: WorkersTileset_v4_29
+  - first:
+      213: 9131246981089253887
+    second: WorkersTileset_v4_30
+  - first:
+      213: -5315447142870489202
+    second: WorkersTileset_v4_31
+  - first:
+      213: -4169999914633420194
+    second: WorkersTileset_v4_32
+  - first:
+      213: 7834635226937625767
+    second: WorkersTileset_v4_33
+  - first:
+      213: -2503326448082881402
+    second: WorkersTileset_v4_34
+  - first:
+      213: 4596445263725696148
+    second: WorkersTileset_v4_35
+  - first:
+      213: -1428016675289261424
+    second: WorkersTileset_v4_36
+  - first:
+      213: 8466435054279860466
+    second: WorkersTileset_v4_37
+  - first:
+      213: 4916726514540974740
+    second: WorkersTileset_v4_38
+  - first:
+      213: -962292714152554646
+    second: WorkersTileset_v4_39
+  - first:
+      213: 5480796841810716326
+    second: WorkersTileset_v4_40
+  - first:
+      213: 506188578991697410
+    second: WorkersTileset_v4_41
+  - first:
+      213: -8317769423280076785
+    second: WorkersTileset_v4_42
+  - first:
+      213: -5474171070273527430
+    second: WorkersTileset_v4_43
+  - first:
+      213: -567414509541298344
+    second: WorkersTileset_v4_44
+  - first:
+      213: -8911527178200250075
+    second: WorkersTileset_v4_45
+  - first:
+      213: -6284717097834632541
+    second: WorkersTileset_v4_46
+  - first:
+      213: 8018619630990017701
+    second: WorkersTileset_v4_47
+  - first:
+      213: 3202147121160080835
+    second: WorkersTileset_v4_48
+  - first:
+      213: -5655710994967737100
+    second: WorkersTileset_v4_49
+  - first:
+      213: -8977760677486675554
+    second: WorkersTileset_v4_50
+  - first:
+      213: 4692515746199881234
+    second: WorkersTileset_v4_51
+  - first:
+      213: -4744368929379877851
+    second: WorkersTileset_v4_52
+  - first:
+      213: 9132190806343262290
+    second: WorkersTileset_v4_53
+  - first:
+      213: -6963386421779535143
+    second: WorkersTileset_v4_54
+  - first:
+      213: 4042706119860489314
+    second: WorkersTileset_v4_55
+  - first:
+      213: 1111791968579217376
+    second: WorkersTileset_v4_56
+  - first:
+      213: 4266632670862645069
+    second: WorkersTileset_v4_57
+  - first:
+      213: -6552542698305479832
+    second: WorkersTileset_v4_58
+  - first:
+      213: 3176363254202208912
+    second: WorkersTileset_v4_59
+  - first:
+      213: 8686457708702090743
+    second: WorkersTileset_v4_60
+  - first:
+      213: -3541439394621819190
+    second: WorkersTileset_v4_61
+  - first:
+      213: -5793455561688812126
+    second: WorkersTileset_v4_62
+  - first:
+      213: -3605020406595682355
+    second: WorkersTileset_v4_63
+  - first:
+      213: 6689153777851410808
+    second: WorkersTileset_v4_64
+  - first:
+      213: 124328881616186566
+    second: WorkersTileset_v4_65
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WorkersTileset_v4_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a43e73be4369da0800000000000000
+      internalID: -5938500873781818806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc9d6e548d4f9890800000000000000
+      internalID: -7449150027732247358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332e7e39dba73f810800000000000000
+      internalID: 1797915630899814963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa082ae66a70c630800000000000000
+      internalID: 3945287856010300153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb4eb9d49f8133c0800000000000000
+      internalID: -4381563092983723041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682b091942b7dd210800000000000000
+      internalID: 1359378059526976134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 178
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b686c62771c4fab0800000000000000
+      internalID: -4975138970841741641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 178
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2581da631e6464b50800000000000000
+      internalID: 6577022238920087634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7bfc941ad7e55e0800000000000000
+      internalID: -1918958259531696192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ac64208fa5e430800000000000000
+      internalID: 3811645624540766864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 178
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8049827a3c12f60800000000000000
+      internalID: 8007896735149197523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac981d3179560ef0800000000000000
+      internalID: -142327995324392286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c7a08dd00acc40800000000000000
+      internalID: 5533236043524325473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2970f745831a992e0800000000000000
+      internalID: -2118484886393256046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_14
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b67597ff2072d20800000000000000
+      internalID: 3253572552074161017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1f4172308c2470800000000000000
+      internalID: 8371206761512639547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2103ec54664a54600800000000000000
+      internalID: 451948096785362962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5448012fa11abc0800000000000000
+      internalID: -3773705385798253148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f918c432c69a4e70800000000000000
+      internalID: 9100251757908859381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_19
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616ead3c8d8ac060800000000000000
+      internalID: 6974542606406410600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4703b29b891e110800000000000000
+      internalID: 1288478889465640168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_21
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d67d76580216cf0800000000000000
+      internalID: -260891546065867409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c556f63660fe6a0800000000000000
+      internalID: -6417903919839224754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1de301b78f7ee20800000000000000
+      internalID: 3379943252802064829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d77ad4165a38620800000000000000
+      internalID: 2775243632723590482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda7d6a35ed6bad0800000000000000
+      internalID: -2686715676817117765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375e6ce7bf7669610800000000000000
+      internalID: 1627602645202429299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2675f0680226b2f0800000000000000
+      internalID: -957540451387869649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3896bdc1934685200800000000000000
+      internalID: 168995182486448515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2506cf898c930ec0800000000000000
+      internalID: -3601863162329692883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_30
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9de28ffb4b8be70800000000000000
+      internalID: 9131246981089253887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e6da6cfcbb36b0800000000000000
+      internalID: -5315447142870489202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_32
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52add6db2f2126c0800000000000000
+      internalID: -4169999914633420194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac016eaa373abc60800000000000000
+      internalID: 7834635226937625767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684fd21dbd5624dd0800000000000000
+      internalID: -2503326448082881402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49495e54d9ad9cf30800000000000000
+      internalID: 4596445263725696148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a9c08566aae2ce0800000000000000
+      internalID: -1428016675289261424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0244423d1de7570800000000000000
+      internalID: 8466435054279860466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_38
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49295fc07b8bb3440800000000000000
+      internalID: 4916726514540974740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f8dfaffdf35a2f0800000000000000
+      internalID: -962292714152554646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_40
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6e53a60b3bf0c40800000000000000
+      internalID: 5480796841810716326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ee828a4d7560700800000000000000
+      internalID: 506188578991697410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0809c967c8519c80800000000000000
+      internalID: -8317769423280076785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_43
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 73
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7160ac3a66d704b0800000000000000
+      internalID: -5474171070273527430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f636682832028f0800000000000000
+      internalID: -567414509541298344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52982292f35e35480800000000000000
+      internalID: -8911527178200250075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa2ebde81338c8a0800000000000000
+      internalID: -6284717097834632541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_47
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a44226e11cd74f60800000000000000
+      internalID: 8018619630990017701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd494b47df407c20800000000000000
+      internalID: 3202147121160080835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_49
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc4da8b0d0e281b0800000000000000
+      internalID: -5655710994967737100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_50
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99bfe3ea36986380800000000000000
+      internalID: -8977760677486675554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cb2b853a2f1140800000000000000
+      internalID: 4692515746199881234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_52
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c79e0789d982eb0800000000000000
+      internalID: -4744368929379877851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ad29672f0cbe70800000000000000
+      internalID: 9132190806343262290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_54
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da6d0861f41d5f90800000000000000
+      internalID: -6963386421779535143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c059dfbc39a1830800000000000000
+      internalID: 4042706119860489314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7eb47a7e0ed6f00800000000000000
+      internalID: 1111791968579217376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4718ddfecf163b30800000000000000
+      internalID: 4266632670862645069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b1cebf121b015a0800000000000000
+      internalID: -6552542698305479832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0929354fc85b41c20800000000000000
+      internalID: 3176363254202208912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_60
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f544a3634f7c8870800000000000000
+      internalID: 8686457708702090743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_61
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6fdf942a74adec0800000000000000
+      internalID: -3541439394621819190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_62
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5f6879cd2899fa0800000000000000
+      internalID: -5793455561688812126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_63
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf74d85a0568fdc0800000000000000
+      internalID: -3605020406595682355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879abc89be5a4dc50800000000000000
+      internalID: 6689153777851410808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WorkersTileset_v4_65
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cced088574b9b100800000000000000
+      internalID: 124328881616186566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9153d313cbe4688448b1d6f025039a46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
