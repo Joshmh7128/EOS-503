@@ -60,7 +60,7 @@ public class SceneDoor : MonoBehaviour
 
         if (fadeTracker.fadeState == false)
         {
-            Debug.Log("Fade False");
+            // Debug.Log("Fade False");
             if (fadeCanvasGroup.alpha > 0)
             {
                 // decrease alpha
