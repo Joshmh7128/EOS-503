@@ -8,11 +8,12 @@ public class ButtonScript : MonoBehaviour
 {
     private Animator anim;
     public Sprite[] buttonSprites;
+    public Image myOutline;
     public List<UnityEvent> myEvents;
     private Button myButton;
     public bool held = false;
     public float startTime;
-    private float holdTime = 3f;
+    private float holdTime = 1f;
 
     public HistoryHolder myHistory;
 
@@ -31,6 +32,7 @@ public class ButtonScript : MonoBehaviour
         if(held && myButton.interactable)
         {
             Debug.Log("Holding button");
+            myOutline.fillAmount = 1 * ((Time.time - startTime) / holdTime);
             if (Time.time - startTime > holdTime)
             {
                 Debug.Log("Button Invoked");
@@ -51,6 +53,7 @@ public class ButtonScript : MonoBehaviour
     public void EndHold()
     {
         held = false;
+        myOutline.fillAmount = 0;
     }
 
     public void LogChoice()
