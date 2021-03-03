@@ -31,15 +31,11 @@ public class ButtonScript : MonoBehaviour
     {
         if(held && myButton.interactable)
         {
-            Debug.Log("Holding button");
             myOutline.fillAmount = 1 * ((Time.time - startTime) / holdTime);
             if (Time.time - startTime > holdTime)
             {
-                Debug.Log("Button Invoked");
-                foreach (UnityEvent thisEvent in myEvents)
-                {
-                    thisEvent.Invoke();
-                }
+                myOutline.fillAmount = 1;
+                StartCoroutine(DoButton());
             }
         }
     }
@@ -54,6 +50,15 @@ public class ButtonScript : MonoBehaviour
     {
         held = false;
         myOutline.fillAmount = 0;
+    }
+
+    IEnumerator DoButton()
+    {
+        yield return new WaitForSeconds(0.1f);
+        foreach (UnityEvent thisEvent in myEvents)
+        {
+            thisEvent.Invoke();
+        }
     }
 
     public void LogChoice()
