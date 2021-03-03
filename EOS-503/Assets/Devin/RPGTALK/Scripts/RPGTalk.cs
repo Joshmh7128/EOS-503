@@ -1990,7 +1990,10 @@ public class RPGTalk : MonoBehaviour
                                     newChoice.transform.Find("Preview").GetComponent<Text>().text = thisPreview;
                                 }
                                 int choiceNumber = i;
-                                newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
+                                UnityEvent newEvent = new UnityEvent();
+                                newEvent.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
+                                newChoiceBtn.GetComponent<ButtonScript>().myEvents.Add(newEvent);
+                                //newChoiceBtn.onClick.AddListener(delegate { MadeAChoice(q.questionID, choiceNumber, thisText); });
                                 newChoiceBtn.GetComponent<ButtonScript>().myHistory = this.myHistory;
                                 if (i == 0)
                                 {
