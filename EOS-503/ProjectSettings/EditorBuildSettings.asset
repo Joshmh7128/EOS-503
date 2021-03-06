@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Josh/Scenes/Testing/MainMenuJosh.unity
     guid: 0d3bddc1c9a695149ab4efaf86b926d6
   - enabled: 1
-    path: Assets/Devin/Scenes/Workers_Environment.unity
-    guid: 6d04611620171724eb8cebd540ab06f6
+    path: Assets/Josh/Scenes/Testing/Workers_Environment_Compiled.unity
+    guid: 11572163c5a1c7a40892d77a7fc61449
   m_configObjects: {}
