@@ -2159,7 +2159,7 @@ GameObject:
   - component: {fileID: 3510672945390028055}
   - component: {fileID: 3510672945390028057}
   - component: {fileID: 3510672945390028056}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Eye Whites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2797,7 +2797,7 @@ GameObject:
   - component: {fileID: 3510672945446502468}
   - component: {fileID: 3510672945446502469}
   - component: {fileID: 3510672945446502470}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Bangs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8607,7 +8607,7 @@ GameObject:
   - component: {fileID: 3510672946017775521}
   - component: {fileID: 3510672946017775522}
   - component: {fileID: 3510672946017775523}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10022,7 +10022,7 @@ GameObject:
   - component: {fileID: 3510672946138610197}
   - component: {fileID: 3510672946138610199}
   - component: {fileID: 3510672946138610198}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11387,7 +11387,7 @@ GameObject:
   - component: {fileID: 3510672946260156080}
   - component: {fileID: 3510672946260156081}
   - component: {fileID: 3510672946260156082}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12411,7 +12411,7 @@ GameObject:
   - component: {fileID: 3510672946323968900}
   - component: {fileID: 3510672946323968902}
   - component: {fileID: 3510672946323968901}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14777,7 +14777,7 @@ GameObject:
   - component: {fileID: 3510672946669096603}
   - component: {fileID: 3510672946669096604}
   - component: {fileID: 3510672946669096605}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15230,7 +15230,7 @@ GameObject:
   - component: {fileID: 3510672946733016443}
   - component: {fileID: 3510672946733016444}
   - component: {fileID: 3510672946733016445}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17518,7 +17518,7 @@ GameObject:
   - component: {fileID: 3510672946942012584}
   - component: {fileID: 3510672946942012585}
   - component: {fileID: 3510672946942012586}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18903,7 +18903,7 @@ GameObject:
   - component: {fileID: 3510672947094644683}
   - component: {fileID: 3510672947094644682}
   - component: {fileID: 3510672947094644681}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
