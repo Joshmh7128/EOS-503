@@ -130,6 +130,7 @@
     <Compile Include="Assets\Zack\Scripts\CustomCharacter.cs" />
     <Compile Include="Assets\Zack\Scripts\DoorSceneTransition.cs" />
     <Compile Include="Assets\Zack\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Zack\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Zack\Scripts\PlayerImage.cs" />
     <Compile Include="Assets\Zack\Scripts\SpritePackingTestScript.cs" />
     <Compile Include="Assets\Zack\Shader Stuff\ShaderCameraScript.cs" />

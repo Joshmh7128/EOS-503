@@ -22,7 +22,10 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-        fullscreen.isOn = Screen.fullScreen;
+		// Cursor.lockState = CursorLockMode.None;
+		// Cursor.visible = true;
+
+		fullscreen.isOn = Screen.fullScreen;
 
         resolutions = Screen.resolutions;
 
