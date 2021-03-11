@@ -15,6 +15,9 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField] protected SpriteRenderer playerSpriteRenderer;
     public NPC partnerNPC;
 
+	int spriteToUse = 0; // Zack was here :P
+	bool lookingUp = false;
+
     // the awake function is called before anything else
     private void Awake()
     {
@@ -102,63 +105,47 @@ public class PlayerController2D : MonoBehaviour
         // set the velocity
         playerRigidbody.velocity = new Vector3(horizontalMovement * playerSpeed, verticalMovement * playerSpeed);
 
-        // set the player's sprite accordingly
-        /// 
-        /// Sprites are:
-        /// 0 - Facing Forward Right
-        /// 1 - Facing Forward Left
-        /// 2 - Facing Back Right
-        /// 3 - Facing Back Left
-        /// 
+		// set the player's sprite accordingly
+		/// 
+		/// Sprites are:
+		/// 0 - Facing Forward Right
+		/// 1 - Facing Forward Left
+		/// 2 - Facing Back Right
+		/// 3 - Facing Back Left
+		/// 
 
-        // up 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Debug.Log("Space Pressed");
-        }
+		if (playerRigidbody.velocity.y > 0)
+		{
+			lookingUp = true;
+		}
+		else if (playerRigidbody.velocity.y < 0 || playerRigidbody.velocity.x != 0)
+		{
+			lookingUp = false;
+		}
 
-        // up 
-        if (Input.GetKey(KeyCode.W))
-        {
-            playerSpriteRenderer.sprite = playerSprites[2];
-        }
-        // down
-        if (Input.GetKey(KeyCode.S))
-        {
-            playerSpriteRenderer.sprite = playerSprites[0];
-        }
-        // right
-        if (Input.GetKey(KeyCode.D))
-        {
-            playerSpriteRenderer.sprite = playerSprites[0];
-        }
-        // left
-        if (Input.GetKey(KeyCode.A))
-        {
-            playerSpriteRenderer.sprite = playerSprites[1];
-        }
-        // up right
-        if (Input.GetKey(KeyCode.W) && Input.GetKey((KeyCode.D)))
-        {
-            playerSpriteRenderer.sprite = playerSprites[2];
-        }
+		if (playerRigidbody.velocity.x < 0)
+		{
+			if (lookingUp)
+			{
+				spriteToUse = 3;
+			}
+			else
+			{
+				spriteToUse = 1;
+			}
+		}
+		else if (playerRigidbody.velocity.x > 0)
+		{
+			if (lookingUp)
+			{
+				spriteToUse = 2;
+			}
+			else
+			{
+				spriteToUse = 0;
+			}
+		}
 
-        // up left
-        if (Input.GetKey(KeyCode.W) && Input.GetKey((KeyCode.A)))
-        {
-            playerSpriteRenderer.sprite = playerSprites[3];
-        }
-
-        // down right
-        if (Input.GetKey(KeyCode.S) && Input.GetKey((KeyCode.D)))
-        {
-            playerSpriteRenderer.sprite = playerSprites[0];
-        }
-
-        // down left
-        if (Input.GetKey(KeyCode.S) && Input.GetKey((KeyCode.A)))
-        {
-            playerSpriteRenderer.sprite = playerSprites[1];
-        }
+		playerSpriteRenderer.sprite = playerSprites[spriteToUse];
     }
 }
